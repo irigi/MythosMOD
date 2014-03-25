@@ -1,0 +1,50 @@
+cast_spell = {
+	diplomacy = -1
+	learning = -1
+	icon = 8
+}
+challenged_emperor = {
+	icon = 1
+}
+has_quested = {
+	icon = 8
+	monthly_character_prestige = 0.1
+}
+golden_fleece = {
+	icon = 1
+	monthly_character_prestige = 1
+	global_tax_modifier = 0.3
+}
+medusa_head = {
+	icon = 1
+	martial = 3
+	land_morale = 0.3
+}
+minor_aura = {
+	general_opinion = 10
+	intrigue = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+	icon = 1
+}
+persuasive_aura = {
+	general_opinion = 20
+	intrigue = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+	icon = 1
+}
+powerful_aura = {
+	general_opinion = 30
+	intrigue = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+	icon = 1
+}
+expelled_satanists = {
+	icon = 8
+	diplomacy = -1
+}

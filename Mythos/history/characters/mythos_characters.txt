@@ -1,0 +1,285 @@
+268365 = {
+	name="Björgolf"
+	dynasty=1043001
+	religion="jotnar"
+	culture="jotunn"
+	trait="giant"
+	820.1.1={
+		birth="820.1.1"
+	}
+	860.1.1={
+		add_spouse=268369
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+
+268366 = {
+	name="Brynjolf"
+	dynasty=1043001
+	religion="jotnar"
+	trait="brave"
+	trait="honest"
+	trait="strong"
+	trait="giant"
+	trait="brilliant_strategist"
+	culture="jotunn"
+	father=268365
+	850.1.1={
+		birth="850.1.1"
+	}
+	866.1.1={
+		add_spouse=268370
+	}
+	905.1.1={
+		death="905.1.1"
+	}
+}
+
+
+268369 = {
+	name="Hildrida"
+	female=yes
+	religion="jotnar"
+	culture="jotunn"
+	trait="giant"
+	842.1.1={
+		birth="842.1.1"
+	}
+	885.1.1={
+		death="885.1.1"
+	}
+}
+
+
+268370 = {
+	name="Helge"
+	female=yes
+	religion="jotnar"
+	culture="jotunn"
+	trait="giant"
+	850.1.1={
+		birth="850.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+
+268287 = {
+	name="Vainius" 
+	dynasty=1042999
+	religion=baltic_pagan
+	culture=lithuanian
+	father=6893
+	trait="werewolf"
+	trait="patient"
+	trait="wroth"
+	trait="ambitious"
+	trait="skilled_tactician"
+	835.1.1={
+		birth=yes
+	}
+	854.1.1=
+	{
+		add_spouse=82143
+	}
+}
+268288 = {
+	name="Svarnas" 
+	dynasty=1042999
+	religion="baltic_pagan"
+	culture="lithuanian"
+	trait="werewolf"
+	father=268287
+	mother=82143
+	858.1.1={
+		birth="858.1.1"
+	}
+	930.1.1={
+		death="930.1.1"
+	}
+}
+268286 = {
+	name="Vlad"
+	dynasty=1043000
+	religion="satanist"
+	culture="romanian"
+	trait="vampire"
+	trait="impaler"
+	trait="patient"
+	trait="quick"
+	trait="deceitful"
+	trait="proud"
+	trait="cruel"
+	trait="skilled_tactician"
+	845.1.1 = {
+		birth="845.1.1"
+	}
+	866.1.1 = {
+		give_nickname = nick_the_impaler
+	}
+}
+268290 = {
+	name="Rhodric"
+	dynasty=1043003
+	religion="druidic"
+	culture="welsh"
+	trait="patient"
+	trait="deceitful"
+	trait="proud"
+	trait="quick"
+	trait="veteran_wizard"
+	850.3.1 = {
+		birth="850.3.1"
+	}
+	905.1.27 = {
+		death="905.1.27"
+	}
+}
+268291 = {
+	name="Zeus"
+	dynasty=1043005
+	religion="hellenic_pagan"
+	culture="greek"
+	trait="brave"
+	trait="just"
+	trait="proud"
+	trait="lustful"
+	trait="genius"
+	trait="god"
+	trait="brilliant_strategist"
+	1.3.1 = {
+		birth="1.3.1"
+	}
+}
+268292 = {
+	name="Athena"
+	female=yes
+	dynasty=1043005
+	religion="hellenic_pagan"
+	culture="greek"
+	trait="kind"
+	trait="just"
+	trait="chaste"
+	trait="honest"
+	trait="quick"
+	trait="god"
+	trait="grey_eminence"
+	100.3.1 = {
+		birth="100.3.1"
+	}
+}
+268293 = {
+	name="Aries"
+	dynasty=1043005
+	religion="hellenic_pagan"
+	culture="greek"
+	trait="brave"
+	trait="wroth"
+	trait="proud"
+	trait="diligent"
+	trait="strong"
+	trait="god"
+	trait="brilliant_strategist"
+	100.3.1 = {
+		birth="100.3.1"
+	}
+}
+268294 = {
+	name="Poseidon"
+	dynasty=1043005
+	religion="hellenic_pagan"
+	culture="greek"
+	trait="brave"
+	trait="envious"
+	trait="proud"
+	trait="patient"
+	trait="quick"
+	trait="god"
+	trait="midas_touched"
+	100.3.1 = {
+		birth="100.3.1"
+	}
+}
+268295 = {
+	name="Aphrodite"
+	female=yes
+	dynasty=1043005
+	religion="hellenic_pagan"
+	culture="greek"
+	trait="kind"
+	trait="just"
+	trait="lustful"
+	trait="gregarious"
+	trait="fair"
+	trait="god"
+	trait="elusive_shadow"
+	100.3.1 = {
+		birth="100.3.1"
+	}
+}
+268296 = {
+	name="Odin"
+	dynasty=1043006
+	religion="norse_pagan"
+	culture="norse"
+	trait="brave"
+	trait="just"
+	trait="patient"
+	trait="diligent"
+	trait="quick"
+	trait="god"
+	trait="midas_touched"
+	1.3.1 = {
+		birth="1.3.1"
+	}
+}
+268297 = {
+	name="Thor"
+	dynasty=1043006
+	religion="norse_pagan"
+	culture="norse"
+	trait="brave"
+	trait="just"
+	trait="trusting"
+	trait="honest"
+	trait="strong"
+	trait="god"
+	trait="brilliant_strategist"
+	father=268296
+	100.3.1 = {
+		birth="100.3.1"
+	}
+}
+268298 = {
+	name="Loki"
+	dynasty=1043006
+	religion="jotnar"
+	culture="norse"
+	trait="cynical"
+	trait="patient"
+	trait="envious"
+	trait="deceitful"
+	trait="quick"
+	trait="god"
+	trait="elusive_shadow"
+	father=268296
+	100.3.1 = {
+		birth="100.3.1"
+	}
+}
+145182 = {
+	name="Argos"
+	dynasty=1022161
+	religion="hellenic_pagan"
+	culture="greek"
+	trait="zealous"
+	841.1.1={
+		birth="841.1.1"
+	}
+	901.1.1={
+		death="901.1.1"
+	}
+}

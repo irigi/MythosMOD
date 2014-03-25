@@ -1,0 +1,142 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_trait_vampire"
+	texturefile = "gfx/traits/vampire.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_werewolf"
+	texturefile = "gfx/traits/werewolf.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_zombie"
+	texturefile = "gfx/traits/zombie.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_giant"
+	texturefile = "gfx/traits/giant.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_mummy"
+	texturefile = "gfx/traits/mummy.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_djinn"
+	texturefile = "gfx/traits/djinn.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_novice_mage"
+	texturefile = "gfx/traits/novice_mage.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_eldritch_scholar"
+	texturefile = "gfx/traits/eldritch_scholar.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_veteran_wizard"
+	texturefile = "gfx/traits/veteran_wizard.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_arcane_master"
+	texturefile = "gfx/traits/arcane_master.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_pup"
+	texturefile = "gfx/traits/pup.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_fledgling"
+	texturefile = "gfx/traits/fledgling.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_half_giant"
+	texturefile = "gfx/traits/half_giant.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_son_of_solomon"
+	texturefile = "gfx/traits/son_of_solomon.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_philosopher_stone"
+	texturefile = "gfx/traits/philosopher_stone.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_monster_hunter"
+	texturefile = "gfx/traits/monster_hunter.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_god"
+	texturefile = "gfx/traits/god.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_demi_god"
+	texturefile = "gfx/traits/demi_god.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx\\interface\\religion_icon_strip.png"
+		noOfFrames = 45
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	spriteType = {
+		name = "GFX_religion_icon_strip_small"
+		texturefile = "gfx\\interface\\religion_icon_strip_small.png"
+		noOfFrames = 45
+		norefcount = yes
+		can_be_lowres = yes
+	}
+}

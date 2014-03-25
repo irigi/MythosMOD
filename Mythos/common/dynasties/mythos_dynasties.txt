@@ -1,0 +1,70 @@
+1042999 = {
+	name="Vilkolakis"
+	culture="lithuanian"
+	coat_of_arms = {
+		data = { 0 1 0 2 1 5 5 }
+		religion="baltic_pagan"
+	}
+}
+1043000 = {
+	name ="Draculesti"
+	culture ="romanian"
+	coat_of_arms = {
+		data = { 0 2 0 29 3 5 5 }
+		religion="satanist"
+	}
+}
+1043001 = {
+	name="Veidimadr"
+	culture = jotunn
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 1 0 8 1 11 10 }
+		religion="norse_pagan"
+	}
+}
+1043002 = {
+	name="Menpehtire"
+	culture = egyptian
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 1 0 1 8 5 5 }
+		religion="kemetic_pagan"
+	}
+}
+1043003 = {
+	name="Ambrosius"
+	culture = welsh
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 2 0 42 9 1 6 }
+		religion="catholic"
+	}
+}
+1043004 = {
+	name="van Helsing"
+	culture = dutch
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 3 0 42 9 1 6 }
+		religion="catholic"
+	}
+}
+1043005 = {
+	name="Olympiad"
+	culture = greek
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 4 0 42 9 1 6 }
+		religion="hellenic_pagan"
+	}
+}
+1043006 = {
+	name="Aesir"
+	culture = norse
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 4 0 42 9 1 6 }
+		religion="norse_pagan"
+	}
+}

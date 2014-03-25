@@ -1,0 +1,271 @@
+#CONGENITAL TRAITS
+
+vampire = {
+	birth = 5
+
+	opposites = {
+		werewolf
+		monster_hunter
+	}
+
+	immortal = yes
+
+	same_opinion = 20
+	opposite_opinion = -30
+	christian_opinion = -50
+	muslim_opinion = -50
+	jewish_opinion = -50
+	
+	fertility = -1
+	diplomacy = 2
+	martial = 1
+	intrigue = 4
+	learning = 1
+	
+	ai_rationality = 20
+	ai_honor = -20
+}
+
+werewolf = {
+	birth = 5
+
+	opposites = {
+		vampire
+		monster_hunter
+	}
+
+	immortal = yes
+
+	same_opinion = 20
+	opposite_opinion = -30
+	christian_opinion = -30
+	muslim_opinion = -30
+	jewish_opinion = -30
+	
+	diplomacy = -1
+	martial = 4
+	intrigue = -1
+
+}
+
+giant = {
+
+	opposites = { half_giant }
+
+	christian_opinion = -20
+	muslim_opinion = -20
+	jewish_opinion = -20
+	
+	health = 2
+	diplomacy = -2
+	intrigue = -2
+	learning = -2
+	martial = 8
+	
+	ai_rationality = -10
+
+}
+
+pup = {
+	opposites = { fledgling }
+	martial = 2
+	health = 1
+}
+
+fledgling = {
+	opposites = { pup }
+	intrigue = 2
+	health = 1
+}
+
+half_giant = {
+
+	opposites = { giant }
+	
+	inherit_chance = 75
+	martial = 3
+	diplomacy = -1
+	health = 1
+}
+
+god = {
+
+	opposites = { demi_god }
+	
+	immortal = yes
+	
+	same_opinion = 20
+	
+	health = 10
+	martial = 10
+	diplomacy = 10
+	stewardship = 10
+	intrigue = 10
+	learning = 15
+	
+	monthly_character_prestige = 10
+}
+
+demi_god = {
+
+	opposites = { god }
+	
+	inherit_chance = 75
+	
+	same_opinion = 30
+	
+	health = 5
+	martial = 5
+	diplomacy = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+	
+	monthly_character_prestige = 1
+}
+
+#DISEASES
+
+zombie = {
+	is_epidemic = yes
+	is_illness = yes
+
+	immortal = yes
+
+	same_opinion = 1000
+	general_opinion = -200
+
+	
+	health = -1
+	fertility = -10
+	diplomacy = -10
+	intrigue = -10
+	learning = -10
+	stewardship = -10
+	
+	ai_rationality = -100
+	ai_honor = -100
+	ai_ambition = 100
+	ai_zeal = 100
+
+}
+
+mummy = {
+
+	immortal = yes
+
+	same_opinion = 20
+	christian_opinion = -100
+	muslim_opinion = -100
+	jewish_opinion = -100
+	
+	fertility = -2
+	diplomacy = -4
+	intrigue = 2
+	learning = 5
+	
+	ai_rationality = 20
+	ai_zeal = 20
+	ai_honor = -20
+}
+
+djinn = {
+	inherit_chance = 100
+
+	immortal = yes
+
+	same_opinion = 20
+	christian_opinion = -50
+	church_opinion = -20
+	
+	diplomacy = 2
+	stewardship = 2
+	intrigue = 4
+	
+	ai_rationality = 20
+	ai_zeal = 20
+	ai_honor = -20
+}
+
+#EDUCATIONAL TRAITS
+
+novice_mage = {
+	potential = { religion_group = pagan_group }
+	education = yes
+	
+	learning = 2
+	church_opinion = -5
+}
+
+eldritch_scholar = {
+	potential = { religion_group = pagan_group }
+	education = yes
+	
+	learning = 3
+	diplomacy = 1
+	stewardship = 1
+	intrigue = 1
+	health = -0.5
+	fertility = -0.1
+	church_opinion = -20
+}
+
+veteran_wizard = {
+	potential = { religion_group = pagan_group }
+	education = yes
+	
+	learning = 6
+	diplomacy = 2
+	stewardship = 2
+	intrigue = 2
+	health = -1
+	fertility = -0.2
+	church_opinion = -30
+}
+
+arcane_master = {
+	potential = { religion_group = pagan_group }
+	education = yes
+	
+	learning = 10
+	diplomacy = 4
+	stewardship = 4
+	intrigue = 4
+	health = -2
+	fertility = -0.4
+	church_opinion = -40
+}
+
+#MISCELLANEOUS
+
+son_of_solomon = {
+	diplomacy = 1
+	martial = 1
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.25
+}
+
+philosopher_stone = {
+	immortal = yes
+	learning = 2
+	global_tax_modifier = 0.3
+	monthly_character_prestige = 0.5
+}
+
+monster_hunter = {
+
+	lifestyle = yes
+
+	opposites = { 
+		vampire
+		werewolf
+		zombie
+		mummy
+		djinn
+	}
+
+	martial = 2
+	learning = 1
+	monthly_character_piety = 0.8
+	church_opinion = 30
+}

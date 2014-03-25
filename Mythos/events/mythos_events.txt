@@ -1,0 +1,3136 @@
+namespace = MYTH
+#
+character_event = {
+	id = "MYTH.1"
+	desc = "EVTDESCMYTH.1"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		prisoner = no
+		culture = manden
+	}
+	
+	mean_time_to_happen = {
+		months = 10000
+		modifier = {
+			NOT = { religion = west_african_pagan }
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.1"
+		add_trait = zombie
+	}
+}
+
+character_event = {
+	id = "MYTH.2"
+	desc = "EVTDESCMYTH.2"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		is_ruler = yes
+		prisoner = no
+		trait = zombie
+		e_zombie = { has_holder = no }
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVTOPTAMYTH.2"
+		set_defacto_liege = ROOT
+		e_zombie = {
+			grant_title = ROOT
+		}
+		
+		capital_scope = {
+			tooltip = {
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 35.0
+						attrition = 0.1
+					}
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 35.0
+						attrition = 0.1
+					}
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 35.0
+						attrition = 0.1
+					}
+				}
+			}
+			
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					age = 23
+					attributes = {
+						martial = 5
+					}
+					trait = zombie
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 35.0
+						earmark = faction_revolters
+						attrition = 0.1
+					}
+				}
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					age = 30
+					attributes = {
+						martial = 5
+					}
+					trait = zombie
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 35.0
+						earmark = faction_revolters
+						attrition = 0.1
+					}
+				}
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					age = 31
+					attributes = {
+						martial = 5
+					}
+					trait = zombie
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = ROOT
+						match_mult = 35.0
+						earmark = faction_revolters
+						attrition = 0.1
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = "MYTH.3"
+	desc = "EVTDESCMYTH.3"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		trait = zombie
+		NOT = { religion = voodoo }
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.3"
+		religion = voodoo
+		culture = zombie_culture
+	}
+}
+
+character_event = {
+	id = "MYTH.4"
+	desc = "EVTDESCMYTH.4"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+	
+	option = {
+		name = "EVTOPTAMYTH.4"
+		
+		capital_scope = {
+			tooltip = {
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 2.0
+						attrition = 0.1
+					}
+				}
+			}
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					age = 23
+					attributes = {
+						martial = 5
+					}
+					trait = zombie
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 2.0
+						earmark = faction_revolters
+						attrition = 0.1
+					}
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = "MYTH.5"
+	desc = "EVTDESCMYTH.5"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		is_ruler = yes
+		trait = zombie
+		prisoner = no
+		e_zombie = { has_holder = yes }
+		top_liege = {
+			NOT = {
+				has_landed_title = e_zombie 
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.5"
+		set_defacto_liege = e_zombie
+	}
+}
+
+character_event = {
+	id = "MYTH.6"
+	desc = "EVTDESCMYTH.6"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+				trait = vampire
+				trait = werewolf
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.6"
+		change_martial = 1
+		change_diplomacy = 1
+		change_stewardship = 1
+		change_intrigue = 1
+		change_learning = 2
+		fertility = 0.05
+	}
+}
+
+character_event = {
+	id = "MYTH.7"
+	desc = "EVTDESCMYTH.7"
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.7"
+		spouse = { add_lover = ROOT}
+	}
+}
+character_event = {
+	id = "MYTH.8"
+	desc = "EVTDESCMYTH.8"
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.8"
+		spouse = { 
+			add_trait = homosexual
+		}
+	}
+}
+character_event = {
+	id = "MYTH.9"
+	desc = "EVTDESCMYTH.9"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.9"
+		scaled_wealth = 3
+	}
+}
+character_event = {
+	id = "MYTH.10"
+	desc = "EVTDESCMYTH.10"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.10"
+		scaled_wealth = -2
+	}
+}
+character_event = {
+	id = "MYTH.11"
+	desc = "EVTDESCMYTH.11"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.11"
+		capital_scope = {
+			tooltip = {
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 1.0
+						attrition = 0
+					}
+				}
+			}
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					age = 23
+					attributes = {
+						martial = 5
+					}
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 1.0
+						earmark = faction_revolters
+						attrition = 0
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = "MYTH.12"
+	desc = "EVTDESCMYTH.12"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.12"
+		hidden_tooltip = {
+			random_playable_ruler = {
+				limit = { war_with = ROOT }
+				character_event = { id = MYTH.13 }
+			}
+		}
+	}
+}
+character_event = {
+	id = "MYTH.13"
+	desc = "EVTDESCMYTH.13"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.13"
+		capital_scope = {
+			tooltip = {
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 1.0
+						attrition = 0.5
+					}
+				}
+			}
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					dynasty = none
+					religion = ROOT
+					culture = ROOT
+					female = no
+					age = 23
+					attributes = {
+						martial = 5
+					}
+				}
+				new_character = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						match_character = FROM
+						match_mult = 1.0
+						earmark = faction_revolters
+						attrition = 0.5
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = "MYTH.14"
+	desc = "EVTDESCMYTH.14"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+
+	trigger = { 
+		graphical_culture = norsegfx
+		NOT = { trait = giant }
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.14"
+		add_trait = giant
+	}
+}
+character_event = {
+	id = "MYTH.15"
+	desc = "EVTDESCMYTH.15"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+
+	trigger = { 
+		top_liege = {
+			trait = zombie
+		}
+		NOT = { trait = zombie }
+	}
+	
+	mean_time_to_happen = { months = 3 }
+	
+	option = {
+		name = "EVTOPTAMYTH.15"
+		add_trait = zombie
+	}
+}
+character_event = {
+	id = "MYTH.16"
+	desc = "EVTDESCMYTH.16"
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		is_married = yes
+		trait = werewolf 
+		spouse = {
+		NOT = { trait = scarred }
+		}
+	}
+	
+	mean_time_to_happen = { months = 60 }
+	
+	option = {
+		name = "EVTOPTAMYTH.16"
+		spouse = { add_trait = wounded }
+		hidden_tooltip = { 
+			if = { 
+				limit = { spouse = { is_female = yes } }
+				impregnate = spouse
+			}
+		}
+	}
+}
+character_event = {
+	id = "MYTH.17"
+	desc = "EVTDESCMYTH.17"
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		is_married = yes
+		trait = vampire 
+		spouse = {
+		NOT = { trait = vampire }
+		}
+	}
+	
+	mean_time_to_happen = { months = 120 }
+	
+	option = {
+		name = "EVTOPTAMYTH.17"
+		spouse = { add_trait = vampire }
+		hidden_tooltip = { 
+			if = { 
+				limit = { spouse = { is_female = yes } }
+				impregnate = spouse 
+			}
+		}
+	}
+}
+province_event = {
+	id = MYTH.18
+	desc ="EVTDESCMYTH.18"
+	picture = GFX_evt_peasants
+	border = GFX_event_normal_frame_war
+
+	trigger = {
+		ROOT = {
+			owner = {
+				top_liege = {
+					OR = {
+						trait = werewolf
+						trait = vampire
+					}
+				}
+			}
+			NOT = {
+				religion = satanist
+			}
+		}
+		
+		NOT = { # Not if there is already an ongoing peasant revolt for this province
+			owner = {
+				top_liege = {
+					war = yes
+					
+					any_war = {
+						defender = { character = PREVPREV }
+						OR = {
+							AND = {
+								using_cb = peasant_revolt
+								war_title = ROOT # The county
+							}
+							AND = {
+								using_cb = heretic_revolt
+								attacker = { religion = ROOT }
+							}
+							AND = {
+								using_cb = liberation_revolt
+								thirdparty_title_scope = {
+									ROOT = {
+										kingdom = {
+											title = PREVPREV
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			dynasty = none
+			religion = ROOT
+			culture = ROOT
+			female = no
+			age = 25
+			attributes = {
+				martial = 5
+			}
+			trait = peasant_leader
+			trait = tough_soldier
+		}
+		
+		new_character = {
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				rebel = yes
+				culture = ROOT
+				name = "PEASANT_REVOLT"
+				holder = THIS
+			}
+			
+			random_list = {
+				17 = {
+					spawn_unit = {
+						province = ROOT
+						home = ROOT
+						owner = THIS
+						leader = THIS
+						scaled_by_biggest_garrison = 0.2
+						troops = {
+							archers = { 6 6 }
+							light_cavalry = { 4 4 }
+							light_infantry = { 10 10 }
+						}
+						attrition = 1.0
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 4 4 }
+								light_infantry = { 10 10 }
+							}
+							attrition = 1.0
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 31
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 4 4 }
+								light_infantry = { 10 10 }
+							}
+							attrition = 1.0
+						}
+					}
+				}
+				17 = {
+					spawn_unit = {
+						province = ROOT
+						home = ROOT
+						owner = THIS
+						leader = THIS
+						scaled_by_biggest_garrison = 0.2
+						troops = {
+							archers = { 6 6 }
+							light_cavalry = { 4 4 }
+							light_infantry = { 10 10 }
+						}
+						attrition = 1.0
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 4 4 }
+								light_infantry = { 10 10 }
+							}
+							attrition = 1.0
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 31
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 4 4 }
+								light_infantry = { 10 10 }
+							}
+							attrition = 1.0
+						}
+					}
+				}
+				16 = {
+					spawn_unit = {
+						province = ROOT
+						home = ROOT
+						owner = THIS
+						leader = THIS
+						scaled_by_biggest_garrison = 0.2
+						troops = {
+							archers = { 6 6 }
+							light_cavalry = { 3 3 }
+							light_infantry = { 11 11 }
+						}
+						attrition = 1.0
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 3 3 }
+								light_infantry = { 11 11 }
+							}
+							attrition = 1.0
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 31
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 3 3 }
+								light_infantry = { 11 11 }
+							}
+							attrition = 1.0
+						}
+					}
+				}
+				17 = {
+					spawn_unit = {
+						province = ROOT
+						home = ROOT
+						owner = THIS
+						leader = THIS
+						scaled_by_biggest_garrison = 0.2
+						troops = {
+							archers = { 6 6 }
+							light_cavalry = { 3 3 }
+							light_infantry = { 11 11 }
+						}
+						attrition = 1.0
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 3 3 }
+								light_infantry = { 11 11 }
+							}
+							attrition = 1.0
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 31
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_cavalry = { 3 3 }
+								light_infantry = { 11 11 }
+							}
+							attrition = 1.0
+						}
+					}
+				}
+				16 = {
+					spawn_unit = {
+						province = ROOT
+						home = ROOT
+						owner = THIS
+						leader = THIS
+						scaled_by_biggest_garrison = 0.2
+						troops = {
+							archers = { 6 6 }
+							light_infantry = { 14 14 }
+						}
+						attrition = 1.0
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_infantry = { 14 14 }
+							}
+							attrition = 1.0
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 31
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_infantry = { 14 14 }
+							}
+							attrition = 1.0
+						}
+					}
+				}
+				17 = {
+					spawn_unit = {
+						province = ROOT
+						home = ROOT
+						owner = THIS
+						leader = THIS
+						scaled_by_biggest_garrison = 0.2
+						troops = {
+							archers = { 6 6 }
+							light_infantry = { 14 14 }
+						}
+						attrition = 1.0
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_infantry = { 14 14 }
+							}
+							attrition = 1.0
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 31
+						trait = peasant_leader
+						trait = tough_soldier
+					}
+					new_character = {
+						spawn_unit = {
+							province = ROOT
+							home = ROOT
+							owner = PREV
+							scaled_by_biggest_garrison = 0.2
+							troops = {
+								archers = { 6 6 }
+								light_infantry = { 14 14 }
+							}
+							attrition = 1.0
+						}
+					}
+				}
+			}
+			
+			# DoW on the province top liege
+			ROOT = {
+				owner = {
+					top_liege = {
+#						set_defacto_vassal = PREVPREVPREV
+						reverse_war = {
+							target = PREVPREVPREV
+							casus_belli = peasant_revolt
+							thirdparty_title = ROOT # The county
+						}
+					}
+				}
+			}
+		}
+		
+		owner = {
+			any_liege = { # Inform the lieges
+				limit = {
+					NOT = {
+						OR = {
+							trait = vampire
+							trait = werewolf
+						}
+					}
+				}
+				character_event = {
+					id = MYTH.19
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.18"
+	}
+}
+
+character_event = {
+	id = MYTH.19
+	desc ="EVTDESCMYTH.19"
+	picture = GFX_evt_peasants
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.19"
+	}
+}
+character_event = {
+	id = MYTH.20
+	desc ="EVTDESCMYTH.20"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		is_ruler = yes
+		NOT = { culture = egyptian }
+		NOT = { culture = egyptian_arabic }
+		location = { culture = egyptian_arabic }
+	}
+	
+	mean_time_to_happen = { months = 900 }
+	
+	option = {
+		name ="EVTOPTAMYTH.20"
+		wealth = -10
+		custom_tooltip = { text = expedition_sent }
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = {
+						id = MYTH.21
+						days = 40
+					}
+				}
+				50 = {
+					character_event = {
+						id = MYTH.22
+						days = 30
+					}
+				}
+			}
+		}
+	}	
+	option = {
+		name ="EVTOPTBMYTH.20"
+		piety = 10
+	}
+}
+character_event = {
+	id = MYTH.21
+	desc ="EVTDESCMYTH.21"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.21"
+		wealth = -10
+		custom_tooltip = { text = expedition_sent_2 }
+		ai_chance = { factor = 50 }
+		hidden_tooltip = {
+			location = {
+				province_event = {
+					id = MYTH.23
+					days = 14
+				}
+			}	
+		}
+	}
+	option = {
+		name ="EVTOPTBMYTH.21"
+		piety = 10
+		ai_chance = { factor = 50 }
+	}
+}
+
+character_event = {
+	id = MYTH.22
+	desc ="EVTDESCMYTH.22"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.22"
+		wealth = 300
+	}		
+}
+
+province_event = {
+	id = MYTH.23
+	desc ="EVTDESCMYTH.23"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+
+	is_triggered_only = yes
+	
+	immediate = {
+		create_character = {
+			random_traits = no
+			dynasty = 1043002
+			name = "Ramesses"
+			culture = egyptian
+			religion = kemetic_pagan
+			age = 2176
+			attributes = {
+				martial = 8
+				diplomacy = 4
+				stewardship = 5
+				intrigue = 4
+				learning = 6
+			}
+			health = 6
+			fertility = 0.7
+			trait = brilliant_strategist
+			trait = mummy
+			trait = quick
+			trait = proud
+			trait = zealous
+			trait = brave
+			give_nickname = nick_ozymandias
+		}
+		
+		new_character = {
+			create_title = {
+				tier = DUKE
+				landless = yes
+				temporary = yes
+				rebel = yes
+				culture = THIS
+				name = "Mummy Host"
+				holder = THIS
+			}
+			
+			spawn_unit = {
+				province = ROOT
+				home = ROOT
+				owner = THIS
+				leader = THIS
+				match_character = THIS
+				match_mult = 0.6
+				troops = {
+					archers = { 6 6 }
+					light_cavalry = { 3 3 }
+					knights = { 1 1 }
+					light_infantry = { 7 7 }
+					heavy_infantry = { 3 3 }
+				}
+				attrition = 1.0
+			}
+			
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				religion = THIS
+				culture = THIS
+				female = no
+				age = 34
+				attributes = {
+					martial = 7
+				}
+				trait = skilled_tactician
+				trait = mummy
+			}
+			new_character = {
+				spawn_unit = {
+					province = ROOT
+					home = ROOT
+					owner = PREV
+					leader = THIS
+					match_character = PREV
+					match_mult = 0.6
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						knights = { 1 1 }
+						light_infantry = { 7 7 }
+						heavy_infantry = { 3 3 }
+					}
+				}
+			}
+			
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				religion = THIS
+				culture = THIS
+				female = no
+				age = 23
+				attributes = {
+					martial = 7
+				}
+				trait = skilled_tactician
+				trait = mummy
+			}
+			new_character = {
+				spawn_unit = {
+					province = ROOT
+					home = ROOT
+					owner = PREV
+					leader = THIS
+					match_character = PREV
+					match_mult = 0.6
+					troops = {
+						archers = { 6 6 }
+						light_cavalry = { 3 3 }
+						knights = { 1 1 }
+						light_infantry = { 7 7 }
+						heavy_infantry = { 3 3 }
+					}
+				}
+			}
+			
+			# DoW on the province top liege
+			ROOT = {
+				owner = {
+					top_liege = {
+						reverse_war = {
+							target = PREVPREVPREV
+							casus_belli = invasion
+							thirdparty_title = ROOT # The county...
+							tier = KING # ... but really the de jure kingdom
+						}
+						reverse_opinion = {
+							who = PREVPREVPREV
+							modifier = opinion_evil_tyrant
+						}
+					}
+				}
+			}
+		}
+		
+		owner = {
+			any_liege = { # Inform the lieges
+				character_event = {
+					id = TOG.1041
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.23"
+	}
+}
+character_event = {
+	id = "MYTH.24"
+	desc ="EVTDESCMYTH.24"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		trait = mummy 
+		has_landed_title = k_egypt
+		age = 2000
+		NOT = {
+			has_nickname = nick_ozymandias
+		}
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.24"
+		give_nickname = nick_ozymandias
+	}
+}
+character_event = {
+	id = "MYTH.25"
+	desc = "EVTDESCMYTH.25"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		trait = werewolf
+		trait = maimed
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.25"
+		remove_trait = maimed
+	}
+}
+character_event = {
+	id = "MYTH.26"
+	desc = "EVTDESCMYTH.26"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			trait = werewolf
+			trait = vampire
+		}
+		trait = wounded
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.26"
+		remove_trait = wounded
+	}
+}
+character_event = {
+	id = "MYTH.27"
+	desc = "EVTDESCMYTH.27"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		trait = werewolf
+		any_courtier = {
+				host = { character = ROOT }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				host = { character = ROOT }
+			}
+			death = {
+				death_reason = death_werewolf
+				killer = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.27"
+		vassal_opinion = {
+				who = PREV
+				modifier = opinion_tyrant
+				months = 60
+		}
+	}
+	option = {
+		name ="EVTOPTBMYTH.27"
+		random_list = {
+			50 = {
+				vassal_opinion = {
+					who = ROOT
+					modifier = opinion_tyrant
+					multiplier = 2
+					months = 60
+				}
+			}
+			50 = {
+				custom_tooltip = { text = coverup_successful }
+			}	
+		}
+	}
+}
+character_event = {
+	id = "MYTH.28"
+	desc = "EVTDESCMYTH.28"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		religion_group = muslim
+		higher_tier_than = DUKE
+	}
+	
+	mean_time_to_happen = {
+		months = 2400
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.28"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { 
+						id = MYTH.29  
+						days = 45
+					}
+				}
+				50 = {
+					character_event = { 
+						id = MYTH.30  
+						days = 30
+					}
+				}	
+			}
+		}
+		wealth = -50
+		custom_tooltip = { text = expedition_sent }
+	}
+	option = {
+		name ="EVTOPTBMYTH.28"
+	}
+}
+character_event = {
+	id = "MYTH.29"
+	desc = "EVTDESCMYTH.29"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.29"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { 
+						id = MYTH.29  
+						days = 45
+					}
+				}
+				50 = {
+					character_event = { 
+						id = MYTH.30  
+						days = 30
+					}
+				}
+			}
+		}
+		wealth = -50
+		custom_tooltip = { text = expedition_sent_2 }
+	}
+	option = {
+		name ="EVTOPTBMYTH.29"
+	}
+}
+character_event = {
+	id = "MYTH.30"
+	desc ="EVTDESCMYTH.30"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.30"
+		activate_title = { title = d_solomon_legion status = yes }
+		prestige = 100
+		piety = 100
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			name = "Sakhr"
+			culture = djinni
+			religion = sunni
+			age = 126
+			attributes = {
+				martial = 8
+				diplomacy = 4
+				stewardship = 5
+				intrigue = 4
+				learning = 8
+			}
+			health = 6
+			fertility = 0.7
+			trait = veteran_wizard
+			trait = djinn
+			trait = quick
+			trait = brave
+		}
+		new_character = {
+			d_solomon_legion = {
+				grant_title = PREV
+			}
+			set_defacto_liege = ROOT
+		}
+	}
+}
+character_event = {
+	id = "MYTH.31"
+	desc = "EVTDESCMYTH.31"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		trait = djinn
+		NOT = { trait = novice_mage }
+		NOT = { trait = eldritch_scholar }
+		NOT = { trait = veteran_wizard }
+		NOT = { trait = arcane_master }
+	}
+	
+	option = {
+		name = "EVTOPTAMYTH.31"
+		random_list = {
+			40 = {
+				add_trait = novice_mage
+			}
+			30 = {
+				add_trait = eldritch_scholar
+			}
+			20 = {
+				add_trait = veteran_wizard
+			}
+			10 = {
+				add_trait = arcane_master
+			}
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					OR = {
+						trait = amateurish_plotter
+						trait = flamboyant_schemer
+						trait = intricate_webweaver
+						trait = elusive_shadow
+						trait = naive_appeaser
+						trait = underhanded_rogue
+						trait = charismatic_negotiator
+						trait = grey_eminence
+						trait = indulgent_wastrel
+						trait = thrifty_clerk
+						trait = fortune_builder
+						trait = midas_touched
+						trait = misguided_warrior
+						trait = tough_soldier
+						trait = skilled_tactician
+						trait = brilliant_strategist
+						trait = detached_priest
+						trait = martial_cleric
+						trait = scholarly_theologian
+						trait = mastermind_theologian
+					}
+				}
+				remove_trait = amateurish_plotter
+				remove_trait = flamboyant_schemer
+				remove_trait = intricate_webweaver
+				remove_trait = elusive_shadow
+				remove_trait = naive_appeaser
+				remove_trait = underhanded_rogue
+				remove_trait = charismatic_negotiator
+				remove_trait = grey_eminence
+				remove_trait = indulgent_wastrel
+				remove_trait = thrifty_clerk
+				remove_trait = fortune_builder
+				remove_trait = midas_touched
+				remove_trait = misguided_warrior
+				remove_trait = tough_soldier
+				remove_trait = skilled_tactician
+				remove_trait = brilliant_strategist
+				remove_trait = detached_priest
+				remove_trait = martial_cleric
+				remove_trait = scholarly_theologian
+				remove_trait = mastermind_theologian
+			}
+		}
+	}
+}
+character_event = {
+	id = "MYTH.32"
+	desc = "EVTDESCMYTH.32"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			trait = werewolf
+			trait = vampire
+		}
+		trait = infirm
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.32"
+		remove_trait = infirm
+	}
+}
+character_event = {
+	id = "MYTH.33"
+	desc = "EVTDESCMYTH.33"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			trait = werewolf
+			trait = vampire
+		}
+		trait = incapable
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.33"
+		remove_trait = incapable
+	}
+}
+character_event = {
+	id = "MYTH.34"
+	desc = "EVTDESCMYTH.34"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			father = { trait = giant }
+			mother = { trait = giant }
+		}
+		NOT = { trait = giant }
+		NOT = { trait = half_giant }
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.34"
+		add_trait = half_giant
+	}
+}
+character_event = {
+	id = "MYTH.35"
+	desc = "EVTDESCMYTH.35"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			father = { trait = vampire }
+			mother = { trait = vampire }
+		}
+		NOT = { trait = vampire }
+		NOT = { trait = fledgling }
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.35"
+		add_trait = fledgling
+	}
+}
+character_event = {
+	id = "MYTH.36"
+	desc = "EVTDESCMYTH.36"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		age = 16
+		trait = fledgling
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.36"
+		remove_trait = fledgling
+		add_trait = vampire
+	}
+}
+character_event = {
+	id = "MYTH.37"
+	desc = "EVTDESCMYTH.37"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			father = { trait = werewolf }
+			mother = { trait = werewolf }
+		}
+		NOT = { trait = werewolf }
+		NOT = { trait = pup }
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.37"
+		add_trait = pup
+	}
+}
+character_event = {
+	id = "MYTH.38"
+	desc = "EVTDESCMYTH.38"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		age = 16
+		trait = pup
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.38"
+		remove_trait = pup
+		add_trait = werewolf
+	}
+}
+character_event = {
+	id = "MYTH.39"
+	desc = "EVTDESCMYTH.39"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		NOT = { trait = son_of_solomon }
+		d_solomon_legion = {
+			liege = ROOT
+		}
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name ="EVTOPTAMYTH.39"
+		add_trait = son_of_solomon
+	}
+}
+character_event = {
+	id = "MYTH.40"
+	desc = "EVTDESCMYTH.40"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		is_ruler = yes
+		is_alive = yes
+		trait = son_of_solomon
+		d_solomon_legion = {
+			NOT = { liege = ROOT }
+		}
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name ="EVTOPTAMYTH.40"
+		remove_trait = son_of_solomon
+	}
+}
+character_event = {
+	id = "MYTH.41"
+	desc = "EVTDESCMYTH.41"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.41"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { 
+						id = MYTH.42  
+						days = 45
+					}
+				}
+				50 = {
+					character_event = { 
+						id = MYTH.43  
+						days = 30
+					}
+				}	
+			}
+		}
+		wealth = -50
+		custom_tooltip = { text = expedition_sent }
+	}
+	option = {
+		name ="EVTOPTBMYTH.41"
+		piety = 50
+	}
+}
+character_event = {
+	id = "MYTH.42"
+	desc = "EVTDESCMYTH.42"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.42"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { 
+						id = MYTH.42  
+						days = 45
+					}
+				}
+				50 = {
+					character_event = { 
+						id = MYTH.43  
+						days = 30
+					}
+				}
+			}
+		}
+		wealth = -50
+		custom_tooltip = { text = expedition_sent_2 }
+	}
+	option = {
+		name ="EVTOPTBMYTH.42"
+		piety = 50
+	}
+}
+character_event = {
+	id = "MYTH.43"
+	desc = "EVTDESCMYTH.43"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.43"
+		add_trait = philosopher_stone
+		prestige = 100
+	}
+}
+character_event = {
+	id = "MYTH.44"
+	desc = "EVTDESCMYTH.44"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.44"
+		random_demesne_province = {
+			religion = ROOT
+		}
+	}
+}
+character_event = {
+	id ="MYTH.45"
+	desc ="EVTDESCMYTH.45"
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.45"
+		wealth = -50
+		piety = 50
+		banish_religion = satanist
+	}
+}
+narrative_event = {
+	id = "MYTH.46"
+	title = "EVTNAMEMYTH.46"
+	desc = "EVTDESCMYTH.46"
+	major = yes
+	
+	picture = GFX_evt_shadow
+	
+	hide_from = yes
+	
+	only_playable = yes
+	only_men = yes
+	min_age = 16
+	
+	trigger = {
+		OR = {
+			e_vampire = { has_holder = yes }
+			e_werewolf = { has_holder = yes }
+		}
+		b_muiden = {
+			has_holder = no
+		}
+		80 = { # Holland
+			NOT = { num_of_settlements = 5 }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		activate_title = { title = d_helsing status = yes }
+		create_character = {
+			random_traits = no
+			name = "Abraham"
+			dynasty = 1043004
+			religion = catholic
+			culture = dutch
+			female = no
+			age = 32
+			attributes = {
+				martial = 6
+				diplomacy = 9
+				stewardship = 7
+				intrigue = 8
+				learning = 12
+			}
+			health = 6
+			fertility = 0.8
+			trait = mastermind_theologian
+			trait = patient
+			trait = zealous
+			trait = scholar
+			trait = temperate
+			trait = monster_hunter
+		}
+		new_character = {
+			wealth = 500
+			d_helsing = {
+				grant_title = PREV
+			}
+			80 = { # Holland
+				build_holding = {
+					title = b_muiden
+					type = castle
+					holder = PREV
+				}
+			}
+			spawn_unit = {
+				province = PREVPREV
+				home = THIS
+				owner = THIS
+				leader = THIS
+				troops = {
+					archers = { 600 600 }
+					light_cavalry = { 500 500 }
+					knights = { 300 300 }
+					light_infantry = { 700 700 }
+					heavy_infantry = { 400 400 }
+				}
+				attrition = 0.5
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = yes
+				age = 17
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = yes
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = yes
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = dutch
+				female = yes
+				age = 20
+			}
+		}
+	}
+	
+
+	option = {
+		name = "EVTOPTAMYTH.46"
+	}
+}
+character_event = {
+	id = "MYTH.47"
+	desc = "EVTDESCMYTH.47"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		top_liege = { has_landed_title = d_helsing }
+		NOT = { trait = monster_hunter }
+	}
+	
+	mean_time_to_happen = { months = 12 }
+	
+	option = {
+		name = "EVTOPTAMYTH.47"
+		add_trait = monster_hunter
+	}
+}
+character_event = {
+	id = "MYTH.48"
+	desc = "EVTDESCMYTH.48"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		has_landed_title = e_vampire
+		NOT = { succession = seniority }
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVTOPTAMYTH.48"
+		e_vampire = {
+			succession = seniority
+			gender_succ = true_cognatic
+		}
+	}
+}
+#challenged for rule
+character_event = {
+	id = "MYTH.49"
+	desc = "EVTDESCMYTH.49"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.49"
+		prestige = 50
+		FROM = { 
+			character_event = {
+				id = "MYTH.50"
+				days = 5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = brave
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBMYTH.49"
+		prestige = -100
+		random = {
+			chance = 50 	
+			add_trait = craven
+		}
+		vassal_opinion = {
+					who = ROOT
+					modifier = opinion_dishonorable
+					multiplier = 2
+					months = 36
+				}
+		FROM = { 
+			character_event = {
+				id = "MYTH.51"
+				days = 5
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.1
+				trait = brave
+			}
+			modifier = {
+				factor = 2
+				trait = craven
+			}
+		}
+	}
+}
+#challenge accepted
+character_event = {
+	id = "MYTH.50"
+	desc = "EVTDESCMYTH.50"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.50"
+		FROM = { 
+			character_event = {
+				id = "MYTH.52"
+				days = 14
+			}
+		}
+	}
+}
+character_event = {
+	id = "MYTH.51"
+	desc = "EVTDESCMYTH.51"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.51"
+	}
+}
+#ruler begins duel
+character_event = {
+	id = "MYTH.52"
+	desc = "EVTDESCMYTH.52"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.52"
+		if = {
+			limit = {
+				martial = 0
+				NOT = { martial = 5 }
+			}
+			random_list = {
+				25 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				75 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 5
+				NOT = { martial = 10 }
+			}
+			random_list = {
+				50 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				50 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 10
+				NOT = { martial = 15 }
+			}
+			random_list = {
+				70 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				30 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 15
+				NOT = { martial = 20 }
+			}
+			random_list = {
+				80 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				20 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { martial = 20 }
+			random_list = {
+				90 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				10 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				trait = brave
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.5
+				trait = strong
+			}
+			modifier = {
+				factor = 1.2
+				trait = trained_warrior
+			}
+			modifier = {
+				factor = 1.5
+				trait = skilled_warrior
+			}
+			modifier = {
+				factor = 1.7
+				trait = master_warrior
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBMYTH.52"
+		FROM = {
+			character_event = { id = MYTH.55 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.2
+				trait = brave
+			}
+			modifier = {
+				factor = 2
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = patient
+			}
+		}
+	}
+}
+#defeated
+character_event = {
+	id = "MYTH.53"
+	desc = "EVTDESCMYTH.53"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.53"
+		FROM = {
+			character_event = { id = MYTH.56 }
+		}
+	}
+}
+#chance to strike
+character_event = {
+	id = "MYTH.54"
+	desc = "EVTDESCMYTH.54"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.54"
+		if = {
+			limit = {
+				martial = 0
+				NOT = { martial = 5 }
+			}
+			random_list = {
+				25 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				75 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 5
+				NOT = { martial = 10 }
+			}
+			random_list = {
+				50 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				50 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 10
+				NOT = { martial = 15 }
+			}
+			random_list = {
+				70 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				30 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 15
+				NOT = { martial = 20 }
+			}
+			random_list = {
+				80 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				20 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { martial = 20 }
+			random_list = {
+				90 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				10 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				trait = brave
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.5
+				trait = strong
+			}
+			modifier = {
+				factor = 1.2
+				trait = trained_warrior
+			}
+			modifier = {
+				factor = 1.5
+				trait = skilled_warrior
+			}
+			modifier = {
+				factor = 1.7
+				trait = master_warrior
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBMYTH.54"
+		FROM = {
+			character_event = { id = MYTH.55 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.2
+				trait = brave
+			}
+			modifier = {
+				factor = 2
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = patient
+			}
+		}
+	}
+}
+#chance to strike 2
+character_event = {
+	id = "MYTH.55"
+	desc = "EVTDESCMYTH.55"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.55"
+		if = {
+			limit = {
+				martial = 0
+				NOT = { martial = 5 }
+			}
+			random_list = {
+				25 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				75 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 5
+				NOT = { martial = 10 }
+			}
+			random_list = {
+				50 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				50 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 10
+				NOT = { martial = 15 }
+			}
+			random_list = {
+				70 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				30 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				martial = 15
+				NOT = { martial = 20 }
+			}
+			random_list = {
+				80 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				20 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { martial = 20 }
+			random_list = {
+				90 = {
+					FROM = {
+						character_event = { id = MYTH.53 }
+					}
+				}
+				10 = {
+					FROM = {
+						character_event = { id = MYTH.54 }
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				trait = brave
+			}
+			modifier = {
+				factor = 0.1
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.5
+				trait = strong
+			}
+			modifier = {
+				factor = 1.2
+				trait = trained_warrior
+			}
+			modifier = {
+				factor = 1.5
+				trait = skilled_warrior
+			}
+			modifier = {
+				factor = 1.7
+				trait = master_warrior
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBMYTH.55"
+		FROM = {
+			character_event = { id = MYTH.55 }
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0.2
+				trait = brave
+			}
+			modifier = {
+				factor = 2
+				trait = craven
+			}
+			modifier = {
+				factor = 1.5
+				trait = patient
+			}
+		}
+	}
+}
+#victorious
+character_event = {
+	id = "MYTH.56"
+	desc = "EVTDESCMYTH.56"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.56"
+		prestige = 50
+		change_martial = 1
+		if = {
+			limit = {
+				NOT = { has_landed_title = e_werewolf }
+			}
+			e_werewolf = { grant_title = ROOT }
+		}
+		FROM = {
+			death = { death_reason = death_duel }
+			character_event = { id = MYTH.57 }
+		}
+	}
+}
+character_event = {
+	id = "MYTH.57"
+	desc = "EVTDESCMYTH.57"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAMYTH.57"
+	}
+}
+character_event = {
+	id = "MYTH.58"
+	desc = "EVTDESCMYTH.58"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		AND = {
+			father = { trait = god }
+			mother = { trait = god }
+		}
+		NOT = { trait = god }
+		NOT = { trait = demi-god }
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.58"
+		add_trait = god
+	}
+}
+character_event = {
+	id = "MYTH.59"
+	desc = "EVTDESCMYTH.59"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		OR = {
+			father = { trait = god }
+			mother = { trait = god }
+		}
+		NOT = {
+			AND = {
+				father = { trait = god }
+				mother = { trait = god }
+			}
+		}
+		NOT = { trait = god }
+		NOT = { trait = demi-god }
+	}
+	
+	option = {
+		name ="EVTOPTAMYTH.59"
+		add_trait = demi_god
+	}
+}
+character_event = {
+	id = "MYTH.60"
+	desc = "EVTDESCMYTH.60"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.60"
+	}
+}
+character_event = {
+	id = "MYTH.61"
+	desc = "EVTDESCMYTH.61"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.61"
+		FROM = {
+			character_event = { id = MYTH.74 }
+		}
+		spouse = {
+			character_event = { id = MYTH.60 }
+		}
+	}
+}
+character_event = {
+	id = "MYTH.62"
+	desc = "EVTDESCMYTH.62"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.62"
+		character_event = {
+			id = MYTH.63
+			days = 7
+		}
+	}
+	option = {
+		name ="EVTOPTBMYTH.62"
+		character_event = {
+			id = MYTH.70
+			days = 7
+		}
+	}
+	option = {
+		name ="EVTOPTCMYTH.62"
+		prestige = -50
+	}
+}
+character_event = {
+	id = "MYTH.63"
+	desc = "EVTDESCMYTH.63"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.63"
+		character_event = {
+			id = MYTH.64
+		}
+	}
+	option = {
+		name ="EVTOPTBMYTH.63"
+		prestige = -50
+		add_trait = craven
+	}
+}
+character_event = {
+	id = "MYTH.64"
+	desc = "EVTDESCMYTH.64"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.64"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { id = MYTH.65 }
+				}
+				30 = {
+					character_event = { id = MYTH.65 }
+					add_trait = wounded
+				}
+				10 = {
+					character_event = { id = MYTH.65 }
+					add_trait = maimed
+				}
+				10 = {
+					death = { death_reason = death_oxen }
+				}
+			}
+		}			
+	}
+}
+character_event = {
+	id = "MYTH.65"
+	desc = "EVTDESCMYTH.65"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.65"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { id = MYTH.66 }
+				}
+				30 = {
+					character_event = { id = MYTH.66 }
+					add_trait = wounded
+				}
+				10 = {
+					character_event = { id = MYTH.66 }
+					add_trait = maimed
+				}
+				10 = {
+					death = { death_reason = death_battle }
+				}
+			}
+		}			
+	}
+	option = {
+		name ="EVTOPTBMYTH.65"
+		tooltip_info = intrigue
+		trigger = { intrigue = 10 }
+		character_event = { id = MYTH.67 }
+	}
+}
+character_event = {
+	id = "MYTH.66"
+	desc = "EVTDESCMYTH.66"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.66"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { id = MYTH.68 }
+				}
+				30 = {
+					character_event = { id = MYTH.68 }
+					add_trait = wounded
+				}
+				10 = {
+					character_event = { id = MYTH.68 }
+					add_trait = maimed
+				}
+				10 = {
+					death = { death_reason = death_dragon }
+				}
+			}
+		}			
+	}
+	option = {
+		name ="EVTOPTBMYTH.66"
+		tooltip_info = diplomacy
+		trigger = { diplomacy = 10 }
+		character_event = { id = MYTH.69 }
+	}
+}
+character_event = {
+	id = "MYTH.67"
+	desc = "EVTDESCMYTH.67"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.67"
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					character_event = { id = MYTH.68 }
+				}
+				30 = {
+					character_event = { id = MYTH.68 }
+					add_trait = wounded
+				}
+				10 = {
+					character_event = { id = MYTH.68 }
+					add_trait = maimed
+				}
+				10 = {
+					death = { death_reason = death_dragon }
+				}
+			}
+		}			
+	}
+	option = {
+		name ="EVTOPTBMYTH.67"
+		tooltip_info = diplomacy
+		trigger = { diplomacy = 10 }
+		character_event = { id = MYTH.69 }
+	}
+}
+character_event = {
+	id = "MYTH.68"
+	desc = "EVTDESCMYTH.68"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.68"
+		add_character_modifier = {
+			name = golden_fleece
+			duration = -1
+			inherit = yes
+		}
+		prestige = 100
+	}
+}
+character_event = {
+	id = "MYTH.69"
+	desc = "EVTDESCMYTH.69"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.69"
+		add_character_modifier = {
+			name = golden_fleece
+			duration = -1
+			inherit = yes
+		}
+		prestige = 100
+	}
+}
+character_event = {
+	id = "MYTH.70"
+	desc = "EVTDESCMYTH.70"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.70"
+		character_event = {
+			id = MYTH.71
+		}
+	}
+	option = {
+		name ="EVTOPTBMYTH.70"
+		prestige = -50
+		add_trait = craven
+	}
+}
+character_event = {
+	id = "MYTH.71"
+	desc = "EVTDESCMYTH.71"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.71"
+		hidden_tooltip = {
+			random_list = {
+				30 = {
+					character_event = { id = MYTH.72 }
+				}
+				30 = {
+					character_event = { id = MYTH.72 }
+					add_trait = wounded
+				}
+				10 = {
+					character_event = { id = MYTH.72 }
+					add_trait = maimed
+				}
+				30 = {
+					death = { death_reason = death_gorgon }
+				}
+			}
+		}			
+	}
+	option = {
+		name ="EVTOPTBMYTH.71"
+		tooltip_info = learning
+		trigger = { learning = 10 }
+		character_event = { id = MYTH.73 }
+	}
+}
+character_event = {
+	id = "MYTH.72"
+	desc = "EVTDESCMYTH.72"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.72"
+		add_character_modifier = {
+			name = medusa_head
+			duration = -1
+			inherit = yes
+		}
+		prestige = 100
+	}
+}
+character_event = {
+	id = "MYTH.73"
+	desc = "EVTDESCMYTH.73"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.73"
+		add_character_modifier = {
+			name = medusa_head
+			duration = -1
+			inherit = yes
+		}
+		prestige = 100
+	}
+}
+character_event = {
+	id = "MYTH.74"
+	desc = "EVTDESCMYTH.74"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name ="EVTOPTAMYTH.74"
+		impregnate = FROM
+		prestige = 10
+	}
+}
+character_event = {
+	id = "MYTH.75"
+	desc = "EVTDESCMYTH.75"
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	trigger = { has_landed_title = e_olympus }
+	
+	mean_time_to_happen = { years = 300 }
+	
+	option = {
+		name ="EVTOPTAMYTH.75"
+		random_playable_ruler = {
+			limit = {
+				is_female = no
+				is_married = yes
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			spouse = { character_event = { id = MYTH.61 } }
+		}
+	}
+}
