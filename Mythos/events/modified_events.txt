@@ -71,6 +71,9 @@ character_event = {
 			trait = vampire
 		}
 		NOT = {
+			trait = ghoul
+		}		
+		NOT = {
 			trait = werewolf
 		}
 		OR = {
@@ -132,6 +135,9 @@ character_event = {
 			trait = vampire
 		}
 		NOT = {
+			trait = ghoul
+		}		
+		NOT = {
 			trait = werewolf
 		}
 	}
@@ -173,6 +179,7 @@ character_event = {
 		NOT = { trait = has_measles }
 		NOT = { trait = has_small_pox }
 		NOT = { trait = vampire }
+		NOT = { trait = ghoul }
 		NOT = { trait = werewolf }
 	}
 	
@@ -226,6 +233,7 @@ character_event = {
 		NOT = { base_health = 8 }
 		NOT = { trait = ill }
 		NOT = { trait = vampire }
+		NOT = { trait = ghoul }
 		NOT = { trait = werewolf }
 	}
 	
@@ -267,6 +275,7 @@ character_event = {
 		NOT = { trait = infirm }
 		NOT = { trait = incapable }
 		NOT = { trait = vampire }
+		NOT = { trait = ghoul }
 		NOT = { trait = werewolf }
 	}
 	
@@ -324,6 +333,7 @@ character_event = {
 		}
 		NOT = { trait = incapable }
 		NOT = { trait = vampire }
+		NOT = { trait = ghoul }
 		NOT = { trait = werewolf }
 	}
 	

@@ -1,5 +1,12 @@
 spriteTypes = {
 	spriteType = {
+	name = "GFX_trait_ghoul"
+	texturefile = "gfx/traits/ghoul.png"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 	name = "GFX_trait_vampire"
 	texturefile = "gfx/traits/vampire.png"
 	noOfFrames = 1

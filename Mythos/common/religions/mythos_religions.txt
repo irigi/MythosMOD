@@ -490,6 +490,10 @@ other_group = {
 		can_call_crusade = yes
 		max_consorts = 3
 		allow_looting = yes
+
+		bs_marriage = yes
+		pc_marriage = yes
+
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1

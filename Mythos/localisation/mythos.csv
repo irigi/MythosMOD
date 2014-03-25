@@ -5,6 +5,9 @@ undead_culture_group;Undead;Undead;Undead;;Undead;;;;;;;;;x
 zombie_culture;Zombie;Zombie;Zombie;;Zombie;;;;;;;;;x
 vampire;Vampire;Vampire;Vampire;;Vampire;;;;;;;;;x
 vampire_desc;This character is an unholy vampire, immortal and free from disease, but hated by all but their own kin.;Vampire;Vampire;;Vampire;;;;;;;;;x
+opinion_my_ghoul;My ghoul;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
+ghoul;Ghoul;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
+ghoul_desc;This character is a ghoul, addicted to vampire blood that stops aging, but servant to his vampire masters.;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
 werewolf;Werewolf;Werewolf;Werewolf;;Werewolf;;;;;;;;;x
 werewolf_desc;This character bears the blood of the wolf, undying and powerful, but cursed with a savage, bestial form that emerges when the moon is full.;Werewolf;Werewolf;;Werewolf;;;;;;;;;x
 zombie;Zombie;Zombie;Zombie;;Zombie;;;;;;;;;x
@@ -94,7 +97,9 @@ d_druidic_reformed;The Circle of Druids;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
 ARCH_DRUID;Arch Druid;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
 ARCH_DRUID_FOA;Eldest of the Druids;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
 job_spiritual_druidic;Seer;Voyant;Seher;;Vidente;;;;;;;;;x
-turn_prisoner_vampire;Turn [Root.GetTitledFirstName];Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
+turn_prisoner_ghoul;Turn [Root.GetTitledFirstName] into ghoul;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
+turn_prisoner_ghoul_desc;Turn [Root.GetTitledFirstName] into your loyal servant.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
+turn_prisoner_vampire;Embrace [Root.GetTitledFirstName];Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 turn_prisoner_vampire_desc;Give [Root.GetTitledFirstName] the dark gift of vampirism.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 turn_prisoner_werewolf;Turn [Root.GetTitledFirstName];Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 turn_prisoner_werewolf_desc;Imbue [Root.GetTitledFirstName] with the blood of the wolf.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
@@ -237,7 +242,7 @@ EVTOPTAMYTH.15;Truly, all is lost.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTNAMEMYTH.16;Spouse Ravaged;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTDESCMYTH.16;In the bedchamber last night, you found yourself so excited that your more bestial side may have emerged for a moment.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTOPTAMYTH.16;Oh, it's just a scratch.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.17;Spouse Turned;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTNAMEMYTH.17;Spouse Embraced;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTDESCMYTH.17;In the bedchamber last night, you seemed to regain the desire of your younger days. Some biting may have been involved.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTOPTAMYTH.17;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTNAMEMYTH.18;Peasant Revolt;Satanist;Satanist;;Satanist;;;;;;;;;x
@@ -433,3 +438,6 @@ EVTOPTAMYTH.74;Oh well.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTNAMEMYTH.75;Zeus 1;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTDESCMYTH.75;It has been a long time since you indulged your carnal desires. You decide to head down to the realm of mortals for some fun.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTOPTAMYTH.75;OK;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTNAMEMYTH.76;Concubine made your ghoul;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTDESCMYTH.76;In the bedchamber last night, you seemed to regain the desire of your younger days. Some blood feeding may have been involved.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTAMYTH.76;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x

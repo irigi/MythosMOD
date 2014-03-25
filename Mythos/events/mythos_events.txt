@@ -248,12 +248,18 @@ character_event = {
 	trigger = {
 		OR = {
 				trait = vampire
+				trait = ghoul
 				trait = werewolf
 		}
 	}
 	
 	mean_time_to_happen = {
 		months = 360
+		
+		modifier = {
+			factor = 5.0
+			trait = ghoul
+		}
 	}
 	
 	option = {
@@ -263,7 +269,6 @@ character_event = {
 		change_stewardship = 1
 		change_intrigue = 1
 		change_learning = 2
-		fertility = 0.05
 	}
 }
 
@@ -503,21 +508,68 @@ character_event = {
 		spouse = {
 		NOT = { trait = vampire }
 		}
-	}
+	}	
 	
 	mean_time_to_happen = { months = 120 }
 	
 	option = {
 		name = "EVTOPTAMYTH.17"
-		spouse = { add_trait = vampire }
-		hidden_tooltip = { 
+		spouse = { 
+      add_trait = vampire
+      religion = satanist
+			dynasty = ROOT
+			IF = {
+				ROOT = { is_female = yes }
+				set_mother = ROOT
+				set_father = none
+			}
+   		IF = {
+				ROOT = { is_female = no }
+				set_father = ROOT
+				set_mother = none
+			}	       
+    }
+		hidden_tooltip = { 	
 			if = { 
 				limit = { spouse = { is_female = yes } }
 				impregnate = spouse 
+			}     
+		}
+	}
+}     
+character_event = {
+	id = "MYTH.76"
+	desc = "EVTDESCMYTH.76"
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_war
+	
+	trigger = {
+		trait = vampire 
+		consort = {
+		NOT = { trait = vampire }
+		NOT = { trait = ghoul }
+		}
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVTOPTAMYTH.76"
+		consort = { 
+      add_trait = ghoul
+      opinion = {
+			   modifier = opinion_my_ghoul
+			   who = ROOT
+		  } 
+    }			
+		hidden_tooltip = { 		
+			if = { 
+				limit = { consort = { is_female = yes } }
+				impregnate = consort 
 			}
 		}
 	}
-}
+} 
 province_event = {
 	id = MYTH.18
 	desc ="EVTDESCMYTH.18"
@@ -1316,12 +1368,18 @@ character_event = {
 		OR = {
 			trait = werewolf
 			trait = vampire
+			trait = ghoul
 		}
 		trait = wounded
 	}
 	
 	mean_time_to_happen = {
 		months = 1
+		
+		modifier = {
+			factor = 5.0
+			trait = ghoul
+		}
 	}
 	
 	option = {
@@ -1588,12 +1646,18 @@ character_event = {
 		OR = {
 			trait = werewolf
 			trait = vampire
+			trait = ghoul
 		}
 		trait = infirm
 	}
 	
 	mean_time_to_happen = {
 		months = 2
+		
+		modifier = {
+			factor = 5.0
+			trait = ghoul
+		}
 	}
 	
 	option = {
@@ -1611,12 +1675,18 @@ character_event = {
 		OR = {
 			trait = werewolf
 			trait = vampire
+			trait = ghoul
 		}
 		trait = incapable
 	}
 	
 	mean_time_to_happen = {
 		months = 6
+		
+		modifier = {
+			factor = 5.0
+			trait = ghoul
+		}
 	}
 	
 	option = {

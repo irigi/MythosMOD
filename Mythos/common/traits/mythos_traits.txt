@@ -15,6 +15,34 @@ vampire = {
 	christian_opinion = -50
 	muslim_opinion = -50
 	jewish_opinion = -50
+	pagan_opinion = -20
+	
+	fertility = -50
+	diplomacy = 2
+	martial = 1
+	intrigue = 4
+	learning = 1
+	
+	ai_rationality = 20
+	ai_honor = -20
+}
+
+ghoul = {
+	birth = 50
+
+	opposites = {
+		werewolf
+		monster_hunter
+	}
+
+	immortal = yes
+
+	same_opinion = 20
+	opposite_opinion = -30
+	christian_opinion = -25
+	muslim_opinion = -25
+	jewish_opinion = -25
+	pagan_opinion = -5
 	
 	fertility = -1
 	diplomacy = 2
