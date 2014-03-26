@@ -515,28 +515,28 @@ character_event = {
 	option = {
 		name = "EVTOPTAMYTH.17"
 		spouse = { 
-      add_trait = vampire
-      religion = satanist
+			add_trait = vampire
+			religion = satanist
 			dynasty = ROOT
 			IF = {
 				ROOT = { is_female = yes }
 				set_mother = ROOT
 				set_father = none
 			}
-   		IF = {
+			IF = {
 				ROOT = { is_female = no }
 				set_father = ROOT
 				set_mother = none
-			}	       
-    }
+			} 
+		}
 		hidden_tooltip = { 	
 			if = { 
 				limit = { spouse = { is_female = yes } }
 				impregnate = spouse 
-			}     
+			} 
 		}
 	}
-}     
+}
 character_event = {
 	id = "MYTH.76"
 	desc = "EVTDESCMYTH.76"
@@ -556,12 +556,12 @@ character_event = {
 	option = {
 		name = "EVTOPTAMYTH.76"
 		consort = { 
-      add_trait = ghoul
-      opinion = {
-			   modifier = opinion_my_ghoul
-			   who = ROOT
-		  } 
-    }			
+			add_trait = ghoul
+			opinion = {
+				modifier = opinion_my_ghoul
+				who = ROOT
+			} 
+		}			
 		hidden_tooltip = { 		
 			if = { 
 				limit = { consort = { is_female = yes } }
@@ -569,7 +569,145 @@ character_event = {
 			}
 		}
 	}
-} 
+}
+# prisoner become vampire
+character_event = {
+	id = MYTH.77
+	desc = "EVTDESCMYTH.77"
+	picture = GFX_evt_plague_doctor
+
+	is_triggered_only = yes
+
+	trigger = {
+		prisoner = yes
+		FROM = { trait = vampire }
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.77"
+		add_trait = vampire
+		religion = satanist
+		dynasty = FROM		
+		hidden_tooltip = {
+			IF = {
+				FROM = { is_female = yes }
+				set_mother = FROM
+				set_father = none
+			}
+			IF = {
+				FROM = { is_female = no }
+				set_father = FROM
+				set_mother = none
+			}
+		}		
+	}
+}
+# prisoner become ghoul 
+character_event = {
+	id = MYTH.78
+	desc = "EVTDESCMYTH.78"
+	picture = GFX_evt_plague_doctor
+
+	is_triggered_only = yes
+
+	trigger = {
+		prisoner = yes
+		FROM = { trait = vampire }
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.78"
+		add_trait = ghoul
+		opinion = {
+			modifier = opinion_my_ghoul
+			who = FROM
+		}	
+	}
+}
+# vampire visits dungeon
+character_event = {
+	id = MYTH.79
+	desc = "EVTDESCMYTH.79"
+	picture = GFX_evt_plague_doctor
+
+	is_triggered_only = yes
+
+	trigger = {
+    trait = vampire
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.79"
+
+		vassal_opinion = {
+			who = ROOT
+			modifier = opinion_tyrant
+			multiplier = 2
+			months = 60
+		}
+		random_list = {
+			20 = { change_learning = 1 }
+			20 = { change_diplomacy = 1 }
+			20 = { change_martial = 1 }
+			20 = { change_stewardship = 1 }
+			20 = { change_intrigue = 1 }
+		}
+		
+		FROM = {
+			death = {
+				death_reason = death_vampire
+				killer = ROOT
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTBMYTH.79"
+		piety = 0
+		FROM = {
+		  prisoner = no
+		  IF = {
+		    ROOT = { is_player = yes }
+        add_trait = ghoul        
+        opinion = {
+          modifier = opinion_my_ghoul
+          who = ROOT
+  			}		    
+      }
+      IF = {
+		    ROOT = { is_player = no }
+        character_event = { id = MYTH.78 }
+      }
+		}
+	}
+	option = {
+		name = "EVTOPTCMYTH.79"
+		FROM = {
+			character_event = { id = MYTH.77 }
+			add_trait = vampire
+			religion = satanist
+			dynasty = ROOT
+			prisoner = no
+			ROOT = {				
+				piety = 50
+			}
+			hidden_tooltip = {
+				IF = {
+					ROOT = { is_female = yes }
+					set_mother = ROOT
+					set_father = none
+				}
+				IF = {
+					ROOT = { is_female = no }
+					set_father = ROOT
+					set_mother = none
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTDMYTH.79"
+	}
+}
 province_event = {
 	id = MYTH.18
 	desc ="EVTDESCMYTH.18"

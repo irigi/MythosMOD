@@ -97,14 +97,10 @@ d_druidic_reformed;The Circle of Druids;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
 ARCH_DRUID;Arch Druid;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
 ARCH_DRUID_FOA;Eldest of the Druids;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
 job_spiritual_druidic;Seer;Voyant;Seher;;Vidente;;;;;;;;;x
-turn_prisoner_ghoul;Turn [Root.GetTitledFirstName] into ghoul;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-turn_prisoner_ghoul_desc;Turn [Root.GetTitledFirstName] into your loyal servant.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-turn_prisoner_vampire;Embrace [Root.GetTitledFirstName];Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-turn_prisoner_vampire_desc;Give [Root.GetTitledFirstName] the dark gift of vampirism.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 turn_prisoner_werewolf;Turn [Root.GetTitledFirstName];Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 turn_prisoner_werewolf_desc;Imbue [Root.GetTitledFirstName] with the blood of the wolf.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-kill_prisoner_vampire;Drink [Root.GetTitledFirstName]'s Blood;Drink [Root.GetTitledFirstName]'s blood;Drink [Root.GetTitledFirstName]'s blood;;Drink [Root.GetTitledFirstName]'s blood;;;;;;;;;x
-kill_prisoner_vampire_desc;Drain [Root.GetTitledFirstName] of all life.;Drink [Root.GetTitledFirstName]'s blood;Drink [Root.GetTitledFirstName]'s blood;;Drink [Root.GetTitledFirstName]'s blood;;;;;;;;;x
+vampire_visits_dungeon;Visit [Root.GetTitledFirstName] in the dungeon..;Drink [Root.GetTitledFirstName]'s blood;Drink [Root.GetTitledFirstName]'s blood;;Drink [Root.GetTitledFirstName]'s blood;;;;;;;;;x
+vampire_visits_dungeon_desc;Visits [Root.GetTitledFirstName] in the dungeon..;Drink [Root.GetTitledFirstName]'s blood;Drink [Root.GetTitledFirstName]'s blood;;Drink [Root.GetTitledFirstName]'s blood;;;;;;;;;x
 vampire_convert_to_satanist;Convert to Luciferian;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 vampire_convert_to_satanist_desc;Heed Lucifer's call and join the fold of your kind's true faith.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
 brew_love_potion;Brew Love Potion;Brew Love Potion;Brew Love Potion;;Brew Love Potion;;;;;;;;;x
@@ -439,5 +435,17 @@ EVTNAMEMYTH.75;Zeus 1;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTDESCMYTH.75;It has been a long time since you indulged your carnal desires. You decide to head down to the realm of mortals for some fun.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTOPTAMYTH.75;OK;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTNAMEMYTH.76;Concubine made your ghoul;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.76;In the bedchamber last night, you seemed to regain the desire of your younger days. Some blood feeding may have been involved.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTDESCMYTH.76;In the bedchamber last night, you seemed to regain the desire of your younger days. You decide to preserve your concubine by feeding her your blood.;Satanist;Satanist;;Satanist;;;;;;;;;x
 EVTOPTAMYTH.76;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTNAMEMYTH.77;Embraced among vampires;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTDESCMYTH.77;Your captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTAMYTH.77;Centuries await!.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTNAMEMYTH.78;Turned into a ghoul;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTDESCMYTH.78;Your captor forced you to drink his vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTAMYTH.78;What will I do?.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTNAMEMYTH.79;You visit [From.GetTitledFirstName] in the dungeon.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTDESCMYTH.79;You visit [Root.GetTitledFirstName] in his cell and think about the endless possibilities..;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTAMYTH.79;Drink all blood of [Root.GetTitledFirstName] to the last drop.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTBMYTH.79;Turn [From.GetTitledFirstName] into ghoul.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTCMYTH.79;Embrace [From.GetTitledFirstName] among vampires.;Satanist;Satanist;;Satanist;;;;;;;;;x
+EVTOPTDMYTH.79;Perhaps later...;Satanist;Satanist;;Satanist;;;;;;;;;x
