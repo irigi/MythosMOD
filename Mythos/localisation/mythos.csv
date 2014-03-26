@@ -1,472 +1,472 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-jotunn;Jotunn;Jotunn;Jotunn;;Jotunn;;;;;;;;;x
-djinni;Djinni;Djinni;Djinni;;Djinni;;;;;;;;;x
-undead_culture_group;Undead;Undead;Undead;;Undead;;;;;;;;;x
-zombie_culture;Zombie;Zombie;Zombie;;Zombie;;;;;;;;;x
-vampire;Vampire;Vampire;Vampire;;Vampire;;;;;;;;;x
-vampire_desc;This character is an unholy vampire, immortal and free from disease, but hated by all but their own kin.;Vampire;Vampire;;Vampire;;;;;;;;;x
-opinion_my_ghoul;Blood bounded;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
-opinion_former_ghoul;Residual blood bound;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
-opinion_jealous_ghoul;Jealous;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
-ghoul;Ghoul;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
-ghoul_desc;This character is a ghoul, addicted to vampire blood, not aging, but servant to his vampire masters.;Ghoul;Ghoul;;Ghoul;;;;;;;;;x
-werewolf;Werewolf;Werewolf;Werewolf;;Werewolf;;;;;;;;;x
-werewolf_desc;This character bears the blood of the wolf, undying and powerful, but cursed with a savage, bestial form that emerges when the moon is full.;Werewolf;Werewolf;;Werewolf;;;;;;;;;x
-zombie;Zombie;Zombie;Zombie;;Zombie;;;;;;;;;x
-zombie_desc;This abomination is risen from the dead, and has no goals but to devour the flesh of men.;Zombie;Zombie;;Zombie;;;;;;;;;x
-mummy;Mummy;Mummy;Mummy;;Mummy;;;;;;;;;x
-mummy_desc;Entombed and preserved long ago by the Egyptians, some force has brought this corpse back to life.;Mummy;Mummy;;Mummy;;;;;;;;;x
-djinn;Djinn;Djinn;Djinn;;Djinn;;;;;;;;;x
-djinn_desc;Said to be made from fire as men were made from clay, these beings have many powers, though they usually do not meddle in human affairs.;Djinn;Djinn;;Djinn;;;;;;;;;x
-god;God;God;God;;God;;;;;;;;;x
-god_desc;This character is imbued with divine power. Immortal and powerful beyond most human imagination, these beings are literal gods among men.;God;God;;God;;;;;;;;;x
-demi_god;Demi-god;God;God;;God;;;;;;;;;x
-demi_god_desc;While not a true god, this character possesses a substantial amount of divine blood. Demi-gods may not live forever, but they are a cut above other men in almost every way.;God;God;;God;;;;;;;;;x
-pup;Pup;Pup;Pup;;Pup;;;;;;;;;x
-pup_desc;This child has shown signs of sharing the blood of the wolf. It cannot fully transform, but in time its full powers will awaken.;Pup;Pup;;Pup;;;;;;;;;x
-fledgling;Fledgling;Fledgling;Fledgling;;Fledgling;;;;;;;;;x
-fledgling_desc;This child is the spawn of a vampire. It is not yet above diseases and even death, but will mature in time.;Fledgling;Fledgling;;Fledgling;;;;;;;;;x
-half_giant;Half-Giant;Half-Giant;Half-Giant;;Half-Giant;;;;;;;;;x
-half_giant_desc;This character is the child of a giant and a non-giant. An imposing sight, though perhaps not as tactful as most, half-giants are formidable opponents in combat.;Half-Giant;Half-Giant;;Half-Giant;;;;;;;;;x
-son_of_solomon;Son of Solomon;Son of Solomon;Son of Solomon;;Son of Solomon;;;;;;;;;x
-son_of_solomon_desc;This character is the leader of the resurrected Legion of Solomon.;Son of Solomon;Son of Solomon;;Son of Solomon;;;;;;;;;x
-philosopher_stone;The Philosopher's Stone;The Philosopher's Stone;The Philosopher's Stone;;The Philosopher's Stone;;;;;;;;;x
-philosopher_stone_desc;This character has found the legendary Philosopher's Stone. Not only does the substance facilitate transmutation, but it extends the life of its holder indefinitely.;The Philosopher's Stone;The Philosopher's Stone;;The Philosopher's Stone;;;;;;;;;x
-monster_hunter;Monster Hunter;Monster Hunter;Monster Hunter;;Monster Hunter;;;;;;;;;x
-monster_hunter_desc;This character has dedicated his life to the eradication of all monstrous creatures.;Monster Hunter;Monster Hunter;;Monster Hunter;;;;;;;;;x
-novice_mage;Novice Mage;Zombie;Zombie;;Zombie;;;;;;;;;x
-novice_mage_desc;The Novice Mage has dabbled in the arcane, but never learned much.;Zombie;Zombie;;Zombie;;;;;;;;;x
-eldritch_scholar;Eldritch Scholar;Zombie;Zombie;;Zombie;;;;;;;;;x
-eldritch_scholar_desc;The Eldritch Scholar is well-versed in the wizarding arts, and can perform a range of spells.;Zombie;Zombie;;Zombie;;;;;;;;;x
-eldritch_scholar_death;of magical decay.;Zombie;Zombie;;Zombie;;;;;;;;;x
-veteran_wizard;Veteran Wizard;Zombie;Zombie;;Zombie;;;;;;;;;x
-veteran_wizard_desc;Few powers elude the Veteran Wizard, but their exercise takes a toll on the body.;Zombie;Zombie;;Zombie;;;;;;;;;x
-veteran_wizard_death;of magical decay.;Zombie;Zombie;;Zombie;;;;;;;;;x
-arcane_master;Arcane Master;Zombie;Zombie;;Zombie;;;;;;;;;x
-arcane_master_desc;The Arcane Master is a wizard of unparralleled power. This character can perform miraculous feats, though at great cost.;Zombie;Zombie;;Zombie;;;;;;;;;x
-arcane_master_death;of magical decay.;Zombie;Zombie;;Zombie;;;;;;;;;x
-giant;Giant;Giant;Giant;;Giant;;;;;;;;;x
-giant_desc;Twice over the height of men and tougher as well, the northern Giants are a fearsome sight in combat, though they lack the wisdom of common men.;Giant;Giant;;Giant;;;;;;;;;x
-satanist;Luciferian;Satanist;Satanist;;Satanist;;;;;;;;;x
-satanist_DESC;Sharing much of their theology with Catholics, but worshipping the fallen archangel Lucifer instead of The Holy Trinity, Satanists are despised throughout the Christian world.;Satanism;Satanism;;Satanism;;;;;;;;;x
-satanist_DESC_2;Can have concubines.;satanist;satanist;;satanist;;;;;;;;;x
-voodoo;Voodoo;Voodoo;Voodoo;;Voodoo;;;;;;;;;x
-voodoo_DESC;A very loosely organized belief system centered around spirits and magic, the dark rituals of Voodoo are largely feared throughout the world.;Voodoo;Voodoo;;Voodoo;;;;;;;;;x
-kemetic_pagan;Kemetic;Satanist;Satanist;;Satanist;;;;;;;;;x
-kemetic_pagan_DESC;The ancient Egyptians worshipped a pantheon of gods including Ra, Osiris, and Anubis. While their religion was loosely defined and not highly uniform, it remained dominant in Egypt for over 3,000 years before the common era.;Satanism;Satanism;;Satanism;;;;;;;;;x
-kemetic_pagan_reformed;Kemetic;Satanist;Satanist;;Satanist;;;;;;;;;x
-kemetic_pagan_reformed_DESC;The ancient Egyptians worshipped a pantheon of gods including Ra, Osiris, and Anubis. While their religion was loosely defined and not highly uniform, it remained dominant in Egypt for over 3,000 years before the common era.;Satanism;Satanism;;Satanism;;;;;;;;;x
-job_spiritual_satanist;Priest;satanist;satanist;;satanist;;;;;;;;;x
-job_spiritual_kemetic_pagan;Priest;satanist;satanist;;satanist;;;;;;;;;x
-job_spiritual_kemetic_pagan_reformed;Priest;satanist;satanist;;satanist;;;;;;;;;x
-job_spiritual_jotnar;Godi;satanist;satanist;;satanist;;;;;;;;;x
-job_spiritual_jotnar_reformed;Godi;satanist;satanist;;satanist;;;;;;;;;x
-jotnar;Jotnar;Jotnar;Jotnar;;Jotnar;;;;;;;;;;x
-jotnar_DESC;The Jotnar faith shares almost all mythology with that of Norse pagans. Both groups believe in several distinct otherworldly realms, among them Asgard and Jotunnheim. While the Norse worship Odin and Thor, the lords of Asgard, the Jotnar worship the giants of Jotunnheim, among them Loki, Jormundgandr, and Fenrir.;Jotnar;Jotnar;;Jotnar;;;;;;;;;;x
-jotnar_reformed;Jotnar;Jotnar;Jotnar;;Jotnar;;;;;;;;;;x
-jotnar_reformed_DESC;The Jotnar faith shares almost all mythology with that of Norse pagans. Both groups believe in several distinct otherworldly realms, among them Asgard and Jotunnheim. While the Norse worship Odin and Thor, the lords of Asgard, the Jotnar worship the giants of Jotunnheim, among them Loki, Jormundgandr, and Fenrir.;Jotnar;Jotnar;;Jotnar;;;;;;;;;;x
-hellenic_pagan;Hellenic;Hellénisme;Hellenisch;;Helenística;;;;;;;;;x
-hellenic_pagan_DESC;The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including Zeus, Aries, Athena, and Poseidon. It originated in ancient Greece and with the conquests of Alexander the Great and the Roman Empire, it would go on to become the dominant religion in the Mediterranean world until the rise of Christendom.;La religion hellénique est polythéiste, avec un panthéon de douze dieux majeurs dont Jupiter, Mars, Mercure, Venus, Minerve et Vesta. Elle puise ses origines dans la Grèce antique et, grâce aux conquêtes d'Alexandre le Grand et l'Empire romain, elle a pu devenir la religion dominante en Méditerrannée jusqu'à l'avènement du Christianisme. Dans le jeu : \n§Y*§! Peut déclarer des guerres d'assujettissement contre les autre païens\n§Y*§! Les souverains ne peuvent pas déclarer de guerres saintes\n§Y*§! Capacité de conversion plus faible et vulnérable aux tentatives de conversion par les missionnaires non païens;Die hellenische Religion ist polytheistisch mit einem Pantheon von zwölf Hauptgöttern, zu welchen Jupiter, Mars, Merkur, Venus, Minerva und Vesta gehören. Sie entstammt dem alten Griechenland und wurde durch die Eroberungen Alexander des Großen und des römischen Reiches wurde sie zur Hauptreligion im Mittelmeerraum, bis zum Aufkommen des Christentums. Besondere Eigenschaften im Spiel: \n§Y*§! Kann Unterwerfungskriege gegen alle anderen Heiden führen\n§Y*§! Anführer können keinen heiligen Krieg erklären\n§Y*§! Unterlegen beim Bekehren und anfällig für nicht-heidnische Missionare;;La religión helenística es politeista, con un panteón de doce Dioses mayores incluyendo Júpiter, Marte, Mercurio, Venus, Minerva y Vesta. Se originó en la antigua Grecia y, con las conquistas de Alejandro Magno y el Imperio Romano, se convirtió en la religión predominante en el Mediterráneo hasta el auge del Cristianismo. Características definitorias en el juego: \n§Y*§! Puede declarar guerras de subyugación contra todos los demás paganos\n§Y*§! Los gobernantes no pueden declarar Guerras Santas\n§Y*§! Tasa inferior de conversión y vulnerable a los misioneros de religiones no paganas.;;;;;;;;;x
-GOD_JUPITER;Zeus;Jupiter;Jupiter;;Júpiter;;;;;;;;;x
-GOD_MERCURY;Hermes;Mercure;Merkur;;Mercurio;;;;;;;;;x
-GOD_MARS;Aries;Mars;Mars;;Marte;;;;;;;;;x
-GOD_VENUS;Aphrodite;Venus;Venus;;Venus;;;;;;;;;x
-GOD_MINERVA;Athena;Minerve;Minerva;;Minerva;;;;;;;;;x
-hellenic_pagan_reformed;Hellenic;Hellénisme;Hellenisch;;Helenística;;;;;;;;;x
-hellenic_pagan_reformed_DESC;The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including JZeus, Aries, Athena, and Poseidon. It originated in ancient Greece and with the conquests of Alexander the Great and the Roman Empire, it would go on to become the dominant religion in the Mediterranean world until the rise of Christendom.;La religion hellénique est polythéiste, avec un panthéon de douze dieux majeurs dont Jupiter, Mars, Mercure, Venus, Minerve et Vesta. Elle puise ses origines dans la Grèce antique et, grâce aux conquêtes d'Alexandre le Grand et l'Empire romain, elle a pu devenir la religion dominante en Méditerrannée jusqu'à l'avènement du Christianisme. Dans le jeu : \n§Y*§! Peut déclarer des guerres d'assujettissement contre les autre païens\n§Y*§! Les souverains ne peuvent pas déclarer de guerres saintes\n§Y*§! Capacité de conversion plus faible et vulnérable aux tentatives de conversion par les missionnaires non païens;Die hellenische Religion ist polytheistisch mit einem Pantheon von zwölf Hauptgöttern, zu welchen Jupiter, Mars, Merkur, Venus, Minerva und Vesta gehören. Sie entstammt dem alten Griechenland und wurde durch die Eroberungen Alexander des Großen und des römischen Reiches wurde sie zur Hauptreligion im Mittelmeerraum, bis zum Aufkommen des Christentums. Besondere Eigenschaften im Spiel: \n§Y*§! Kann Unterwerfungskriege gegen alle anderen Heiden führen\n§Y*§! Anführer können keinen heiligen Krieg erklären\n§Y*§! Unterlegen beim Bekehren und anfällig für nicht-heidnische Missionare;;La religión helenística es politeista, con un panteón de doce Dioses mayores incluyendo Júpiter, Marte, Mercurio, Venus, Minerva y Vesta. Se originó en la antigua Grecia y, con las conquistas de Alejandro Magno y el Imperio Romano, se convirtió en la religión predominante en el Mediterráneo hasta el auge del Cristianismo. Características definitorias en el juego: \n§Y*§! Puede declarar guerras de subyugación contra todos los demás paganos\n§Y*§! Los gobernantes no pueden declarar Guerras Santas\n§Y*§! Tasa inferior de conversión y vulnerable a los misioneros de religiones no paganas.;;;;;;;;;x
-job_spiritual_hellenic_pagan_reformed;Diviner;Devin;Augur;;Augur;;;;;;;;;x
-druidic;Brythonic;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-druidic_reformed;Druidic;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-druidic_DESC;Brythonic paganism is one of the last surviving branch of the ancient druidic belief systems. It features a pantheon of gods and a world full of spirits in which the children of Don rule the Skies, the Earth and the Otherworld. The main gods are Don and Lud, parents of the gods, Beli, the god of Healing, the Great Queen Rhiannon, the Horned god, called Amanaeth, Manawydan, the Sea God and Lleu of the Skillful Hand.;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-druidic_reformed_DESC;The reformed brythonic faith has a standardized liturgy etched on the many raised stones on the British Isles, telling the story of Don and her children. It is led by the circle of the Druids with the Arch-Druid as the religious leader of the faithful.;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_BELI;Beli Mawr;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_BELI_irish;Angus mac Og;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_AMANAETH;Amanaeth;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_AMANAETH_irish;The Horned God;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_MANAWYDAN;Manawydan;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_MANAWYDAN_irish;Manannan mac Lir;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_LLEU;Lleu;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_LLEU_irish;Lugh;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_RHIANNON;Rhiannon;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_RHIANNON_irish;Macha;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_EARTH;Don;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_EARTH_irish;Dana;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-GOD_SKY;Lud;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-#GOD_SKY_irish;Nuada;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-THE_STONES;The Sacred Stones;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-THE_BALLADS;The Ballads;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-d_druidic_reformed;The Circle of Druids;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-ARCH_DRUID;Arch Druid;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-ARCH_DRUID_FOA;Eldest of the Druids;FRENCH;GERMAN;SPANISH;;;;;;;;;;x
-job_spiritual_druidic;Seer;Voyant;Seher;;Vidente;;;;;;;;;x
-turn_prisoner_werewolf;Turn [Root.GetTitledFirstName];Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-turn_prisoner_werewolf_desc;Imbue [Root.GetTitledFirstName] with the blood of the wolf.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-vampire_visits_dungeon;Visit [Root.GetTitledFirstName] in the dungeon..;Drink [Root.GetTitledFirstName]'s blood;Drink [Root.GetTitledFirstName]'s blood;;Drink [Root.GetTitledFirstName]'s blood;;;;;;;;;x
-vampire_visits_dungeon_desc;Visits [Root.GetTitledFirstName] in the dungeon..;Drink [Root.GetTitledFirstName]'s blood;Drink [Root.GetTitledFirstName]'s blood;;Drink [Root.GetTitledFirstName]'s blood;;;;;;;;;x
-vampire_interact_ghouls;Manage [Root.GetTitledFirstName].;Placeholder;Placeholder;;Placeholder;;;;;;;;;x
-vampire_interact_ghouls_desc;Summon [Root.GetTitledFirstName] to make an announcement..;Placeholder;Placeholder;;Placeholder;;;;;;;;;x
-vampire_convert_to_satanist;Convert to Luciferian;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-vampire_convert_to_satanist_desc;Heed Lucifer's call and join the fold of your kind's true faith.;Turn Prisoner;Turn Prisoner;;Turn Prisoner;;;;;;;;;x
-brew_love_potion;Brew Love Potion;Brew Love Potion;Brew Love Potion;;Brew Love Potion;;;;;;;;;x
-brew_love_potion_desc;Brew a potion for your spouse with which to spice your marriage.;Brew Love Potion;Brew Love Potion;;Brew Love Potion;;;;;;;;;x
-attempt_alchemy;Attempt Alchemy;Attempt Alchemy;Attempt Alchemy;;Attempt Alchemy;;;;;;;;;x
-attempt_alchemy_desc;Attempt to craft gold from other materials.;Attempt Alchemy;Attempt Alchemy;;Attempt Alchemy;;;;;;;;;x
-summon_ethereal_army;Summon Ethereal Army;Summon Ethereal Army;Summon Ethereal Army;;Summon Ethereal Army;;;;;;;;;x
-summon_ethereal_army_desc;Summon an army of ethereal beings to help you win this war.;Summon Ethereal Army;Summon Ethereal Army;;Summon Ethereal Army;;;;;;;;;x
-cast_aura;Cast Aura;Cast Aura;Cast Aura;;Cast Aura;;;;;;;;;x
-cast_aura_desc;Cast an aura around yourself to make others more agreeable.;Cast Aura;Cast Aura;;Cast Aura;;;;;;;;;x
-expel_satanists;Expel Satanists;Convert Populace;Convert Populace;;Convert Populace;;;;;;;;;x
-expel_satanists_desc;Purge all satan-worshippers from the realm.;Convert Populace;Convert Populace;;Convert Populace;;;;;;;;;x
-welcome_satanists;Welcome Satanists;Convert Populace;Convert Populace;;Convert Populace;;;;;;;;;x
-welcome_satanists_desc;Welcome the respectible followers of Lucifer back into our realm.;Convert Populace;Convert Populace;;Convert Populace;;;;;;;;;x
-death_werewolf;from a werewolf attack.;Zombie;Zombie;;Zombie;;;;;;;;;x
-coverup_successful;the coverup being successful.;the coverup being successful.;the coverup being successful.;;the coverup being successful.;;;;;;;;;x
-preparations_begin;Preparations begin.;Preparations begin.;Preparations begin.;;Preparations begin.;;;;;;;;;x
-expedition_sent;An expedition is sent.;An expedition is sent.;An expedition is sent.;;An expedition is sent.;;;;;;;;;x
-expedition_sent_2;More men are sent.;An expedition is sent.;An expedition is sent.;;An expedition is sent.;;;;;;;;;x
-spell_cast;The spell is cast.;The spell is cast.;The spell is cast.;;The spell is cast.;;;;;;;;;x
-satanists_are_expelled;Luciferians are expelled.;Luciferians are expelled;Luciferians are expelled;;Luciferians are expelled;;;;;;;;;x
-satanists_are_welcome;Luciferians are welcomed.;Luciferians are welcomed.;Luciferians are welcomed.;;Luciferians are welcomed.;;;;;;;;;x
-hellenic_quest;Go on a Great Quest;Go on a great quest.;Go on a great quest.;;Go on a great quest.;;;;;;;;;x
-hellenic_quest;Go on a great quest, sure to be the grandest of your life.;Go on a great quest.;Go on a great quest.;;Go on a great quest.;;;;;;;;;x
-d_satanist;The Luciferian Church;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-d_satanist_adj;Luciferian;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-d_jotnar_reformed;The Jotnar Fylkirate;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-d_jotnar_reformed_adj;Jotnar;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-d_hellenic_pagan_reformed;The High Priesthood;The High Priesthood;The High Priesthood;;The High Priesthood;;;;;;;;;x
-d_hellenic_pagan_reformed_adj;Hellenic;Holy;Holy;;Holy;;;;;;;;;x
-d_helsing;The Knights of Helsing;Ridderorde van Helsing;Ridderorde van Helsing;;Ridderorde van Helsing;;;;;;;;;;x
-d_helsing_adj;Helsing;Ridderorde van Helsing;Ridderorde van Helsing;;Ridderorde van Helsing;;;;;;;;;;x
-e_zombie;The Undead Horde;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-e_zombie_adj;Zombie;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-e_vampire;Nocturne Imperium;Vampyrian Empire;Vampyrian Empire;;Vampyrian Empire;;;;;;;;;x
-e_vampire_adj;Vampire;Vampyrian Empire;Vampyrian Empire;;Vampyrian Empire;;;;;;;;;x
-e_werewolf;Lycan Empire;Lycan Empire;Lycan Empire;;Lycan Empire;;;;;;;;;x
-e_werewolf_adj;Lycan;Lycan;Lycan;;Lycan;;;;;;;;;x
-e_djinn;Djinni Caliphate;Djinni Legion;Djinni Legion;;Djinni Legion;;;;;;;;;x
-e_djinn_adj;Djinni;Djinni Legion;Djinni Legion;;Djinni Legion;;;;;;;;;x
-d_solomon_legion;Solomon's Legion;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-d_solomon_legion_adj;Legionary;High Priesthood;High Priesthood;;High Priesthood;;;;;;;;;x
-k_avalon;Avalon;Avalon;Avalon;;Avalon;;;;;;;;;x
-k_avalon_adj;Avalonian;Avalon;Avalon;;Avalon;;;;;;;;;x
-e_olympus;Olympus;Olympus;Olympus;;Olympus;;;;;;;;;x
-e_olympus_adj;Olympian;Olympus;Olympus;;Olympus;;;;;;;;;x
-e_asgard;Asgard;Olympus;Olympus;;Olympus;;;;;;;;;x
-e_asgard_adj;Asgardian;Olympus;Olympus;;Olympus;;;;;;;;;x
-other_group;Other Religions;Other Religions;Other Religions;;Other Religions;;;;;;;;;x
-zombie_plague;The Dread Plague;The Dread Plague;The Dread Plague;;The Dread Plague;;;;;;;;;x
-zombie_plague_info;This swarm of godless undead is fatal without fail. Every man bitten becomes another beast and joins the horde.;The Dread Plague;The Dread Plague;;The Dread Plague;;;;;;;;;x
-nick_the_impaler;the Impaler;the Impaler;the Impaler;;the Impaler;;;;;;;;;x
-nick_ozymandias;Ozymandias;Ozymandias;Ozymandias;;Ozymandias;;;;;;;;;x
-egyptian;Old Egyptian;Old Egyptian;Old Egyptian;;Old Egyptian;;;;;;;;;x
-king_egyptian;Pharaoh;Pharaoh;Pharaoh;;Pharaoh;;;;;;;;;x
-giant_culture_modifier;Giant Huskarls;Giant Huskarls;Giant Huskarls;;Giant Huskarls;;;;;;;;;x
-djinni_culture_modifer;Djinni Firethrowers;Djinni Firethrowers;Djinni Firethrowers;;Djinni Firethrowers;;;;;;;;;x
-e_vampire_modifier;Vampires;Deathdealers;Deathdealers;;Deathdealers;;;;;;;;;x
+jotunn;Jotunn;;;;;;;;;;;;;x
+djinni;Djinni;;;;;;;;;;;;;x
+undead_culture_group;Undead;;;;;;;;;;;;;x
+zombie_culture;Zombie;;;;;;;;;;;;;x
+vampire;Vampire;;;;;;;;;;;;;x
+vampire_desc;This character is an unholy vampire, immortal and free from disease, but hated by all but their own kin.;;;;;;;;;;;;;x
+opinion_my_ghoul;Blood bounded;;;;;;;;;;;;;x
+opinion_former_ghoul;Residual blood bound;;;;;;;;;;;;;x
+opinion_jealous_ghoul;Jealous;;;;;;;;;;;;;x
+ghoul;Ghoul;;;;;;;;;;;;;x
+ghoul_desc;This character is a ghoul, addicted to vampire blood, not aging, but servant to his vampire masters.;;;;;;;;;;;;;x
+werewolf;Werewolf;;;;;;;;;;;;;x
+werewolf_desc;This character bears the blood of the wolf, undying and powerful, but cursed with a savage, bestial form that emerges when the moon is full.;;;;;;;;;;;;;x
+zombie;Zombie;;;;;;;;;;;;;x
+zombie_desc;This abomination is risen from the dead, and has no goals but to devour the flesh of men.;;;;;;;;;;;;;x
+mummy;Mummy;;;;;;;;;;;;;x
+mummy_desc;Entombed and preserved long ago by the Egyptians, some force has brought this corpse back to life.;;;;;;;;;;;;;x
+djinn;Djinn;;;;;;;;;;;;;x
+djinn_desc;Said to be made from fire as men were made from clay, these beings have many powers, though they usually do not meddle in human affairs.;;;;;;;;;;;;;x
+god;God;;;;;;;;;;;;;x
+god_desc;This character is imbued with divine power. Immortal and powerful beyond most human imagination, these beings are literal gods among men.;;;;;;;;;;;;;x
+demi_god;Demi-god;;;;;;;;;;;;;x
+demi_god_desc;While not a true god, this character possesses a substantial amount of divine blood. Demi-gods may not live forever, but they are a cut above other men in almost every way.;;;;;;;;;;;;;x
+pup;Pup;;;;;;;;;;;;;x
+pup_desc;This child has shown signs of sharing the blood of the wolf. It cannot fully transform, but in time its full powers will awaken.;;;;;;;;;;;;;x
+fledgling;Fledgling;;;;;;;;;;;;;x
+fledgling_desc;This child is the spawn of a vampire. It is not yet above diseases and even death, but will mature in time.;;;;;;;;;;;;;x
+half_giant;Half-Giant;;;;;;;;;;;;;x
+half_giant_desc;This character is the child of a giant and a non-giant. An imposing sight, though perhaps not as tactful as most, half-giants are formidable opponents in combat.;;;;;;;;;;;;;x
+son_of_solomon;Son of Solomon;;;;;;;;;;;;;x
+son_of_solomon_desc;This character is the leader of the resurrected Legion of Solomon.;;;;;;;;;;;;;x
+philosopher_stone;The Philosopher's Stone;;;;;;;;;;;;;x
+philosopher_stone_desc;This character has found the legendary Philosopher's Stone. Not only does the substance facilitate transmutation, but it extends the life of its holder indefinitely.;;;;;;;;;;;;;x
+monster_hunter;Monster Hunter;;;;;;;;;;;;;x
+monster_hunter_desc;This character has dedicated his life to the eradication of all monstrous creatures.;;;;;;;;;;;;;x
+novice_mage;Novice Mage;;;;;;;;;;;;;x
+novice_mage_desc;The Novice Mage has dabbled in the arcane, but never learned much.;;;;;;;;;;;;;x
+eldritch_scholar;Eldritch Scholar;;;;;;;;;;;;;x
+eldritch_scholar_desc;The Eldritch Scholar is well-versed in the wizarding arts, and can perform a range of spells.;;;;;;;;;;;;;x
+eldritch_scholar_death;of magical decay.;;;;;;;;;;;;;x
+veteran_wizard;Veteran Wizard;;;;;;;;;;;;;x
+veteran_wizard_desc;Few powers elude the Veteran Wizard, but their exercise takes a toll on the body.;;;;;;;;;;;;;x
+veteran_wizard_death;of magical decay.;;;;;;;;;;;;;x
+arcane_master;Arcane Master;;;;;;;;;;;;;x
+arcane_master_desc;The Arcane Master is a wizard of unparralleled power. This character can perform miraculous feats, though at great cost.;;;;;;;;;;;;;x
+arcane_master_death;of magical decay.;;;;;;;;;;;;;x
+giant;Giant;;;;;;;;;;;;;x
+giant_desc;Twice over the height of men and tougher as well, the northern Giants are a fearsome sight in combat, though they lack the wisdom of common men.;;;;;;;;;;;;;x
+satanist;Luciferian;;;;;;;;;;;;;x
+satanist_DESC;Sharing much of their theology with Catholics, but worshipping the fallen archangel Lucifer instead of The Holy Trinity, Satanists are despised throughout the Christian world.;;;;;;;;;;;;;x
+satanist_DESC_2;Can have concubines.;;;;;;;;;;;;;x
+voodoo;Voodoo;;;;;;;;;;;;;x
+voodoo_DESC;A very loosely organized belief system centered around spirits and magic, the dark rituals of Voodoo are largely feared throughout the world.;;;;;;;;;;;;;x
+kemetic_pagan;Kemetic;;;;;;;;;;;;;x
+kemetic_pagan_DESC;The ancient Egyptians worshipped a pantheon of gods including Ra, Osiris, and Anubis. While their religion was loosely defined and not highly uniform, it remained dominant in Egypt for over 3,000 years before the common era.;;;;;;;;;;;;;x
+kemetic_pagan_reformed;Kemetic;;;;;;;;;;;;;x
+kemetic_pagan_reformed_DESC;The ancient Egyptians worshipped a pantheon of gods including Ra, Osiris, and Anubis. While their religion was loosely defined and not highly uniform, it remained dominant in Egypt for over 3,000 years before the common era.;;;;;;;;;;;;;x
+job_spiritual_satanist;Priest;;;;;;;;;;;;;x
+job_spiritual_kemetic_pagan;Priest;;;;;;;;;;;;;x
+job_spiritual_kemetic_pagan_reformed;Priest;;;;;;;;;;;;;x
+job_spiritual_jotnar;Godi;;;;;;;;;;;;;x
+job_spiritual_jotnar_reformed;Godi;;;;;;;;;;;;;x
+jotnar;Jotnar;Jotnar;;;;;;;;;;;;;x
+jotnar_DESC;The Jotnar faith shares almost all mythology with that of Norse pagans. Both groups believe in several distinct otherworldly realms, among them Asgard and Jotunnheim. While the Norse worship Odin and Thor, the lords of Asgard, the Jotnar worship the giants of Jotunnheim, among them Loki, Jormundgandr, and Fenrir.;Jotnar;;;;;;;;;;;;;x
+jotnar_reformed;Jotnar;Jotnar;;;;;;;;;;;;;x
+jotnar_reformed_DESC;The Jotnar faith shares almost all mythology with that of Norse pagans. Both groups believe in several distinct otherworldly realms, among them Asgard and Jotunnheim. While the Norse worship Odin and Thor, the lords of Asgard, the Jotnar worship the giants of Jotunnheim, among them Loki, Jormundgandr, and Fenrir.;Jotnar;;;;;;;;;;;;;x
+hellenic_pagan;Hellenic;;;;;;;;;;;;;x
+hellenic_pagan_DESC;The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including Zeus, Aries, Athena, and Poseidon. It originated in ancient Greece and with the conquests of Alexander the Great and the Roman Empire, it would go on to become the dominant religion in the Mediterranean world until the rise of Christendom.;;;;;;;;;;;;;x
+GOD_JUPITER;Zeus;;;;;;;;;;;;;x
+GOD_MERCURY;Hermes;;;;;;;;;;;;;x
+GOD_MARS;Aries;;;;;;;;;;;;;x
+GOD_VENUS;Aphrodite;;;;;;;;;;;;;x
+GOD_MINERVA;Athena;;;;;;;;;;;;;x
+hellenic_pagan_reformed;Hellenic;;;;;;;;;;;;;x
+hellenic_pagan_reformed_DESC;The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including JZeus, Aries, Athena, and Poseidon. It originated in ancient Greece and with the conquests of Alexander the Great and the Roman Empire, it would go on to become the dominant religion in the Mediterranean world until the rise of Christendom.;;;;;;;;;;;;;x
+job_spiritual_hellenic_pagan_reformed;Diviner;;;;;;;;;;;;;x
+druidic;Brythonic;;;;;;;;;;;;;x
+druidic_reformed;Druidic;;;;;;;;;;;;;x
+druidic_DESC;Brythonic paganism is one of the last surviving branch of the ancient druidic belief systems. It features a pantheon of gods and a world full of spirits in which the children of Don rule the Skies, the Earth and the Otherworld. The main gods are Don and Lud, parents of the gods, Beli, the god of Healing, the Great Queen Rhiannon, the Horned god, called Amanaeth, Manawydan, the Sea God and Lleu of the Skillful Hand.;;;;;;;;;;;;;x
+druidic_reformed_DESC;The reformed brythonic faith has a standardized liturgy etched on the many raised stones on the British Isles, telling the story of Don and her children. It is led by the circle of the Druids with the Arch-Druid as the religious leader of the faithful.;;;;;;;;;;;;;x
+GOD_BELI;Beli Mawr;;;;;;;;;;;;;x
+#GOD_BELI_irish;Angus mac Og;;;;;;;;;;;;;x
+GOD_AMANAETH;Amanaeth;;;;;;;;;;;;;x
+#GOD_AMANAETH_irish;The Horned God;;;;;;;;;;;;;x
+GOD_MANAWYDAN;Manawydan;;;;;;;;;;;;;x
+#GOD_MANAWYDAN_irish;Manannan mac Lir;;;;;;;;;;;;;x
+GOD_LLEU;Lleu;;;;;;;;;;;;;x
+#GOD_LLEU_irish;Lugh;;;;;;;;;;;;;x
+GOD_RHIANNON;Rhiannon;;;;;;;;;;;;;x
+#GOD_RHIANNON_irish;Macha;;;;;;;;;;;;;x
+GOD_EARTH;Don;;;;;;;;;;;;;x
+#GOD_EARTH_irish;Dana;;;;;;;;;;;;;x
+GOD_SKY;Lud;;;;;;;;;;;;;x
+#GOD_SKY_irish;Nuada;;;;;;;;;;;;;x
+THE_STONES;The Sacred Stones;;;;;;;;;;;;;x
+THE_BALLADS;The Ballads;;;;;;;;;;;;;x
+d_druidic_reformed;The Circle of Druids;;;;;;;;;;;;;x
+ARCH_DRUID;Arch Druid;;;;;;;;;;;;;x
+ARCH_DRUID_FOA;Eldest of the Druids;;;;;;;;;;;;;x
+job_spiritual_druidic;Seer;;;;;;;;;;;;;x
+turn_prisoner_werewolf;Turn [Root.GetTitledFirstName];;;;;;;;;;;;;x
+turn_prisoner_werewolf_desc;Imbue [Root.GetTitledFirstName] with the blood of the wolf.;;;;;;;;;;;;;x
+vampire_visits_dungeon;Visit [Root.GetTitledFirstName] in the dungeon..;;;;;;;;;;;;;x
+vampire_visits_dungeon_desc;Visits [Root.GetTitledFirstName] in the dungeon..;;;;;;;;;;;;;x
+vampire_interact_ghouls;Manage [Root.GetTitledFirstName].;;;;;;;;;;;;;x
+vampire_interact_ghouls_desc;Summon [Root.GetTitledFirstName] to make an announcement..;;;;;;;;;;;;;x
+vampire_convert_to_satanist;Convert to Luciferian;;;;;;;;;;;;;x
+vampire_convert_to_satanist_desc;Heed Lucifer's call and join the fold of your kind's true faith.;;;;;;;;;;;;;x
+brew_love_potion;Brew Love Potion;;;;;;;;;;;;;x
+brew_love_potion_desc;Brew a potion for your spouse with which to spice your marriage.;;;;;;;;;;;;;x
+attempt_alchemy;Attempt Alchemy;;;;;;;;;;;;;x
+attempt_alchemy_desc;Attempt to craft gold from other materials.;;;;;;;;;;;;;x
+summon_ethereal_army;Summon Ethereal Army;;;;;;;;;;;;;x
+summon_ethereal_army_desc;Summon an army of ethereal beings to help you win this war.;;;;;;;;;;;;;x
+cast_aura;Cast Aura;;;;;;;;;;;;;x
+cast_aura_desc;Cast an aura around yourself to make others more agreeable.;;;;;;;;;;;;;x
+expel_satanists;Expel Satanists;;;;;;;;;;;;;x
+expel_satanists_desc;Purge all satan-worshippers from the realm.;;;;;;;;;;;;;x
+welcome_satanists;Welcome Satanists;;;;;;;;;;;;;x
+welcome_satanists_desc;Welcome the respectible followers of Lucifer back into our realm.;;;;;;;;;;;;;x
+death_werewolf;from a werewolf attack.;;;;;;;;;;;;;x
+coverup_successful;the coverup being successful.;;;;;;;;;;;;;x
+preparations_begin;Preparations begin.;;;;;;;;;;;;;x
+expedition_sent;An expedition is sent.;;;;;;;;;;;;;x
+expedition_sent_2;More men are sent.;;;;;;;;;;;;;x
+spell_cast;The spell is cast.;;;;;;;;;;;;;x
+satanists_are_expelled;Luciferians are expelled.;;;;;;;;;;;;;x
+satanists_are_welcome;Luciferians are welcomed.;;;;;;;;;;;;;x
+hellenic_quest;Go on a Great Quest;;;;;;;;;;;;;x
+hellenic_quest;Go on a great quest, sure to be the grandest of your life.;;;;;;;;;;;;;x
+d_satanist;The Luciferian Church;;;;;;;;;;;;;x
+d_satanist_adj;Luciferian;;;;;;;;;;;;;x
+d_jotnar_reformed;The Jotnar Fylkirate;;;;;;;;;;;;;x
+d_jotnar_reformed_adj;Jotnar;;;;;;;;;;;;;x
+d_hellenic_pagan_reformed;The High Priesthood;;;;;;;;;;;;;x
+d_hellenic_pagan_reformed_adj;Hellenic;;;;;;;;;;;;;x
+d_helsing;The Knights of Helsing;Ridderorde van Helsing;;;;;;;;;;;;;x
+d_helsing_adj;Helsing;Ridderorde van Helsing;;;;;;;;;;;;;x
+e_zombie;The Undead Horde;;;;;;;;;;;;;x
+e_zombie_adj;Zombie;;;;;;;;;;;;;x
+e_vampire;Nocturne Imperium;;;;;;;;;;;;;x
+e_vampire_adj;Vampire;;;;;;;;;;;;;x
+e_werewolf;Lycan Empire;;;;;;;;;;;;;x
+e_werewolf_adj;Lycan;;;;;;;;;;;;;x
+e_djinn;Djinni Caliphate;;;;;;;;;;;;;x
+e_djinn_adj;Djinni;;;;;;;;;;;;;x
+d_solomon_legion;Solomon's Legion;;;;;;;;;;;;;x
+d_solomon_legion_adj;Legionary;;;;;;;;;;;;;x
+k_avalon;Avalon;;;;;;;;;;;;;x
+k_avalon_adj;Avalonian;;;;;;;;;;;;;x
+e_olympus;Olympus;;;;;;;;;;;;;x
+e_olympus_adj;Olympian;;;;;;;;;;;;;x
+e_asgard;Asgard;;;;;;;;;;;;;x
+e_asgard_adj;Asgardian;;;;;;;;;;;;;x
+other_group;Other Religions;;;;;;;;;;;;;x
+zombie_plague;The Dread Plague;;;;;;;;;;;;;x
+zombie_plague_info;This swarm of godless undead is fatal without fail. Every man bitten becomes another beast and joins the horde.;;;;;;;;;;;;;x
+nick_the_impaler;the Impaler;;;;;;;;;;;;;x
+nick_ozymandias;Ozymandias;;;;;;;;;;;;;x
+egyptian;Old Egyptian;;;;;;;;;;;;;x
+king_egyptian;Pharaoh;;;;;;;;;;;;;x
+giant_culture_modifier;Giant Huskarls;;;;;;;;;;;;;x
+djinni_culture_modifer;Djinni Firethrowers;;;;;;;;;;;;;x
+e_vampire_modifier;Vampires;;;;;;;;;;;;;x
 e_werewolf_modifier;Werewolves;Werewolves;Werewolves;Werewolves;;;;;;;;;x
-e_djinni_modifer;Djinni Firethrowers;Djinni Firethrowers;Djinni Firethrowers;;Djinni Firethrowers;;;;;;;;;x
-djinni_culture_modifer;Djinni Firethrowers;Djinni Firethrowers;Djinni Firethrowers;;Djinni Firethrowers;;;;;;;;;x
-e_zombie_modifier;Zombies;Zombies;Zombies;;Zombies;;;;;;;;;x
-zombie_culture_modifier;Zombies;Zombies;Zombies;;Zombies;;;;;;;;;x
-zombie_invasion_desc;The horde attacks another realm.;zombie;zombie;;zombie;;;;;;;;;x
-challenged_emperor;Challenged Emperor;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-challenged_emperor_desc;Has recently issued a challenge for dominance of the empire and cannot do so again for 5 years.;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-cast_spell;Cast Spell;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-cast_spell_desc;Has recently cast a spell and must wait before performing any more magic.;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-has_quested;Has Quested;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-has_quested_desc;This character has been on a grand quest, and cannot do so again.;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-golden_fleece;Golden Fleece;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-golden_fleece_desc;This character bears the legendary golden fleece, granting a more illustrious rule.;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-medusa_head;Medusa's Head;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-medusa_head_desc;This character bears the head of the legendary gorgon Medusa, a fearsome and deadly sight on the fields of battle.;Cast Spell;Cast Spell;;Cast Spell;;;;;;;;;x
-minor_aura;Minor Aura;Minor Aura;Minor Aura;;Minor Aura;;;;;;;;;x
-minor_aura_desc;This character exudes a friendly aura.;Minor Aura;Minor Aura;;Minor Aura;;;;;;;;;x
-persuasive_aura;Persuasive Aura;Minor Aura;Minor Aura;;Minor Aura;;;;;;;;;x
-persuasive_aura_desc;This character exudes a persuasive aura.;Minor Aura;Minor Aura;;Minor Aura;;;;;;;;;x
-powerful_aura;Powerful Aura;Minor Aura;Minor Aura;;Minor Aura;;;;;;;;;x
-powerful_aura_desc;This character exudes a powerfully persuasive aura.;Minor Aura;Minor Aura;;Minor Aura;;;;;;;;;x
-expelled_satanists;Expelled Luciferians;Expelled Satanists;Expelled Satanists;;Expelled Satanists;;;;;;;;;x
-expelled_satanists_desc;This character has expelled all Luciferians from the realm.;Expelled Satanists;Expelled Satanists;;Expelled Satanists;;;;;;;;;x
-werewolf_challenge;Challenge the Emperor;Challenge the Emperor;Challenge the Emperor;;Challenge the Emperor;;;;;;;;;x
-werewolf_challenge_desc;Stake your life on a battle to rule your kin.;Challenge the Emperor;Challenge the Emperor;;Challenge the Emperor;;;;;;;;;x
-death_oxen;died trying to tame oxen;died trying to tame oxen;died trying to tame oxen;;died trying to tame oxen;;;;;;;;;x
-death_dragon;was burned to death in dragon fire;died trying to tame oxen;died trying to tame oxen;;died trying to tame oxen;;;;;;;;;x
-death_gorgon;was turned to stone by a gorgon's gaze;died trying to tame oxen;died trying to tame oxen;;died trying to tame oxen;;;;;;;;;x
-BM_MYTH_AND_MAGIC;Myth and Magic;Myth and Magic;Myth and Magic;;Myth and Magic;;;;;;;;;x
-BM_MYTH_AND_MAGIC_DESC;Long before the renaissance, when the old gods were still strong and the world was not so well known, men of myth and magic still walked the Earth, though their deeds are now forgotten. Giants roamed in the north, undying men with the blood of wolves and bats inspired the fear of the world, and some dabbled in the mystical arts. Through the ages their history became legend, and legend became myth, but in another time, they might instead thrive.;Myth and Magic;Myth and Magic;;Myth and Magic;;;;;;;;;x
-EVTNAMEMYTH.1;Cursed!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.1;Ever since you insulted that shaman on the streets, you've been feeling deathly ill, and a hunger like none you've ever experienced...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.1;Brains?;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.2;Form the Horde;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.2;As you succumb to the hunger and lose your last ounce of humanity, you know that just as you led in life, so too shall you lead in death.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.2;Glory to the Horde!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.3;Faith Lost;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.3;As the curse drains your mind, so too does it drain your faith. You find that you no longer believe in anything but whatever force brought you back from the grave.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.3;The gods have no power here.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.4;The Horde Grows;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.4;With our recent success, the horde grows in size, and our enemies' dead rise up to join us.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.4;Glory to the Horde!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.5;Submit to the Horde.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.5;As your realm and your body crumbles to the plague, you join your join your strength to the all-consuming horde.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.5;Glory to the Horde!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.6;You Grow Stronger;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.6;As an immortal, the long decades do not wear away at you, but instead make you healthier. You awaken today feeling wiser and stronger than ever before.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.6;Better already.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.7;Potion Success;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.7;Success! The potion worked marvelously, and your love life seems better already.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.7;Excellent.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.8;Potion Failure;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.8;Failure! Not only has the potion failed to induce any romance, but it seems to have had some... unintended consequences.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.8;Curses!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.9;Alchemy Success;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.9;Success! You have done what was thought to be impossible and turned iron into gold.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.9;Marvellous!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.10;Alchemy Failure;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.10;You set out to turn iron into gold, but it seems you've somehow managed to turn all of the gold into iron.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.10;Damn.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.11;Summoning Success;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.11;The ethereal army has arrived just as planned. Your other soldiers are somewhat ill at ease, but you simply tell them that the ghosts are their ancestors to put their fears to rest.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.11;Excellent.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.12;Summoning Failure;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.12;The ethereal army was summoned successfully, but it seems to be fighting for the wrong side.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.12;Oops.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.13;Mysterious Ghost Army;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.13;A strange army of what appears to be ghosts has materialized near your forces. At first your men were terrified, but they seem to be friendly.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.13;Uhh... right, then.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.14;Giant Emergence;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.14;In your travels, you've noticed that everyone you meet outside your realm is incredibly tiny. Or perhaps you and your folk are just very large.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.14;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.15;Plague Spreads;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.15;As the horde spreads over your realm and you are finally defeated, you succumb to the plague yourself.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.15;Truly, all is lost.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.16;Spouse Ravaged;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.16;In the bedchamber last night, you found yourself so excited that your more bestial side may have emerged for a moment.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.16;Oh, it's just a scratch.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.17;Spouse Embraced;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.17;In the bedchamber last night, you seemed to regain the desire of your younger days. Some biting may have been involved.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.17;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.18;Peasant Revolt;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.18;The filthy peasants are up in arms! They say they refuse to be ruled by a monster.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.18;Damn them!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.19;Revolt!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.19;The local peasants have revolted! They're outraged that our ruler is a savage monster.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.19;Understandable.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.20;Egyptian Tombs;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.20;The Egyptians have many tombs in which they buried their ancestors. Tales say they buried many riches as well.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.20;We must investigate.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.20;We should not disturb these graves.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.21;Expedition Lost;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.21;It has been weeks since the explorers set out to the tombs in search of wealth, but they have not returned.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.21;We must have this treasure!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.21;Perhaps it would be best to leave it be.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.22;Expedition Success;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.22;Our explorers have returned, having plundered the Egyptian tombs and bringing with them as much gold as they could carry.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.22;A worthwhile expedition.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.23;Mummy Rising;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.23;The new explorers were never heard from again, and in their place the very dead that occupied the tombs have risen to fight back!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.23;Disaster!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.24;Rameses Reborn;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.24;After millenia of slumber, you have returned and taken back the kingdom that is rightfully yours.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.24;As is only right.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.25;Werewolf Limb Regeneration;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.25;Though your crippling injury might have been fatal for normal men, for one of the wolf, even the worst of wounds heal with time.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.25;Much better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.26;Immortal Wound Heals;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.26;Common men may struggle with injuries for ages and remain scarred forever. An immortal such as yourself need not worry about such things.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.26;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.27;Werewolf Eats Prisoner;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.27;Last night was a full moon, and though you tried to restrain yourself, you became the wolf again and broke free of your chambers. While you don't remember exactly what happened, you fear your court is a head smaller today.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.27;Acknowledge your mistake and apologize.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.27;Cover it up.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.28;The Search for Solomon;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.28;Legends say that the great king Solomon once held a powerful ring that allowed him great powers. Some say he could even command a legion of djinn to do his bidding. The man who possessed this ring would be powerful indeed.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.28;We must have it!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.28;Meaningless superstition.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.29;Seal of Solomon not Found;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.29;Despite your men's best efforts, no sign has yet been uncovered of this powerful ring of Solomon. Some doubt it even exists.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.29;Try harder!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.29;Oh well...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.30;Seal of Solomon;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.30;At last! Your men return from their quest and hand you the legendary Seal of Solomon. As you place it on your finger, you know that your kingdom's power will know no bounds.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.30;Glorious!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.31;Djinni Powers Awaken;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.31;As one of the Djinn, you excell in what mortal men would call magic. While some such men dabble in these arts, your powers go beyond what they will ever achieve.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.31;Indeed.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.32;Immortal Wound Heals;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.32;Common men may struggle with weakness and remain feeble forever. An immortal such as yourself need not worry about such things.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.32;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.33;Immortal Wound Heals;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.33;Your mind had grown weak, and lesser men said it would last forever. As an immortal, you know that nothing is eternal... except perhaps yourself.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.33;Much better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.34;Half-Giant;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.34;You realize upon reflection that your parents are of dramatically different heights, and find yourself somewhere in between.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.34;Oh well.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.35;Fledgling;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.35;As your sire was, so too shall you be. You may not be as powerful for now, but you will be a true vampire in time.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.35;Indeed.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.36;Fledgling grows.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.36;As you reach maturity, so too do your powers. You are now a true vampire.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.36;Excellent.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.37;Pup;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.37;As your sire was, so too shall you be. You may not be as powerful for now, but you will be a true werewolf in time.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.37;Indeed.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.38;Pup grows.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.38;As you reach maturity, so too do your powers. You are now a true werewolf.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.38;Excellent.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.39;Son of Solomon;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.39;You now lead Solomon's Legion, and can truly call yourself as great as King Solomon himself.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.39;Glorious!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.40;Solomon's Legion Lost;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.40;You have lost control of Solomon's Legion, and all of the prestige that goes with it.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.40;Damn.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.41;Rumors of the Stone;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.41;With your recent successes in alchemy, you've gained an interest in the legendary Philosopher's Stone. It is said that it not only allows easy transmutation, but can even make one immortal. While the secrets to crafting it have long been lost, rumors have reached you of fragments buried with long-dead wizards. With enough of these, you could re-forge a whole Stone.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.41;I must have it!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.41;A mere old superstition.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.42;Stone Not Found;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.42;Your men have returned empty-handed. The graves they dug up were filled only with useless relics and bones.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.42;Search harder!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.42;Perhaps it is a waste of time.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.43;Stone Found;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.43;Success! Your men returned with enough pieces of the material that you were able to assemble the Philosopher's Stone. As you first hold it in your hands, you know that untold wealth and power will be yours for all time.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.43;Glorious!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.44;Religious Conversion;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.44;The spell was cast successfully, and already your errant followers begin to appreciate the true faith.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.44;Excellent.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.45;Satanists Expelled;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.45;The devil-worshippers have been expelled from our holy realm. We hope to never see their kind again.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.45;Good riddance.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.46;The Knights of Helsing;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.46;With the rise of ungodly monsters laying waste to the world, an increasing number of men loyal to the church have begun to organize against them. A Dutch scholar by the name of Van Helsing has founded an order of knights for these so called monster hunters, in the hopes that they might fight back against the growing hordes of demons.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.46;Godspeed to them.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.47;Monster Hunter;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.47;After spending many weeks with your fellow knights training in ways to hunt the demons of the world, you feel you can truly call yourself a monster hunter.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.47;I shall fear no evil.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.48;Vampire Succession;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.48;You have founded an empire of immortals, and named yourself Archsire as first among them. Henceforth, the oldest of the vampires shall rule them all.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.48;It is only fitting.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.49;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.49;One of your subjects, an arrogant pup who thinks himself strong, has dared to challenge you in single combat for rule of the wolves. The duel is to the death, but refusing it would make you seem a coward.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.49;Of course I must accept!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.49;But I might actually lose...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.50;Challenge Accepted;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.50;As expected, your liege has accepted your challenge. You will battle him in two weeks time.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.50;He will die like the dog he is.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.51;Challenge Refused;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.51;Your liege has refused your right to challenge him, dishonoring himself in the process.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.51;That coward will pay for this!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.52;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.52;The duel begins at sunset. You and your opponent shift forms as the moon rises over the night sky, both knowing that only one will see tomorrow.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.52;Strike hard and fast.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.52;Pause, and wait for your opponent to move.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.53;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.53;Your opponent lunges at you quickly, and you move to deflect the strike. Too late, you realize that the attack was a feint, and you soon find sharp teeth in your neck. You are flung to the ground, bleeding badly and unable to retaliate any longer.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.53;This is the end, then.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.54;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.54;Your opponent lunges at you quickly but hastily. You deftly deflect the attack, and send him several paces behind you with his own momentum, giving you a chance to strike back.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.54;Strike hard and fast.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.54;Pause, and wait for your opponent to move.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.55;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.55;Your opponent pauses in the combat, awaiting your move.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.55;Take advantage of his hesitation.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.55;Wait for him to strike first.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.56;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.56;Your attack was successful! You tear out half of your opponent's throat in a lunge at his neck, and he now lies defeated and bleeding heavily beneath you.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.56;Finish it.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.57;Werewolf Challenge;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.57;Your opponent has defeated you utterly, and deals you the killing blow as you are helpless to resist.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.57;It was a battle worthy of the greatest of warriors.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.58;Godhood;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.58;Your parents are gods, and so shall you be.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.58;Excellent.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.59;Demi-godhood.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.59;As you grow older, you realize that you are different from other children: stronger, faster, and even wiser. You wonder why this is, but try not to question your gifts too heavily.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.59;Perhaps I am more than a man...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.60;Wife Impregnated by Zeus;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.60;Your wife has told you a strange tale. She recounts how last night as she was going for a walk, a beautiful swan appeared to her. Unable to resist its charms, she spent the night in its embrace.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.60;... What?!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.61;Wife Impregnated by Zeus;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.61;You recall a strange dream last night in which a beautiful swan appeared to you and seduce you. Of course, you pass off this dream as mere nonsense.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.61;Still, how strange.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.62;Quest Begins;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.62;You have assembled your party and made all preparations. Now you need only decide to where your quest will take you.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.62;I shall seek the golden fleece.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.62;I shall slay the legendary gorgon, Medusa.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTCMYTH.62;On second thought, these quests sound dangerous.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.63;Fleece 1;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.63;You have followed rumors of the fleece to a remote land across the Black Sea. An old man, claiming to be king in these lands, tells you that he posesses it, and will give it to you only if you should pass three arduous trials, any of which may claim your life.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.63;Bring on your trials, sir.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.63;These trials sound dangerous...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.64;Fleece Oxen;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.64;You arrive at the first of your trials, where you are told you must plow a field. You rejoice at the trial's ease when you see two oxen ready to pull your plow, until you realize that the oxen are ablaze with magical fire.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.64;I must tame these unholy beasts!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.65;Fleece Army;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.65;You return from the field, singed but alive. The old man tells you that you must now sow the same field, and hands you what he claims are dragon's teeth to sow. Reluctantly, you spread them throughout the field. To your horror, an army of soldiers soon sprouts from the ground and moves against you.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.65;To arms, men! We must repel these demons!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.65;Cast a stone amongst them to confuse the host.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.66;Fleece Dragon;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.66;The battle was fierce, but you eventually emerge victorious. The old man, who you've come to resent, takes you to a large cave and tells you that the fleece awaits within. You enter, and find that he speaks the truth... but a dragon stands guard in front of it.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.66;Attempt to steal the fleece from the dragon.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.66;Persuade the dragon that you are a worthy bearer of the fleece.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.67;Fleece Dragon2;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.67;Your stone causes chaos among the ranks of your enemy, causing them to turn on one another. You make quick work of those that remain. The old man takes you to a large cave and tells you that the fleece awaits within. You enter, and find that he speaks the truth... but a dragon stands guard in front of it.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.67;Attempt to steal the fleece from the dragon.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.67;Persuade the dragon that you are a worthy bearer of the fleece.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.68;Fleece Success 1;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.68;As if the burns from the oxen weren't enough, the dragonfire stings hot as you quickly snatch the fleece and flee the cave. You are victorious, though some of your men were not so lucky.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.68;A glorious victory.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.69;Fleece Victory 2;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.69;You speak with the dragon for hours, discussing many topics and even enjoying yourself in the process. Night has fallen when the dragon decides that you are indeed worthy of the fleece, which it hands to you and bids you good fortune.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.69;The fleece is mine at last.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.70;Medusa 1;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.70;You arrive at the supposed location of Medusa, a hideous gorgon whose very gaze is said to turn men to stone.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.70;This beast cannot be suffered to live.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.70;On second thought, it sounds like a frightening creature.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.71;Medusa 2;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.71;You enter the beast's lair, and see evidence of its horrible powers. Unbelivably life-like statutes of men litter the cavern, and reflective steel lines several walls, perhaps to allow the beast to find its prey more easily. You see movement on the far side of the room.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.71;Close your eyes and attempt to fight the beast.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.71;Use the mirrored walls to fight the beast without looking directly at it.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.72;Medusa 3;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.72;The fight is difficult without the benefit of your sight, but you eventually succeed in killing the hideous gorgon. You take its head as a prize, careful not to look at it while you do so.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.72;Another fell beast removed from the world.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.73;Medusa 4;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.73;Using the walls, you find the monster stalking you from behind a pillar. Remarkably, it doesn't seem to notice the same technique, and you surprise it, severing its head in a single blow. Careful not to meet even its dead gaze, you take the head as a trophy.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.73;A glorious victory.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.74;Zeus 2;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.74;You had your fun last night, but it may not be without consequence.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.74;Oh well.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.75;Zeus 1;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.75;It has been a long time since you indulged your carnal desires. You decide to head down to the realm of mortals for some fun.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.75;OK;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.76;Concubine made your ghoul;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.76;In the bedchamber last night, you seemed to regain the desire of your younger days. You decide to preserve your concubine by feeding her your blood.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.76;So much the better.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.77;Embraced among vampires;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.77;Your captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.77;Centuries await!.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.78;Turned into a ghoul;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.78;Your captor forced you to drink his vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.78;What will I do?.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.79;You visit [From.GetTitledFirstName] in the dungeon.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.79;You visit [Root.GetTitledFirstName] in his cell and think about the endless possibilities..;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.79;Drink all blood of [Root.GetTitledFirstName] to the last drop.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.79;Turn [From.GetTitledFirstName] into ghoul.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTCMYTH.79;Embrace [From.GetTitledFirstName] among vampires.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTDMYTH.79;Perhaps later...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.80;You summon [From.GetTitledFirstName] to make an announcement.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.80;[Root.GetTitledFirstName] comes before you. Do I want to tell him something?;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.80;Stop feeding [Root.GetTitledFirstName] your blood.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTBMYTH.80;Embrace [From.GetTitledFirstName] among vampires.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTCMYTH.80;Perhaps later...;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.81;[From.GetTitledFirstName] will not feed you vampire blood anymore.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.81;[From.GetTitledFirstName] denounces me and tells me I am no longer wothy of the gift of ghouldom. Have I done something wrong?;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.81;What will I do?;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.82;Vampire blood weakens;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.82;Living with constant cold turkey without the presious unholy vampiric blood takes its toll. You are not immortal anymore. ;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.82;Curses!;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTNAMEMYTH.83;Ghoul without master seeks your help;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTDESCMYTH.83;Ghoul recently denounced by his former master seeks and desperately begs for my help. Should I accept him into my service?;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.83;Indeed.;Satanist;Satanist;;Satanist;;;;;;;;;x
-EVTOPTAMYTH.83;Get out of my sight!;Satanist;Satanist;;Satanist;;;;;;;;;x
+e_djinni_modifer;Djinni Firethrowers;;;;;;;;;;;;;x
+djinni_culture_modifer;Djinni Firethrowers;;;;;;;;;;;;;x
+e_zombie_modifier;Zombies;;;;;;;;;;;;;x
+zombie_culture_modifier;Zombies;;;;;;;;;;;;;x
+zombie_invasion_desc;The horde attacks another realm.;;;;;;;;;;;;;x
+challenged_emperor;Challenged Emperor;;;;;;;;;;;;;x
+challenged_emperor_desc;Has recently issued a challenge for dominance of the empire and cannot do so again for 5 years.;;;;;;;;;;;;;x
+cast_spell;Cast Spell;;;;;;;;;;;;;x
+cast_spell_desc;Has recently cast a spell and must wait before performing any more magic.;;;;;;;;;;;;;x
+has_quested;Has Quested;;;;;;;;;;;;;x
+has_quested_desc;This character has been on a grand quest, and cannot do so again.;;;;;;;;;;;;;x
+golden_fleece;Golden Fleece;;;;;;;;;;;;;x
+golden_fleece_desc;This character bears the legendary golden fleece, granting a more illustrious rule.;;;;;;;;;;;;;x
+medusa_head;Medusa's Head;;;;;;;;;;;;;x
+medusa_head_desc;This character bears the head of the legendary gorgon Medusa, a fearsome and deadly sight on the fields of battle.;;;;;;;;;;;;;x
+minor_aura;Minor Aura;;;;;;;;;;;;;x
+minor_aura_desc;This character exudes a friendly aura.;;;;;;;;;;;;;x
+persuasive_aura;Persuasive Aura;;;;;;;;;;;;;x
+persuasive_aura_desc;This character exudes a persuasive aura.;;;;;;;;;;;;;x
+powerful_aura;Powerful Aura;;;;;;;;;;;;;x
+powerful_aura_desc;This character exudes a powerfully persuasive aura.;;;;;;;;;;;;;x
+expelled_satanists;Expelled Luciferians;;;;;;;;;;;;;x
+expelled_satanists_desc;This character has expelled all Luciferians from the realm.;;;;;;;;;;;;;x
+werewolf_challenge;Challenge the Emperor;;;;;;;;;;;;;x
+werewolf_challenge_desc;Stake your life on a battle to rule your kin.;;;;;;;;;;;;;x
+death_oxen;died trying to tame oxen;;;;;;;;;;;;;x
+death_dragon;was burned to death in dragon fire;;;;;;;;;;;;;x
+death_gorgon;was turned to stone by a gorgon's gaze;;;;;;;;;;;;;x
+BM_MYTH_AND_MAGIC;Myth and Magic;;;;;;;;;;;;;x
+BM_MYTH_AND_MAGIC_DESC;Long before the renaissance, when the old gods were still strong and the world was not so well known, men of myth and magic still walked the Earth, though their deeds are now forgotten. Giants roamed in the north, undying men with the blood of wolves and bats inspired the fear of the world, and some dabbled in the mystical arts. Through the ages their history became legend, and legend became myth, but in another time, they might instead thrive.;;;;;;;;;;;;;x
+EVTNAMEMYTH.1;Cursed!;;;;;;;;;;;;;x
+EVTDESCMYTH.1;Ever since you insulted that shaman on the streets, you've been feeling deathly ill, and a hunger like none you've ever experienced...;;;;;;;;;;;;;x
+EVTOPTAMYTH.1;Brains?;;;;;;;;;;;;;x
+EVTNAMEMYTH.2;Form the Horde;;;;;;;;;;;;;x
+EVTDESCMYTH.2;As you succumb to the hunger and lose your last ounce of humanity, you know that just as you led in life, so too shall you lead in death.;;;;;;;;;;;;;x
+EVTOPTAMYTH.2;Glory to the Horde!;;;;;;;;;;;;;x
+EVTNAMEMYTH.3;Faith Lost;;;;;;;;;;;;;x
+EVTDESCMYTH.3;As the curse drains your mind, so too does it drain your faith. You find that you no longer believe in anything but whatever force brought you back from the grave.;;;;;;;;;;;;;x
+EVTOPTAMYTH.3;The gods have no power here.;;;;;;;;;;;;;x
+EVTNAMEMYTH.4;The Horde Grows;;;;;;;;;;;;;x
+EVTDESCMYTH.4;With our recent success, the horde grows in size, and our enemies' dead rise up to join us.;;;;;;;;;;;;;x
+EVTOPTAMYTH.4;Glory to the Horde!;;;;;;;;;;;;;x
+EVTNAMEMYTH.5;Submit to the Horde.;;;;;;;;;;;;;x
+EVTDESCMYTH.5;As your realm and your body crumbles to the plague, you join your join your strength to the all-consuming horde.;;;;;;;;;;;;;x
+EVTOPTAMYTH.5;Glory to the Horde!;;;;;;;;;;;;;x
+EVTNAMEMYTH.6;You Grow Stronger;;;;;;;;;;;;;x
+EVTDESCMYTH.6;As an immortal, the long decades do not wear away at you, but instead make you healthier. You awaken today feeling wiser and stronger than ever before.;;;;;;;;;;;;;x
+EVTOPTAMYTH.6;Better already.;;;;;;;;;;;;;x
+EVTNAMEMYTH.7;Potion Success;;;;;;;;;;;;;x
+EVTDESCMYTH.7;Success! The potion worked marvelously, and your love life seems better already.;;;;;;;;;;;;;x
+EVTOPTAMYTH.7;Excellent.;;;;;;;;;;;;;x
+EVTNAMEMYTH.8;Potion Failure;;;;;;;;;;;;;x
+EVTDESCMYTH.8;Failure! Not only has the potion failed to induce any romance, but it seems to have had some... unintended consequences.;;;;;;;;;;;;;x
+EVTOPTAMYTH.8;Curses!;;;;;;;;;;;;;x
+EVTNAMEMYTH.9;Alchemy Success;;;;;;;;;;;;;x
+EVTDESCMYTH.9;Success! You have done what was thought to be impossible and turned iron into gold.;;;;;;;;;;;;;x
+EVTOPTAMYTH.9;Marvellous!;;;;;;;;;;;;;x
+EVTNAMEMYTH.10;Alchemy Failure;;;;;;;;;;;;;x
+EVTDESCMYTH.10;You set out to turn iron into gold, but it seems you've somehow managed to turn all of the gold into iron.;;;;;;;;;;;;;x
+EVTOPTAMYTH.10;Damn.;;;;;;;;;;;;;x
+EVTNAMEMYTH.11;Summoning Success;;;;;;;;;;;;;x
+EVTDESCMYTH.11;The ethereal army has arrived just as planned. Your other soldiers are somewhat ill at ease, but you simply tell them that the ghosts are their ancestors to put their fears to rest.;;;;;;;;;;;;;x
+EVTOPTAMYTH.11;Excellent.;;;;;;;;;;;;;x
+EVTNAMEMYTH.12;Summoning Failure;;;;;;;;;;;;;x
+EVTDESCMYTH.12;The ethereal army was summoned successfully, but it seems to be fighting for the wrong side.;;;;;;;;;;;;;x
+EVTOPTAMYTH.12;Oops.;;;;;;;;;;;;;x
+EVTNAMEMYTH.13;Mysterious Ghost Army;;;;;;;;;;;;;x
+EVTDESCMYTH.13;A strange army of what appears to be ghosts has materialized near your forces. At first your men were terrified, but they seem to be friendly.;;;;;;;;;;;;;x
+EVTOPTAMYTH.13;Uhh... right, then.;;;;;;;;;;;;;x
+EVTNAMEMYTH.14;Giant Emergence;;;;;;;;;;;;;x
+EVTDESCMYTH.14;In your travels, you've noticed that everyone you meet outside your realm is incredibly tiny. Or perhaps you and your folk are just very large.;;;;;;;;;;;;;x
+EVTOPTAMYTH.14;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.15;Plague Spreads;;;;;;;;;;;;;x
+EVTDESCMYTH.15;As the horde spreads over your realm and you are finally defeated, you succumb to the plague yourself.;;;;;;;;;;;;;x
+EVTOPTAMYTH.15;Truly, all is lost.;;;;;;;;;;;;;x
+EVTNAMEMYTH.16;Spouse Ravaged;;;;;;;;;;;;;x
+EVTDESCMYTH.16;In the bedchamber last night, you found yourself so excited that your more bestial side may have emerged for a moment.;;;;;;;;;;;;;x
+EVTOPTAMYTH.16;Oh, it's just a scratch.;;;;;;;;;;;;;x
+EVTNAMEMYTH.17;Spouse Embraced;;;;;;;;;;;;;x
+EVTDESCMYTH.17;In the bedchamber last night, you seemed to regain the desire of your younger days. Some biting may have been involved.;;;;;;;;;;;;;x
+EVTOPTAMYTH.17;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.18;Peasant Revolt;;;;;;;;;;;;;x
+EVTDESCMYTH.18;The filthy peasants are up in arms! They say they refuse to be ruled by a monster.;;;;;;;;;;;;;x
+EVTOPTAMYTH.18;Damn them!;;;;;;;;;;;;;x
+EVTNAMEMYTH.19;Revolt!;;;;;;;;;;;;;x
+EVTDESCMYTH.19;The local peasants have revolted! They're outraged that our ruler is a savage monster.;;;;;;;;;;;;;x
+EVTOPTAMYTH.19;Understandable.;;;;;;;;;;;;;x
+EVTNAMEMYTH.20;Egyptian Tombs;;;;;;;;;;;;;x
+EVTDESCMYTH.20;The Egyptians have many tombs in which they buried their ancestors. Tales say they buried many riches as well.;;;;;;;;;;;;;x
+EVTOPTAMYTH.20;We must investigate.;;;;;;;;;;;;;x
+EVTOPTBMYTH.20;We should not disturb these graves.;;;;;;;;;;;;;x
+EVTNAMEMYTH.21;Expedition Lost;;;;;;;;;;;;;x
+EVTDESCMYTH.21;It has been weeks since the explorers set out to the tombs in search of wealth, but they have not returned.;;;;;;;;;;;;;x
+EVTOPTAMYTH.21;We must have this treasure!;;;;;;;;;;;;;x
+EVTOPTBMYTH.21;Perhaps it would be best to leave it be.;;;;;;;;;;;;;x
+EVTNAMEMYTH.22;Expedition Success;;;;;;;;;;;;;x
+EVTDESCMYTH.22;Our explorers have returned, having plundered the Egyptian tombs and bringing with them as much gold as they could carry.;;;;;;;;;;;;;x
+EVTOPTAMYTH.22;A worthwhile expedition.;;;;;;;;;;;;;x
+EVTNAMEMYTH.23;Mummy Rising;;;;;;;;;;;;;x
+EVTDESCMYTH.23;The new explorers were never heard from again, and in their place the very dead that occupied the tombs have risen to fight back!;;;;;;;;;;;;;x
+EVTOPTAMYTH.23;Disaster!;;;;;;;;;;;;;x
+EVTNAMEMYTH.24;Rameses Reborn;;;;;;;;;;;;;x
+EVTDESCMYTH.24;After millenia of slumber, you have returned and taken back the kingdom that is rightfully yours.;;;;;;;;;;;;;x
+EVTOPTAMYTH.24;As is only right.;;;;;;;;;;;;;x
+EVTNAMEMYTH.25;Werewolf Limb Regeneration;;;;;;;;;;;;;x
+EVTDESCMYTH.25;Though your crippling injury might have been fatal for normal men, for one of the wolf, even the worst of wounds heal with time.;;;;;;;;;;;;;x
+EVTOPTAMYTH.25;Much better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.26;Immortal Wound Heals;;;;;;;;;;;;;x
+EVTDESCMYTH.26;Common men may struggle with injuries for ages and remain scarred forever. An immortal such as yourself need not worry about such things.;;;;;;;;;;;;;x
+EVTOPTAMYTH.26;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.27;Werewolf Eats Prisoner;;;;;;;;;;;;;x
+EVTDESCMYTH.27;Last night was a full moon, and though you tried to restrain yourself, you became the wolf again and broke free of your chambers. While you don't remember exactly what happened, you fear your court is a head smaller today.;;;;;;;;;;;;;x
+EVTOPTAMYTH.27;Acknowledge your mistake and apologize.;;;;;;;;;;;;;x
+EVTOPTBMYTH.27;Cover it up.;;;;;;;;;;;;;x
+EVTNAMEMYTH.28;The Search for Solomon;;;;;;;;;;;;;x
+EVTDESCMYTH.28;Legends say that the great king Solomon once held a powerful ring that allowed him great powers. Some say he could even command a legion of djinn to do his bidding. The man who possessed this ring would be powerful indeed.;;;;;;;;;;;;;x
+EVTOPTAMYTH.28;We must have it!;;;;;;;;;;;;;x
+EVTOPTBMYTH.28;Meaningless superstition.;;;;;;;;;;;;;x
+EVTNAMEMYTH.29;Seal of Solomon not Found;;;;;;;;;;;;;x
+EVTDESCMYTH.29;Despite your men's best efforts, no sign has yet been uncovered of this powerful ring of Solomon. Some doubt it even exists.;;;;;;;;;;;;;x
+EVTOPTAMYTH.29;Try harder!;;;;;;;;;;;;;x
+EVTOPTBMYTH.29;Oh well...;;;;;;;;;;;;;x
+EVTNAMEMYTH.30;Seal of Solomon;;;;;;;;;;;;;x
+EVTDESCMYTH.30;At last! Your men return from their quest and hand you the legendary Seal of Solomon. As you place it on your finger, you know that your kingdom's power will know no bounds.;;;;;;;;;;;;;x
+EVTOPTAMYTH.30;Glorious!;;;;;;;;;;;;;x
+EVTNAMEMYTH.31;Djinni Powers Awaken;;;;;;;;;;;;;x
+EVTDESCMYTH.31;As one of the Djinn, you excell in what mortal men would call magic. While some such men dabble in these arts, your powers go beyond what they will ever achieve.;;;;;;;;;;;;;x
+EVTOPTAMYTH.31;Indeed.;;;;;;;;;;;;;x
+EVTNAMEMYTH.32;Immortal Wound Heals;;;;;;;;;;;;;x
+EVTDESCMYTH.32;Common men may struggle with weakness and remain feeble forever. An immortal such as yourself need not worry about such things.;;;;;;;;;;;;;x
+EVTOPTAMYTH.32;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.33;Immortal Wound Heals;;;;;;;;;;;;;x
+EVTDESCMYTH.33;Your mind had grown weak, and lesser men said it would last forever. As an immortal, you know that nothing is eternal... except perhaps yourself.;;;;;;;;;;;;;x
+EVTOPTAMYTH.33;Much better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.34;Half-Giant;;;;;;;;;;;;;x
+EVTDESCMYTH.34;You realize upon reflection that your parents are of dramatically different heights, and find yourself somewhere in between.;;;;;;;;;;;;;x
+EVTOPTAMYTH.34;Oh well.;;;;;;;;;;;;;x
+EVTNAMEMYTH.35;Fledgling;;;;;;;;;;;;;x
+EVTDESCMYTH.35;As your sire was, so too shall you be. You may not be as powerful for now, but you will be a true vampire in time.;;;;;;;;;;;;;x
+EVTOPTAMYTH.35;Indeed.;;;;;;;;;;;;;x
+EVTNAMEMYTH.36;Fledgling grows.;;;;;;;;;;;;;x
+EVTDESCMYTH.36;As you reach maturity, so too do your powers. You are now a true vampire.;;;;;;;;;;;;;x
+EVTOPTAMYTH.36;Excellent.;;;;;;;;;;;;;x
+EVTNAMEMYTH.37;Pup;;;;;;;;;;;;;x
+EVTDESCMYTH.37;As your sire was, so too shall you be. You may not be as powerful for now, but you will be a true werewolf in time.;;;;;;;;;;;;;x
+EVTOPTAMYTH.37;Indeed.;;;;;;;;;;;;;x
+EVTNAMEMYTH.38;Pup grows.;;;;;;;;;;;;;x
+EVTDESCMYTH.38;As you reach maturity, so too do your powers. You are now a true werewolf.;;;;;;;;;;;;;x
+EVTOPTAMYTH.38;Excellent.;;;;;;;;;;;;;x
+EVTNAMEMYTH.39;Son of Solomon;;;;;;;;;;;;;x
+EVTDESCMYTH.39;You now lead Solomon's Legion, and can truly call yourself as great as King Solomon himself.;;;;;;;;;;;;;x
+EVTOPTAMYTH.39;Glorious!;;;;;;;;;;;;;x
+EVTNAMEMYTH.40;Solomon's Legion Lost;;;;;;;;;;;;;x
+EVTDESCMYTH.40;You have lost control of Solomon's Legion, and all of the prestige that goes with it.;;;;;;;;;;;;;x
+EVTOPTAMYTH.40;Damn.;;;;;;;;;;;;;x
+EVTNAMEMYTH.41;Rumors of the Stone;;;;;;;;;;;;;x
+EVTDESCMYTH.41;With your recent successes in alchemy, you've gained an interest in the legendary Philosopher's Stone. It is said that it not only allows easy transmutation, but can even make one immortal. While the secrets to crafting it have long been lost, rumors have reached you of fragments buried with long-dead wizards. With enough of these, you could re-forge a whole Stone.;;;;;;;;;;;;;x
+EVTOPTAMYTH.41;I must have it!;;;;;;;;;;;;;x
+EVTOPTBMYTH.41;A mere old superstition.;;;;;;;;;;;;;x
+EVTNAMEMYTH.42;Stone Not Found;;;;;;;;;;;;;x
+EVTDESCMYTH.42;Your men have returned empty-handed. The graves they dug up were filled only with useless relics and bones.;;;;;;;;;;;;;x
+EVTOPTAMYTH.42;Search harder!;;;;;;;;;;;;;x
+EVTOPTBMYTH.42;Perhaps it is a waste of time.;;;;;;;;;;;;;x
+EVTNAMEMYTH.43;Stone Found;;;;;;;;;;;;;x
+EVTDESCMYTH.43;Success! Your men returned with enough pieces of the material that you were able to assemble the Philosopher's Stone. As you first hold it in your hands, you know that untold wealth and power will be yours for all time.;;;;;;;;;;;;;x
+EVTOPTAMYTH.43;Glorious!;;;;;;;;;;;;;x
+EVTNAMEMYTH.44;Religious Conversion;;;;;;;;;;;;;x
+EVTDESCMYTH.44;The spell was cast successfully, and already your errant followers begin to appreciate the true faith.;;;;;;;;;;;;;x
+EVTOPTAMYTH.44;Excellent.;;;;;;;;;;;;;x
+EVTNAMEMYTH.45;Satanists Expelled;;;;;;;;;;;;;x
+EVTDESCMYTH.45;The devil-worshippers have been expelled from our holy realm. We hope to never see their kind again.;;;;;;;;;;;;;x
+EVTOPTAMYTH.45;Good riddance.;;;;;;;;;;;;;x
+EVTNAMEMYTH.46;The Knights of Helsing;;;;;;;;;;;;;x
+EVTDESCMYTH.46;With the rise of ungodly monsters laying waste to the world, an increasing number of men loyal to the church have begun to organize against them. A Dutch scholar by the name of Van Helsing has founded an order of knights for these so called monster hunters, in the hopes that they might fight back against the growing hordes of demons.;;;;;;;;;;;;;x
+EVTOPTAMYTH.46;Godspeed to them.;;;;;;;;;;;;;x
+EVTNAMEMYTH.47;Monster Hunter;;;;;;;;;;;;;x
+EVTDESCMYTH.47;After spending many weeks with your fellow knights training in ways to hunt the demons of the world, you feel you can truly call yourself a monster hunter.;;;;;;;;;;;;;x
+EVTOPTAMYTH.47;I shall fear no evil.;;;;;;;;;;;;;x
+EVTNAMEMYTH.48;Vampire Succession;;;;;;;;;;;;;x
+EVTDESCMYTH.48;You have founded an empire of immortals, and named yourself Archsire as first among them. Henceforth, the oldest of the vampires shall rule them all.;;;;;;;;;;;;;x
+EVTOPTAMYTH.48;It is only fitting.;;;;;;;;;;;;;x
+EVTNAMEMYTH.49;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.49;One of your subjects, an arrogant pup who thinks himself strong, has dared to challenge you in single combat for rule of the wolves. The duel is to the death, but refusing it would make you seem a coward.;;;;;;;;;;;;;x
+EVTOPTAMYTH.49;Of course I must accept!;;;;;;;;;;;;;x
+EVTOPTBMYTH.49;But I might actually lose...;;;;;;;;;;;;;x
+EVTNAMEMYTH.50;Challenge Accepted;;;;;;;;;;;;;x
+EVTDESCMYTH.50;As expected, your liege has accepted your challenge. You will battle him in two weeks time.;;;;;;;;;;;;;x
+EVTOPTAMYTH.50;He will die like the dog he is.;;;;;;;;;;;;;x
+EVTNAMEMYTH.51;Challenge Refused;;;;;;;;;;;;;x
+EVTDESCMYTH.51;Your liege has refused your right to challenge him, dishonoring himself in the process.;;;;;;;;;;;;;x
+EVTOPTAMYTH.51;That coward will pay for this!;;;;;;;;;;;;;x
+EVTNAMEMYTH.52;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.52;The duel begins at sunset. You and your opponent shift forms as the moon rises over the night sky, both knowing that only one will see tomorrow.;;;;;;;;;;;;;x
+EVTOPTAMYTH.52;Strike hard and fast.;;;;;;;;;;;;;x
+EVTOPTBMYTH.52;Pause, and wait for your opponent to move.;;;;;;;;;;;;;x
+EVTNAMEMYTH.53;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.53;Your opponent lunges at you quickly, and you move to deflect the strike. Too late, you realize that the attack was a feint, and you soon find sharp teeth in your neck. You are flung to the ground, bleeding badly and unable to retaliate any longer.;;;;;;;;;;;;;x
+EVTOPTAMYTH.53;This is the end, then.;;;;;;;;;;;;;x
+EVTNAMEMYTH.54;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.54;Your opponent lunges at you quickly but hastily. You deftly deflect the attack, and send him several paces behind you with his own momentum, giving you a chance to strike back.;;;;;;;;;;;;;x
+EVTOPTAMYTH.54;Strike hard and fast.;;;;;;;;;;;;;x
+EVTOPTBMYTH.54;Pause, and wait for your opponent to move.;;;;;;;;;;;;;x
+EVTNAMEMYTH.55;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.55;Your opponent pauses in the combat, awaiting your move.;;;;;;;;;;;;;x
+EVTOPTAMYTH.55;Take advantage of his hesitation.;;;;;;;;;;;;;x
+EVTOPTBMYTH.55;Wait for him to strike first.;;;;;;;;;;;;;x
+EVTNAMEMYTH.56;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.56;Your attack was successful! You tear out half of your opponent's throat in a lunge at his neck, and he now lies defeated and bleeding heavily beneath you.;;;;;;;;;;;;;x
+EVTOPTAMYTH.56;Finish it.;;;;;;;;;;;;;x
+EVTNAMEMYTH.57;Werewolf Challenge;;;;;;;;;;;;;x
+EVTDESCMYTH.57;Your opponent has defeated you utterly, and deals you the killing blow as you are helpless to resist.;;;;;;;;;;;;;x
+EVTOPTAMYTH.57;It was a battle worthy of the greatest of warriors.;;;;;;;;;;;;;x
+EVTNAMEMYTH.58;Godhood;;;;;;;;;;;;;x
+EVTDESCMYTH.58;Your parents are gods, and so shall you be.;;;;;;;;;;;;;x
+EVTOPTAMYTH.58;Excellent.;;;;;;;;;;;;;x
+EVTNAMEMYTH.59;Demi-godhood.;;;;;;;;;;;;;x
+EVTDESCMYTH.59;As you grow older, you realize that you are different from other children: stronger, faster, and even wiser. You wonder why this is, but try not to question your gifts too heavily.;;;;;;;;;;;;;x
+EVTOPTAMYTH.59;Perhaps I am more than a man...;;;;;;;;;;;;;x
+EVTNAMEMYTH.60;Wife Impregnated by Zeus;;;;;;;;;;;;;x
+EVTDESCMYTH.60;Your wife has told you a strange tale. She recounts how last night as she was going for a walk, a beautiful swan appeared to her. Unable to resist its charms, she spent the night in its embrace.;;;;;;;;;;;;;x
+EVTOPTAMYTH.60;... What?!;;;;;;;;;;;;;x
+EVTNAMEMYTH.61;Wife Impregnated by Zeus;;;;;;;;;;;;;x
+EVTDESCMYTH.61;You recall a strange dream last night in which a beautiful swan appeared to you and seduce you. Of course, you pass off this dream as mere nonsense.;;;;;;;;;;;;;x
+EVTOPTAMYTH.61;Still, how strange.;;;;;;;;;;;;;x
+EVTNAMEMYTH.62;Quest Begins;;;;;;;;;;;;;x
+EVTDESCMYTH.62;You have assembled your party and made all preparations. Now you need only decide to where your quest will take you.;;;;;;;;;;;;;x
+EVTOPTAMYTH.62;I shall seek the golden fleece.;;;;;;;;;;;;;x
+EVTOPTBMYTH.62;I shall slay the legendary gorgon, Medusa.;;;;;;;;;;;;;x
+EVTOPTCMYTH.62;On second thought, these quests sound dangerous.;;;;;;;;;;;;;x
+EVTNAMEMYTH.63;Fleece 1;;;;;;;;;;;;;x
+EVTDESCMYTH.63;You have followed rumors of the fleece to a remote land across the Black Sea. An old man, claiming to be king in these lands, tells you that he posesses it, and will give it to you only if you should pass three arduous trials, any of which may claim your life.;;;;;;;;;;;;;x
+EVTOPTAMYTH.63;Bring on your trials, sir.;;;;;;;;;;;;;x
+EVTOPTBMYTH.63;These trials sound dangerous...;;;;;;;;;;;;;x
+EVTNAMEMYTH.64;Fleece Oxen;;;;;;;;;;;;;x
+EVTDESCMYTH.64;You arrive at the first of your trials, where you are told you must plow a field. You rejoice at the trial's ease when you see two oxen ready to pull your plow, until you realize that the oxen are ablaze with magical fire.;;;;;;;;;;;;;x
+EVTOPTAMYTH.64;I must tame these unholy beasts!;;;;;;;;;;;;;x
+EVTNAMEMYTH.65;Fleece Army;;;;;;;;;;;;;x
+EVTDESCMYTH.65;You return from the field, singed but alive. The old man tells you that you must now sow the same field, and hands you what he claims are dragon's teeth to sow. Reluctantly, you spread them throughout the field. To your horror, an army of soldiers soon sprouts from the ground and moves against you.;;;;;;;;;;;;;x
+EVTOPTAMYTH.65;To arms, men! We must repel these demons!;;;;;;;;;;;;;x
+EVTOPTBMYTH.65;Cast a stone amongst them to confuse the host.;;;;;;;;;;;;;x
+EVTNAMEMYTH.66;Fleece Dragon;;;;;;;;;;;;;x
+EVTDESCMYTH.66;The battle was fierce, but you eventually emerge victorious. The old man, who you've come to resent, takes you to a large cave and tells you that the fleece awaits within. You enter, and find that he speaks the truth... but a dragon stands guard in front of it.;;;;;;;;;;;;;x
+EVTOPTAMYTH.66;Attempt to steal the fleece from the dragon.;;;;;;;;;;;;;x
+EVTOPTBMYTH.66;Persuade the dragon that you are a worthy bearer of the fleece.;;;;;;;;;;;;;x
+EVTNAMEMYTH.67;Fleece Dragon2;;;;;;;;;;;;;x
+EVTDESCMYTH.67;Your stone causes chaos among the ranks of your enemy, causing them to turn on one another. You make quick work of those that remain. The old man takes you to a large cave and tells you that the fleece awaits within. You enter, and find that he speaks the truth... but a dragon stands guard in front of it.;;;;;;;;;;;;;x
+EVTOPTAMYTH.67;Attempt to steal the fleece from the dragon.;;;;;;;;;;;;;x
+EVTOPTBMYTH.67;Persuade the dragon that you are a worthy bearer of the fleece.;;;;;;;;;;;;;x
+EVTNAMEMYTH.68;Fleece Success 1;;;;;;;;;;;;;x
+EVTDESCMYTH.68;As if the burns from the oxen weren't enough, the dragonfire stings hot as you quickly snatch the fleece and flee the cave. You are victorious, though some of your men were not so lucky.;;;;;;;;;;;;;x
+EVTOPTAMYTH.68;A glorious victory.;;;;;;;;;;;;;x
+EVTNAMEMYTH.69;Fleece Victory 2;;;;;;;;;;;;;x
+EVTDESCMYTH.69;You speak with the dragon for hours, discussing many topics and even enjoying yourself in the process. Night has fallen when the dragon decides that you are indeed worthy of the fleece, which it hands to you and bids you good fortune.;;;;;;;;;;;;;x
+EVTOPTAMYTH.69;The fleece is mine at last.;;;;;;;;;;;;;x
+EVTNAMEMYTH.70;Medusa 1;;;;;;;;;;;;;x
+EVTDESCMYTH.70;You arrive at the supposed location of Medusa, a hideous gorgon whose very gaze is said to turn men to stone.;;;;;;;;;;;;;x
+EVTOPTAMYTH.70;This beast cannot be suffered to live.;;;;;;;;;;;;;x
+EVTOPTBMYTH.70;On second thought, it sounds like a frightening creature.;;;;;;;;;;;;;x
+EVTNAMEMYTH.71;Medusa 2;;;;;;;;;;;;;x
+EVTDESCMYTH.71;You enter the beast's lair, and see evidence of its horrible powers. Unbelivably life-like statutes of men litter the cavern, and reflective steel lines several walls, perhaps to allow the beast to find its prey more easily. You see movement on the far side of the room.;;;;;;;;;;;;;x
+EVTOPTAMYTH.71;Close your eyes and attempt to fight the beast.;;;;;;;;;;;;;x
+EVTOPTBMYTH.71;Use the mirrored walls to fight the beast without looking directly at it.;;;;;;;;;;;;;x
+EVTNAMEMYTH.72;Medusa 3;;;;;;;;;;;;;x
+EVTDESCMYTH.72;The fight is difficult without the benefit of your sight, but you eventually succeed in killing the hideous gorgon. You take its head as a prize, careful not to look at it while you do so.;;;;;;;;;;;;;x
+EVTOPTAMYTH.72;Another fell beast removed from the world.;;;;;;;;;;;;;x
+EVTNAMEMYTH.73;Medusa 4;;;;;;;;;;;;;x
+EVTDESCMYTH.73;Using the walls, you find the monster stalking you from behind a pillar. Remarkably, it doesn't seem to notice the same technique, and you surprise it, severing its head in a single blow. Careful not to meet even its dead gaze, you take the head as a trophy.;;;;;;;;;;;;;x
+EVTOPTAMYTH.73;A glorious victory.;;;;;;;;;;;;;x
+EVTNAMEMYTH.74;Zeus 2;;;;;;;;;;;;;x
+EVTDESCMYTH.74;You had your fun last night, but it may not be without consequence.;;;;;;;;;;;;;x
+EVTOPTAMYTH.74;Oh well.;;;;;;;;;;;;;x
+EVTNAMEMYTH.75;Zeus 1;;;;;;;;;;;;;x
+EVTDESCMYTH.75;It has been a long time since you indulged your carnal desires. You decide to head down to the realm of mortals for some fun.;;;;;;;;;;;;;x
+EVTOPTAMYTH.75;OK;;;;;;;;;;;;;x
+EVTNAMEMYTH.76;Concubine made your ghoul;;;;;;;;;;;;;x
+EVTDESCMYTH.76;In the bedchamber last night, you seemed to regain the desire of your younger days. You decide to preserve your concubine by feeding her your blood.;;;;;;;;;;;;;x
+EVTOPTAMYTH.76;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.77;Embraced among vampires;;;;;;;;;;;;;x
+EVTDESCMYTH.77;Your captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
+EVTOPTAMYTH.77;Centuries await!.;;;;;;;;;;;;;x
+EVTNAMEMYTH.78;Turned into a ghoul;;;;;;;;;;;;;x
+EVTDESCMYTH.78;Your captor forced you to drink his vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;;;;;;;;;;;;;x
+EVTOPTAMYTH.78;What will I do?.;;;;;;;;;;;;;x
+EVTNAMEMYTH.79;You visit [From.GetTitledFirstName] in the dungeon.;;;;;;;;;;;;;x
+EVTDESCMYTH.79;You visit [Root.GetTitledFirstName] in his cell and think about the endless possibilities..;;;;;;;;;;;;;x
+EVTOPTAMYTH.79;Drink all blood of [Root.GetTitledFirstName] to the last drop.;;;;;;;;;;;;;x
+EVTOPTBMYTH.79;Turn [From.GetTitledFirstName] into ghoul.;;;;;;;;;;;;;x
+EVTOPTCMYTH.79;Embrace [From.GetTitledFirstName] among vampires.;;;;;;;;;;;;;x
+EVTOPTDMYTH.79;Perhaps later...;;;;;;;;;;;;;x
+EVTNAMEMYTH.80;You summon [From.GetTitledFirstName] to make an announcement.;;;;;;;;;;;;;x
+EVTDESCMYTH.80;[Root.GetTitledFirstName] comes before you. Do I want to tell him something?;;;;;;;;;;;;;x
+EVTOPTAMYTH.80;Stop feeding [Root.GetTitledFirstName] your blood.;;;;;;;;;;;;;x
+EVTOPTBMYTH.80;Embrace [From.GetTitledFirstName] among vampires.;;;;;;;;;;;;;x
+EVTOPTCMYTH.80;Perhaps later...;;;;;;;;;;;;;x
+EVTNAMEMYTH.81;[From.GetTitledFirstName] will not feed you vampire blood anymore.;;;;;;;;;;;;;x
+EVTDESCMYTH.81;[From.GetTitledFirstName] denounces me and tells me I am no longer wothy of the gift of ghouldom. Have I done something wrong?;;;;;;;;;;;;;x
+EVTOPTAMYTH.81;What will I do?;;;;;;;;;;;;;x
+EVTNAMEMYTH.82;Vampire blood weakens;;;;;;;;;;;;;x
+EVTDESCMYTH.82;Living with constant cold turkey without the presious unholy vampiric blood takes its toll. You are not immortal anymore. ;;;;;;;;;;;;;x
+EVTOPTAMYTH.82;Curses!;;;;;;;;;;;;;x
+EVTNAMEMYTH.83;Ghoul without master seeks your help;;;;;;;;;;;;;x
+EVTDESCMYTH.83;Ghoul recently denounced by his former master seeks and desperately begs for my help. Should I accept him into my service?;;;;;;;;;;;;;x
+EVTOPTAMYTH.83;Indeed.;;;;;;;;;;;;;x
+EVTOPTAMYTH.83;Get out of my sight!;;;;;;;;;;;;;x
 
 
