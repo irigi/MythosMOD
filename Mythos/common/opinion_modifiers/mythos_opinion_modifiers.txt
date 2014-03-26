@@ -14,3 +14,13 @@ opinion_my_ghoul = {
 	opinion = 200
 	months = 12000
 }
+
+opinion_former_ghoul = {
+	opinion = 100
+	months = 24
+}
+
+opinion_jealous_ghoul = {
+	opinion = -30
+	months = 24
+}

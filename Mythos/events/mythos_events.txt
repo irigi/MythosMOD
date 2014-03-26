@@ -557,6 +557,10 @@ character_event = {
 		name = "EVTOPTAMYTH.76"
 		consort = { 
 			add_trait = ghoul
+			remove_opinion = {
+				modifier = opinion_former_ghoul
+				who = ROOT
+ 			}
 			opinion = {
 				modifier = opinion_my_ghoul
 				who = ROOT
@@ -570,7 +574,7 @@ character_event = {
 		}
 	}
 }
-# prisoner become vampire
+# become vampire
 character_event = {
 	id = MYTH.77
 	desc = "EVTDESCMYTH.77"
@@ -579,7 +583,6 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		prisoner = yes
 		FROM = { trait = vampire }
 	}
 
@@ -602,7 +605,7 @@ character_event = {
 		}		
 	}
 }
-# prisoner become ghoul 
+# become ghoul 
 character_event = {
 	id = MYTH.78
 	desc = "EVTDESCMYTH.78"
@@ -611,18 +614,114 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		prisoner = yes
 		FROM = { trait = vampire }
+		NOT = { has_opinion_modifier = { who = FROM modifier = opinion_my_ghoul } }
 	}
 
 	option = {
 		name = "EVTOPTAMYTH.78"
 		add_trait = ghoul
+		remove_opinion = {
+			modifier = opinion_former_ghoul
+			who = FROM
+ 		}
 		opinion = {
 			modifier = opinion_my_ghoul
 			who = FROM
 		}	
 	}
+}
+# ghoul is not being fed anymore
+character_event = {
+	id = MYTH.81
+	desc = "EVTDESCMYTH.81"
+	picture = GFX_evt_plague_doctor
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { trait = vampire }
+		has_opinion_modifier = { who = FROM modifier = opinion_my_ghoul }
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.81"
+		opinion = {
+			modifier = opinion_former_ghoul
+			who = FROM
+ 		}
+		remove_opinion = {
+			modifier = opinion_my_ghoul
+			who = FROM
+		}	
+	}
+}
+# unfed ghoul loses ghouldom
+character_event = {
+	id = MYTH.82
+	desc = "EVTDESCMYTH.82"
+	picture = GFX_evt_plague_doctor
+
+	mean_time_to_happen = {
+		months = 40
+	}
+
+	trigger = {
+		has_trait = ghoul
+		NOT = { has_opinion_modifier = { modifier = opinion_my_ghoul } }
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.82"
+		remove_opinion = {
+			modifier = opinion_former_ghoul
+			who = FROM
+ 		}
+		remove_opinion = {
+			modifier = opinion_my_ghoul
+			who = FROM
+		}	
+		remove_trait = ghoul
+	}
+}
+# unfed ghoul seeks you as a new master
+character_event = {
+	id = MYTH.83
+	desc = "EVTDESCMYTH.83"
+	picture = GFX_evt_plague_doctor
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	# modifier .. if he looks long already, he will not look so desperately
+
+	trigger = {
+		has_trait = vampire
+		any_realm_character {
+			has_trait = ghoul
+			NOT = { has_opinion_modifier = { modifier = opinion_my_ghoul } }
+		}
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.83"
+		random_realm_character {
+			has_trait = ghoul
+			NOT = { has_opinion_modifier = { modifier = opinion_my_ghoul } }
+			remove_opinion = {
+				modifier = opinion_former_ghoul
+				who = ROOT
+ 			}
+			opinion = {
+				modifier = opinion_my_ghoul
+				who = ROOT
+			}
+			move_character = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTBMYTH.83"
+	}	
 }
 # vampire visits dungeon
 character_event = {
@@ -633,7 +732,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-    trait = vampire
+		trait = vampire
 	}
 
 	option = {
@@ -662,25 +761,37 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTBMYTH.79"
-		piety = 0
+		trigger = { 
+			NOT = { has_trait = ghoul } 
+			NOT = { has_trait = vampire }
+			NOT = { has_trait = werewolf }  
+		}
 		FROM = {
-		  prisoner = no
-		  IF = {
-		    ROOT = { is_player = yes }
-        add_trait = ghoul        
-        opinion = {
-          modifier = opinion_my_ghoul
-          who = ROOT
-  			}		    
-      }
-      IF = {
-		    ROOT = { is_player = no }
-        character_event = { id = MYTH.78 }
-      }
+			prisoner = no
+			IF = {
+				ROOT = { is_player = yes }
+				add_trait = ghoul
+				remove_opinion = {
+					modifier = opinion_former_ghoul
+					who = ROOT
+ 				}
+				opinion = {
+					modifier = opinion_my_ghoul
+					who = ROOT
+ 				}		    
+			}
+			IF = {
+				ROOT = { is_player = no }
+				character_event = { id = MYTH.78 }
+			}
 		}
 	}
 	option = {
 		name = "EVTOPTCMYTH.79"
+		trigger = { 
+			NOT = { has_trait = vampire }
+			NOT = { has_trait = werewolf }
+		}
 		FROM = {
 			character_event = { id = MYTH.77 }
 			add_trait = vampire
@@ -706,6 +817,80 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTDMYTH.79"
+	}
+}
+# vampire manages ghouls
+character_event = {
+	id = MYTH.80
+	desc = "EVTDESCMYTH.80"
+	picture = GFX_evt_plague_doctor
+
+	is_triggered_only = yes
+
+	trigger = {
+		trait = vampire
+	}
+
+	# stop feeding ghoul
+	option = {
+		name = "EVTOPTAMYTH.80"
+		trigger = { 
+			has_trait = ghoul 
+			opinion = {
+				modifier = opinion_my_ghoul
+				who = ROOT
+ 			}
+		}
+		FROM = {
+			IF = {
+				ROOT = { is_player = yes }
+				remove_opinion = {
+					modifier = opinion_my_ghoul
+					who = ROOT
+ 				}
+				opinion = {
+					modifier = opinion_former_ghoul
+					who = ROOT
+ 				} 				
+			}
+			IF = {
+				ROOT = { is_player = no }
+				character_event = { id = MYTH.81 }
+			}
+		}
+	}
+	# embrace
+	option = {
+		name = "EVTOPTBMYTH.80"
+		trigger = { 
+			NOT = { has_trait = vampire }
+			NOT = { has_trait = werewolf }
+		}
+		FROM = {
+			character_event = { id = MYTH.77 }
+			add_trait = vampire
+			religion = satanist
+			dynasty = ROOT
+			prisoner = no
+			ROOT = {				
+				piety = 50
+			}
+			hidden_tooltip = {
+				IF = {
+					ROOT = { is_female = yes }
+					set_mother = ROOT
+					set_father = none
+				}
+				IF = {
+					ROOT = { is_female = no }
+					set_father = ROOT
+					set_mother = none
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTCMYTH.80"
 	}
 }
 province_event = {

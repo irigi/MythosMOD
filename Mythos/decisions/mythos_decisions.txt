@@ -568,7 +568,24 @@ decisions = {
 }
 
 vassal_decisions = {
-  vampire_visits_dungeon = {
+	vampire_interact_ghouls = {
+		from_potential = {
+			trait = vampire
+		}
+		potential = {
+			trait = ghoul
+			has_opinion_modifier = { who = FROM modifier = opinion_my_ghoul }
+		}
+		allow = {
+		}
+		effect = {
+			hidden_tooltip = { FROM = { character_event = { id = MYTH.80 } } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	vampire_visits_dungeon = {
 		from_potential = {
 			trait = vampire
 		}
@@ -584,10 +601,6 @@ vassal_decisions = {
 			prisoner = yes
 		}
 		effect = {
-			FROM = { 
-				set_character_flag = flag_vampire_prisoner_action
-			}
-			set_character_flag = flag_vampire_prisoner_action			
 			hidden_tooltip = { FROM = { character_event = { id = MYTH.79 } } }
 		}
 		revoke_allowed = {
