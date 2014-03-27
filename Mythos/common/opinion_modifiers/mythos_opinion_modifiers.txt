@@ -24,3 +24,9 @@ opinion_jealous_ghoul = {
 	opinion = -30
 	months = 24
 }
+
+bloody_monster = {
+	prison_reason = yes
+	revoke_reason = yes
+	execute_reason = yes
+}

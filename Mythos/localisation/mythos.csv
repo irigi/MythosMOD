@@ -8,6 +8,7 @@ vampire_desc;This character is an unholy vampire, immortal and free from disease
 opinion_my_ghoul;Blood bounded;;;;;;;;;;;;;x
 opinion_former_ghoul;Residual blood bound;;;;;;;;;;;;;x
 opinion_jealous_ghoul;Jealous;;;;;;;;;;;;;x
+bloody_monster;Unnatural vassal;;;;;;;;;;;;;x
 ghoul;Ghoul;;;;;;;;;;;;;x
 ghoul_desc;This character is a ghoul, addicted to vampire blood, not aging, but servant to his vampire masters.;;;;;;;;;;;;;x
 werewolf;Werewolf;;;;;;;;;;;;;x
@@ -119,6 +120,14 @@ expel_satanists;Expel Satanists;;;;;;;;;;;;;x
 expel_satanists_desc;Purge all satan-worshippers from the realm.;;;;;;;;;;;;;x
 ghoul_without_master;No master;;;;;;;;;;;;;x 
 ghoul_without_master_desc;Has no vampire master;;;;;;;;;;;;;x 
+open_vampire_dungeon_menu;Visit the dungeon...;;;;;;;;;;;;;x
+open_vampire_dungeon_menu_desc;Vampire visits the dungeon.;;;;;;;;;;;;;x
+close_vampire_dungeon_menu;Close dungeon menu;;;;;;;;;;;;;x
+close_vampire_dungeon_menu_desc;Close the dungeon management menu.;;;;;;;;;;;;;x
+close_vampire_ghoul_menu;Close ghoul management menu;;;;;;;;;;;;;x
+close_vampire_ghoul_menu_desc;Close ghoul management menu.;;;;;;;;;;;;;x
+open_vampire_ghoul_menu;Open ghoul management menu;;;;;;;;;;;;;x
+open_vampire_ghoul_menu_desc;Open ghoul management menu.;;;;;;;;;;;;;x
 welcome_satanists;Welcome Satanists;;;;;;;;;;;;;x
 welcome_satanists_desc;Welcome the respectible followers of Lucifer back into our realm.;;;;;;;;;;;;;x
 death_werewolf;from a werewolf attack.;;;;;;;;;;;;;x
@@ -245,9 +254,11 @@ EVTOPTAMYTH.15;Truly, all is lost.;;;;;;;;;;;;;x
 EVTNAMEMYTH.16;Spouse Ravaged;;;;;;;;;;;;;x
 EVTDESCMYTH.16;In the bedchamber last night, you found yourself so excited that your more bestial side may have emerged for a moment.;;;;;;;;;;;;;x
 EVTOPTAMYTH.16;Oh, it's just a scratch.;;;;;;;;;;;;;x
-EVTNAMEMYTH.17;Spouse Embraced;;;;;;;;;;;;;x
-EVTDESCMYTH.17;In the bedchamber last night, you seemed to regain the desire of your younger days. Some biting may have been involved.;;;;;;;;;;;;;x
-EVTOPTAMYTH.17;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.17;Ghoul candidate;;;;;;;;;;;;;x
+EVTDESCMYTH.17;[From.GetTitledFirstName] humbly offers you [From.GetHerHis] service for eternity for exchange for immortality. [From.GetSheHe] would like to be a vampire like me. Should I accept?;;;;;;;;;;;;;x
+EVTOPTAMYTH.17;New ghoul will do.;;;;;;;;;;;;;x
+EVTOPTBMYTH.17;Embrace him among vampires!;;;;;;;;;;;;;x
+EVTOPTCMYTH.17;Never!;;;;;;;;;;;;;x
 EVTNAMEMYTH.18;Peasant Revolt;;;;;;;;;;;;;x
 EVTDESCMYTH.18;The filthy peasants are up in arms! They say they refuse to be ruled by a monster.;;;;;;;;;;;;;x
 EVTOPTAMYTH.18;Damn them!;;;;;;;;;;;;;x
@@ -441,23 +452,23 @@ EVTOPTAMYTH.74;Oh well.;;;;;;;;;;;;;x
 EVTNAMEMYTH.75;Zeus 1;;;;;;;;;;;;;x
 EVTDESCMYTH.75;It has been a long time since you indulged your carnal desires. You decide to head down to the realm of mortals for some fun.;;;;;;;;;;;;;x
 EVTOPTAMYTH.75;OK;;;;;;;;;;;;;x
-EVTNAMEMYTH.76;Concubine made your ghoul;;;;;;;;;;;;;x
-EVTDESCMYTH.76;In the bedchamber last night, you seemed to regain the desire of your younger days. You decide to preserve your concubine by feeding her your blood.;;;;;;;;;;;;;x
-EVTOPTAMYTH.76;So much the better.;;;;;;;;;;;;;x
+EVTNAMEMYTH.76;DUMMY;;;;;;;;;;;;;x
+EVTDESCMYTH.76;DUMMY;;;;;;;;;;;;;x
+EVTOPTAMYTH.76;DUMMY;;;;;;;;;;;;;x
 EVTNAMEMYTH.77;Embraced among vampires;;;;;;;;;;;;;x
 EVTDESCMYTH.77;Your captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
 EVTOPTAMYTH.77;Centuries await!.;;;;;;;;;;;;;x
 EVTNAMEMYTH.78;Turned into a ghoul;;;;;;;;;;;;;x
-EVTDESCMYTH.78;Your captor forced you to drink his vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;;;;;;;;;;;;;x
+EVTDESCMYTH.78;Your captor forced you to drink [Root.GetHerHis] vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;;;;;;;;;;;;;x
 EVTOPTAMYTH.78;What will I do?.;;;;;;;;;;;;;x
 EVTNAMEMYTH.79;You visit [From.GetTitledFirstName] in the dungeon.;;;;;;;;;;;;;x
-EVTDESCMYTH.79;You visit [Root.GetTitledFirstName] in his cell and think about the endless possibilities..;;;;;;;;;;;;;x
+EVTDESCMYTH.79;You visit [Root.GetTitledFirstName] in [Root.GetHerHis] cell and think about the endless possibilities..;;;;;;;;;;;;;x
 EVTOPTAMYTH.79;Drink all blood of [Root.GetTitledFirstName] to the last drop.;;;;;;;;;;;;;x
 EVTOPTBMYTH.79;Turn [From.GetTitledFirstName] into ghoul.;;;;;;;;;;;;;x
 EVTOPTCMYTH.79;Embrace [From.GetTitledFirstName] among vampires.;;;;;;;;;;;;;x
 EVTOPTDMYTH.79;Perhaps later...;;;;;;;;;;;;;x
 EVTNAMEMYTH.80;You summon [From.GetTitledFirstName] to make an announcement.;;;;;;;;;;;;;x
-EVTDESCMYTH.80;[Root.GetTitledFirstName] comes before you. Do I want to tell him something?;;;;;;;;;;;;;x
+EVTDESCMYTH.80;[Root.GetTitledFirstName] comes before you. Do I want to tell [Root.GetHerHim] something?;;;;;;;;;;;;;x
 EVTOPTAMYTH.80;Stop feeding [Root.GetTitledFirstName] your blood.;;;;;;;;;;;;;x
 EVTOPTBMYTH.80;Embrace [From.GetTitledFirstName] among vampires.;;;;;;;;;;;;;x
 EVTOPTCMYTH.80;Perhaps later...;;;;;;;;;;;;;x

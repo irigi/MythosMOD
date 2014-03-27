@@ -49,5 +49,5 @@ ghoul_without_master = {
 	intrigue = -1
 	stewardship = -1
 	learning = -1
-	icon = 2
+	icon = 23
 }
