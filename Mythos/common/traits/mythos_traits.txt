@@ -6,22 +6,22 @@ vampire = {
 	opposites = {
 		werewolf
 		monster_hunter
+		zealous
 	}
 
 	immortal = yes
 
 	same_opinion = 20
-	opposite_opinion = -30
+	opposite_opinion = -60
 	christian_opinion = -50
 	muslim_opinion = -50
 	jewish_opinion = -50
 	pagan_opinion = -20
 	
 	fertility = -50
-	diplomacy = 2
+	diplomacy = -2
 	martial = 2
 	intrigue = 4
-	learning = 1
 	
 	ai_rationality = 20
 	ai_honor = -20
@@ -33,6 +33,7 @@ ghoul = {
 	opposites = {
 		werewolf
 		monster_hunter
+		zealous
 	}
 
 	immortal = yes
@@ -45,7 +46,7 @@ ghoul = {
 	pagan_opinion = -5
 	
 	fertility = -1
-	diplomacy = 1
+	diplomacy = -1
 	martial = 1
 	intrigue = 2
 	
