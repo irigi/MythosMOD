@@ -117,6 +117,8 @@ cast_aura;Cast Aura;;;;;;;;;;;;;x
 cast_aura_desc;Cast an aura around yourself to make others more agreeable.;;;;;;;;;;;;;x
 expel_satanists;Expel Satanists;;;;;;;;;;;;;x
 expel_satanists_desc;Purge all satan-worshippers from the realm.;;;;;;;;;;;;;x
+ghoul_without_master;No master;;;;;;;;;;;;;x 
+ghoul_without_master_desc;Has no vampire master;;;;;;;;;;;;;x 
 welcome_satanists;Welcome Satanists;;;;;;;;;;;;;x
 welcome_satanists_desc;Welcome the respectible followers of Lucifer back into our realm.;;;;;;;;;;;;;x
 death_werewolf;from a werewolf attack.;;;;;;;;;;;;;x
@@ -192,6 +194,7 @@ werewolf_challenge_desc;Stake your life on a battle to rule your kin.;;;;;;;;;;;
 death_oxen;died trying to tame oxen;;;;;;;;;;;;;x
 death_dragon;was burned to death in dragon fire;;;;;;;;;;;;;x
 death_gorgon;was turned to stone by a gorgon's gaze;;;;;;;;;;;;;x
+death_vampire;was sucked dry by a vampire;;;;;;;;;;;;;x
 BM_MYTH_AND_MAGIC;Myth and Magic;;;;;;;;;;;;;x
 BM_MYTH_AND_MAGIC_DESC;Long before the renaissance, when the old gods were still strong and the world was not so well known, men of myth and magic still walked the Earth, though their deeds are now forgotten. Giants roamed in the north, undying men with the blood of wolves and bats inspired the fear of the world, and some dabbled in the mystical arts. Through the ages their history became legend, and legend became myth, but in another time, they might instead thrive.;;;;;;;;;;;;;x
 EVTNAMEMYTH.1;Cursed!;;;;;;;;;;;;;x
@@ -465,8 +468,12 @@ EVTNAMEMYTH.82;Vampire blood weakens;;;;;;;;;;;;;x
 EVTDESCMYTH.82;Living with constant cold turkey without the presious unholy vampiric blood takes its toll. You are not immortal anymore. ;;;;;;;;;;;;;x
 EVTOPTAMYTH.82;Curses!;;;;;;;;;;;;;x
 EVTNAMEMYTH.83;Ghoul without master seeks your help;;;;;;;;;;;;;x
-EVTDESCMYTH.83;Ghoul recently denounced by his former master seeks and desperately begs for my help. Should I accept him into my service?;;;;;;;;;;;;;x
+EVTDESCMYTH.83;Ghoul recently denounced by his former master asked for an audience with me and desperately begs for my help. Should I accept him into my service?;;;;;;;;;;;;;x
 EVTOPTAMYTH.83;Indeed.;;;;;;;;;;;;;x
-EVTOPTAMYTH.83;Get out of my sight!;;;;;;;;;;;;;x
+EVTOPTBMYTH.83;Get out of my sight!;;;;;;;;;;;;;x
+EVTNAMEMYTH.84;Looking for a new master.;;;;;;;;;;;;;x
+EVTDESCMYTH.84;There is a vampire that might accept me into his service. Should I seek him?;;;;;;;;;;;;;x
+EVTOPTAMYTH.84;YES!!;;;;;;;;;;;;;x
+EVTOPTBMYTH.84;I prefer freedom, .. I think.;;;;;;;;;;;;;x
 
 

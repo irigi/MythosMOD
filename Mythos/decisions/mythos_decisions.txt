@@ -592,7 +592,6 @@ vassal_decisions = {
 	
 		potential = {
 			prisoner = yes
-			NOT = { trait = ghoul }
 			NOT = { trait = vampire }
 			NOT = { trait = werewolf }
 			host = { character = FROM }

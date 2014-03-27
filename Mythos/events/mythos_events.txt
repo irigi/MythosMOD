@@ -519,12 +519,12 @@ character_event = {
 			religion = satanist
 			dynasty = ROOT
 			IF = {
-				ROOT = { is_female = yes }
+				limit = { ROOT = { is_female = yes } }
 				set_mother = ROOT
 				set_father = none
 			}
 			IF = {
-				ROOT = { is_female = no }
+				limit = { ROOT = { is_female = no } }
 				set_father = ROOT
 				set_mother = none
 			} 
@@ -593,12 +593,12 @@ character_event = {
 		dynasty = FROM		
 		hidden_tooltip = {
 			IF = {
-				FROM = { is_female = yes }
+				limit = { FROM = { is_female = yes } }
 				set_mother = FROM
 				set_father = none
 			}
 			IF = {
-				FROM = { is_female = no }
+				limit = { FROM = { is_female = no } }
 				set_father = FROM
 				set_mother = none
 			}
@@ -616,6 +616,7 @@ character_event = {
 	trigger = {
 		FROM = { trait = vampire }
 		NOT = { has_opinion_modifier = { who = FROM modifier = opinion_my_ghoul } }
+		NOT = { has_character_flag = ghoul_has_master }
 	}
 
 	option = {
@@ -629,6 +630,8 @@ character_event = {
 			modifier = opinion_my_ghoul
 			who = FROM
 		}	
+		set_character_flag = ghoul_has_master
+		remove_character_modifier = ghoul_without_master
 	}
 }
 # ghoul is not being fed anymore
@@ -642,6 +645,7 @@ character_event = {
 	trigger = {
 		FROM = { trait = vampire }
 		has_opinion_modifier = { who = FROM modifier = opinion_my_ghoul }
+		has_character_flag = ghoul_has_master
 	}
 
 	option = {
@@ -654,6 +658,11 @@ character_event = {
 			modifier = opinion_my_ghoul
 			who = FROM
 		}	
+		clr_character_flag = ghoul_has_master
+		add_character_modifier = {
+			name = ghoul_without_master
+			duration = 999999
+		}		
 	}
 }
 # unfed ghoul loses ghouldom
@@ -667,47 +676,48 @@ character_event = {
 	}
 
 	trigger = {
-		has_trait = ghoul
-		NOT = { has_opinion_modifier = { modifier = opinion_my_ghoul } }
+		trait = ghoul
+		NOT = { has_character_flag = ghoul_has_master }
 	}
 
 	option = {
 		name = "EVTOPTAMYTH.82"
 		remove_opinion = {
-			modifier = opinion_former_ghoul
-			who = FROM
- 		}
-		remove_opinion = {
 			modifier = opinion_my_ghoul
-			who = FROM
 		}	
 		remove_trait = ghoul
+		remove_character_modifier = ghoul_without_master
+		health = -2
 	}
 }
-# unfed ghoul seeks you as a new master
+# unfed ghoul seeks you as a new master      BUGGY
 character_event = {
 	id = MYTH.83
 	desc = "EVTDESCMYTH.83"
 	picture = GFX_evt_plague_doctor
 
 	mean_time_to_happen = {
-		months = 1
+		months = 4
 	}
 	# modifier .. if he looks long already, he will not look so desperately
 
 	trigger = {
 		has_trait = vampire
 		any_realm_character {
-			has_trait = ghoul
-			NOT = { has_opinion_modifier = { modifier = opinion_my_ghoul } }
+			limit = {
+				trait = ghoul
+				NOT = { has_character_flag = ghoul_has_master }
+			}
 		}
 	}
 
 	option = {
 		name = "EVTOPTAMYTH.83"
 		random_realm_character {
-			has_trait = ghoul
-			NOT = { has_opinion_modifier = { modifier = opinion_my_ghoul } }
+			limit = {
+				trait = ghoul
+				NOT = { has_character_flag = ghoul_has_master }
+			}
 			remove_opinion = {
 				modifier = opinion_former_ghoul
 				who = ROOT
@@ -717,11 +727,32 @@ character_event = {
 				who = ROOT
 			}
 			move_character = ROOT
+			add_character_flag = ghoul_has_master
+			remove_character_modifier = ghoul_without_master
 		}
 	}
 	option = {
 		name = "EVTOPTBMYTH.83"
 	}	
+}
+character_event = {
+	id = MYTH.84
+	desc = "EVTDESCMYTH.84"
+	picture = GFX_evt_plague_doctor
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	trigger = {
+		trait = ghoul
+		NOT = { has_character_flag = ghoul_has_master }
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.84"
+		add_trait = hedonist
+	}
 }
 # vampire visits dungeon
 character_event = {
@@ -762,14 +793,14 @@ character_event = {
 	option = {
 		name = "EVTOPTBMYTH.79"
 		trigger = { 
-			NOT = { has_trait = ghoul } 
-			NOT = { has_trait = vampire }
-			NOT = { has_trait = werewolf }  
+			FROM = { NOT = { trait = ghoul } } 
+			FROM = { NOT = { trait = vampire } }
+			FROM = { NOT = { trait = werewolf } } 
 		}
 		FROM = {
 			prisoner = no
 			IF = {
-				ROOT = { is_player = yes }
+				limit = { ROOT = { is_player = yes } }
 				add_trait = ghoul
 				remove_opinion = {
 					modifier = opinion_former_ghoul
@@ -779,9 +810,10 @@ character_event = {
 					modifier = opinion_my_ghoul
 					who = ROOT
  				}		    
+ 				set_character_flag = ghoul_has_master
 			}
 			IF = {
-				ROOT = { is_player = no }
+				limit = { ROOT = { is_player = no }  }
 				character_event = { id = MYTH.78 }
 			}
 		}
@@ -789,8 +821,8 @@ character_event = {
 	option = {
 		name = "EVTOPTCMYTH.79"
 		trigger = { 
-			NOT = { has_trait = vampire }
-			NOT = { has_trait = werewolf }
+			FROM = { NOT = { trait = vampire } }
+			FROM = { NOT = { trait = werewolf } }
 		}
 		FROM = {
 			character_event = { id = MYTH.77 }
@@ -803,15 +835,24 @@ character_event = {
 			}
 			hidden_tooltip = {
 				IF = {
-					ROOT = { is_female = yes }
+					limit = { ROOT = { is_female = yes }  }
 					set_mother = ROOT
 					set_father = none
 				}
 				IF = {
-					ROOT = { is_female = no }
+					limit = { ROOT = { is_female = no }  }
 					set_father = ROOT
 					set_mother = none
 				}
+				remove_opinion = {
+					modifier = opinion_former_ghoul
+					who = FROM
+ 				}
+				remove_opinion = {
+					modifier = opinion_my_ghoul
+					who = FROM
+				}	
+				remove_trait = ghoul				
 			}
 		}
 	}
@@ -834,16 +875,18 @@ character_event = {
 	# stop feeding ghoul
 	option = {
 		name = "EVTOPTAMYTH.80"
-		trigger = { 
-			has_trait = ghoul 
-			opinion = {
-				modifier = opinion_my_ghoul
-				who = ROOT
+		trigger = {
+			FROM = { 
+				trait = ghoul 
+				has_opinion_modifier = {
+					modifier = opinion_my_ghoul
+					who = ROOT
+ 				}
  			}
 		}
 		FROM = {
 			IF = {
-				ROOT = { is_player = yes }
+				limit = { ROOT = { is_player = yes }    }
 				remove_opinion = {
 					modifier = opinion_my_ghoul
 					who = ROOT
@@ -851,10 +894,12 @@ character_event = {
 				opinion = {
 					modifier = opinion_former_ghoul
 					who = ROOT
- 				} 				
+ 				} 			
+				clr_character_flag = ghoul_has_master	
+				add_character_modifier = { name = ghoul_without_master 	duration = 999999 }
 			}
 			IF = {
-				ROOT = { is_player = no }
+				limit = { ROOT = { is_player = no } }
 				character_event = { id = MYTH.81 }
 			}
 		}
@@ -863,8 +908,8 @@ character_event = {
 	option = {
 		name = "EVTOPTBMYTH.80"
 		trigger = { 
-			NOT = { has_trait = vampire }
-			NOT = { has_trait = werewolf }
+			FROM = { NOT = { trait = vampire }    }
+			FROM = { NOT = { trait = werewolf }   }
 		}
 		FROM = {
 			character_event = { id = MYTH.77 }
@@ -877,15 +922,24 @@ character_event = {
 			}
 			hidden_tooltip = {
 				IF = {
-					ROOT = { is_female = yes }
+					limit = { ROOT = { is_female = yes } }
 					set_mother = ROOT
 					set_father = none
 				}
 				IF = {
-					ROOT = { is_female = no }
+					limit = { ROOT = { is_female = no } }
 					set_father = ROOT
 					set_mother = none
 				}
+				remove_opinion = {
+					modifier = opinion_former_ghoul
+					who = FROM
+ 				}
+				remove_opinion = {
+					modifier = opinion_my_ghoul
+					who = FROM
+				}	
+				remove_trait = ghoul				
 			}
 		}
 	}
