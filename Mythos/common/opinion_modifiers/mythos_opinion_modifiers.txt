@@ -31,3 +31,7 @@ bloody_monster = {
 	execute_reason = yes
 	months = 120000	
 }
+
+knows_this_bloody_monster = {
+	months = 120000	
+}
