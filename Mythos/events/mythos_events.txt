@@ -1605,26 +1605,49 @@ character_event = {
 	border = GFX_event_normal_frame_war
 	
 	trigger = {
-		OR = {
-			trait = werewolf
-			trait = vampire
-			trait = ghoul
+		trait = immortal
+		OR = {			
+			trait = ill 
+			trait = pneumonic 
+			trait = has_tuberculosis 
+			trait = has_typhoid_fever 
+			trait = has_typhus 
+			trait = has_bubonic_plague 
+			trait = has_measles 
+			trait = has_small_pox
+			trait = infirm
+			trait = wounded
+			trait = maimed 			
+			trait = syphilitic
+			trait = leper
 		}
-		trait = infirm
+
 	}
 	
-	mean_time_to_happen = {
-		months = 2
+	weight_multiplier  = { 
+		days = 1
 		
 		modifier = {
-			factor = 5.0
+			factor = 10.0
 			trait = ghoul
 		}
 	}
 	
 	option = {
 		name ="EVTOPTAMYTH.32"
-		remove_trait = infirm
+			remove_trait = ill 
+			remove_trait = pneumonic 
+			remove_trait = has_tuberculosis 
+			remove_trait = has_typhoid_fever 
+			remove_trait = has_typhus 
+			remove_trait = has_bubonic_plague 
+			remove_trait = has_measles 
+			remove_trait = has_small_pox
+			remove_trait = infirm
+			remove_trait = wounded
+			remove_trait = maimed 			
+			remove_trait = syphilitic
+			remove_trait = leper
 	}
 }
 character_event = {
@@ -1635,9 +1658,7 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = werewolf
-			trait = vampire
-			trait = ghoul
+			trait = immortal
 		}
 		trait = incapable
 	}

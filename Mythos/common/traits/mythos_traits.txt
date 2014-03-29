@@ -295,3 +295,4 @@ monster_hunter = {
 	monthly_character_piety = 0.8
 	church_opinion = 30
 }
+
