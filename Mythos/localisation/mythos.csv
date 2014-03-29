@@ -255,7 +255,7 @@ EVTNAMEMYTH.16;Spouse Ravaged;;;;;;;;;;;;;x
 EVTDESCMYTH.16;In the bedchamber last night, you found yourself so excited that your more bestial side may have emerged for a moment.;;;;;;;;;;;;;x
 EVTOPTAMYTH.16;Oh, it's just a scratch.;;;;;;;;;;;;;x
 EVTNAMEMYTH.17;Ghoul candidate;;;;;;;;;;;;;x
-EVTDESCMYTH.17;[From.GetTitledFirstName] humbly offers you [From.GetHerHis] service for eternity for exchange for immortality. [From.GetSheHe] would like to be a vampire like me. Should I accept?;;;;;;;;;;;;;x
+EVTDESCMYTH.17;[From.GetTitledFirstName] humbly offers you [From.GetHerHis] service for eternity for exchange for immortality. [From.GetSheHeCap] would like to be a vampire like me. Should I accept?;;;;;;;;;;;;;x
 EVTOPTAMYTH.17;New ghoul will do.;;;;;;;;;;;;;x
 EVTOPTBMYTH.17;Embrace him among vampires!;;;;;;;;;;;;;x
 EVTOPTCMYTH.17;Never!;;;;;;;;;;;;;x
@@ -456,11 +456,11 @@ EVTNAMEMYTH.76;DUMMY;;;;;;;;;;;;;x
 EVTDESCMYTH.76;DUMMY;;;;;;;;;;;;;x
 EVTOPTAMYTH.76;DUMMY;;;;;;;;;;;;;x
 EVTNAMEMYTH.77;Embraced among vampires;;;;;;;;;;;;;x
-EVTDESCMYTH.77;Your captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
-EVTOPTAMYTH.77;Centuries await!.;;;;;;;;;;;;;x
+EVTDESCMYTH.77;[From.GetTitledFirstName] captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
+EVTOPTAMYTH.77;Centuries await!;;;;;;;;;;;;;x
 EVTNAMEMYTH.78;Turned into a ghoul;;;;;;;;;;;;;x
-EVTDESCMYTH.78;Your captor forced you to drink [Root.GetHerHis] vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;;;;;;;;;;;;;x
-EVTOPTAMYTH.78;What will I do?.;;;;;;;;;;;;;x
+EVTDESCMYTH.78;[From.GetTitledFirstName] let you drink [From.GetHerHis] vampiric blood. You are overwhelmed by love and admiration towards your new master. You will not age nor get ill, but is it really worth it?;;;;;;;;;;;;;x
+EVTOPTAMYTH.78;What will I do?;;;;;;;;;;;;;x
 EVTNAMEMYTH.79;You visit [From.GetTitledFirstName] in the dungeon.;;;;;;;;;;;;;x
 EVTDESCMYTH.79;You visit [Root.GetTitledFirstName] in [Root.GetHerHis] cell and think about the endless possibilities..;;;;;;;;;;;;;x
 EVTOPTAMYTH.79;Drink all blood of [Root.GetTitledFirstName] to the last drop.;;;;;;;;;;;;;x
@@ -479,12 +479,14 @@ EVTNAMEMYTH.82;Vampire blood weakens;;;;;;;;;;;;;x
 EVTDESCMYTH.82;Living with constant cold turkey without the presious unholy vampiric blood takes its toll. You are not immortal anymore. ;;;;;;;;;;;;;x
 EVTOPTAMYTH.82;Curses!;;;;;;;;;;;;;x
 EVTNAMEMYTH.83;Ghoul without master seeks your help;;;;;;;;;;;;;x
-EVTDESCMYTH.83;Ghoul recently denounced by his former master asked for an audience with me and desperately begs for my help. Should I accept him into my service?;;;;;;;;;;;;;x
+EVTDESCMYTH.83;Ghoul recently denounced by [Root.GetHerHis] former master asked for an audience with me and desperately begs for my help. Should I accept him into my service?;;;;;;;;;;;;;x
 EVTOPTAMYTH.83;Indeed.;;;;;;;;;;;;;x
 EVTOPTBMYTH.83;Get out of my sight!;;;;;;;;;;;;;x
-EVTNAMEMYTH.84;Looking for a new master.;;;;;;;;;;;;;x
-EVTDESCMYTH.84;There is a vampire that might accept me into his service. Should I seek him?;;;;;;;;;;;;;x
-EVTOPTAMYTH.84;YES!!;;;;;;;;;;;;;x
-EVTOPTBMYTH.84;I prefer freedom, .. I think.;;;;;;;;;;;;;x
+EVTNAMEMYTH.84;Embraced among vampires;;;;;;;;;;;;;x
+EVTDESCMYTH.84;[From.GetTitledFirstName] captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
+EVTOPTAMYTH.84;Centuries await!;;;;;;;;;;;;;x
+EVTNAMEMYTH.85;Vassal is a vampire;;;;;;;;;;;;;x
+EVTDESCMYTH.85;Your vassal is apparently a vampire. We can revoke his titles without causing tyranny, or even execute him.;;;;;;;;;;;;;x
+EVTOPTAMYTH.85;Great!;;;;;;;;;;;;;x
 
 

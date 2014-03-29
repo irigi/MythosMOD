@@ -619,9 +619,7 @@ vassal_decisions = {
 		effect = {
 			hidden_tooltip = { FROM = { character_event = { id = MYTH.80 } } }
 		}
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
 	vampire_visits_dungeon = {
 		is_high_prio = yes

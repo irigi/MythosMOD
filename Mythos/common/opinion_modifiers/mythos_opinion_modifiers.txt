@@ -12,7 +12,7 @@
 
 opinion_my_ghoul = {
 	opinion = 200
-	months = 12000
+	months = 120000
 }
 
 opinion_former_ghoul = {
@@ -29,4 +29,5 @@ bloody_monster = {
 	prison_reason = yes
 	revoke_reason = yes
 	execute_reason = yes
+	months = 120000	
 }
