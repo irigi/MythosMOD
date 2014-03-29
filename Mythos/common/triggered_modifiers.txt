@@ -1,0 +1,140 @@
+##################################################
+#
+# STRATEGIC EFFECTS - A.K.A. "TRIGGERED MODIFIERS"
+#
+##################################################
+#
+# Icons:
+#
+# Good			<=>			Bad
+#
+#  1 - Martial				- 19
+#  2 - Learning				- 20
+#  3 - Diplomacy			- 21
+#  4 - Stewardship			- 22
+#  5 - Intrigue				- 23
+#  6 - Money				- 24
+#  7 - Prestige				- 25
+#  8 - Piety				- 26
+#  9 - Titles				- 27
+# 10 - Council				- 28
+# 11 - Laws					- 29
+# 12 - Tech					- 30
+# 13 - Military				- 31
+# 14 - Plots				- 32
+# 15 - Messages				- 33
+# 16 - Diplomatic actions	- 34
+# 17 - Church				- 35
+# 18 - Characters			- 36
+# 37 - Prison				- 38
+# 39 - Love					- 40
+# 41 - Transparent
+# 42 - Rich
+# 43 - Prosperous
+# 44 - Poor
+# 45 - Struggling
+# 46 - Revolt
+# 47-51: Estates
+# 52-55: Moods
+
+#Supernatural Long Reign Opinions
+opinion_supernatural_longreign_1 = {
+	potential = {
+		ruled_years = 70
+		NOT = { ruled_years = 80 }
+	}
+	trigger = {
+		ruled_years = 70
+	}
+	opinion = -5
+}
+opinion_supernatural_longreign_2 = {
+	potential = {
+		ruled_years = 80
+		NOT = { ruled_years = 90 }
+	}
+	trigger = {
+		ruled_years = 80
+	}
+	opinion = -10
+}
+opinion_supernatural_longreign_3 = {
+	potential = {
+		ruled_years = 90
+		NOT = { ruled_years = 100 }
+	}
+	trigger = {
+		ruled_years = 90
+	}
+	opinion = -15
+}
+opinion_supernatural_longreign_4 = {
+	potential = {
+		ruled_years = 100
+		NOT = { ruled_years = 110 }
+	}
+	trigger = {
+		ruled_years = 100
+	}
+	opinion = -20
+}
+opinion_supernatural_longreign_5 = {
+	potential = {
+		ruled_years = 110
+		NOT = { ruled_years = 120 }
+	}
+	trigger = {
+		ruled_years = 110
+	}
+	opinion = -25
+}
+opinion_supernatural_longreign_6 = {
+	potential = {
+		ruled_years = 120
+		NOT = { ruled_years = 130 }
+	}
+	trigger = {
+		ruled_years = 120
+	}
+	opinion = -30
+}
+opinion_supernatural_longreign_7 = {
+	potential = {
+		ruled_years = 130
+		NOT = { ruled_years = 140 }
+	}
+	trigger = {
+		ruled_years = 130
+	}
+	opinion = -35
+}
+opinion_supernatural_longreign_8 = {
+	potential = {
+		ruled_years = 140
+		NOT = { ruled_years = 150 }
+	}
+	trigger = {
+		ruled_years = 140
+	}
+	opinion = -40
+}
+opinion_supernatural_longreign_8 = {
+	potential = {
+		ruled_years = 150
+		NOT = { ruled_years = 160 }
+	}
+	trigger = {
+		ruled_years = 150
+	}
+	opinion = -45
+}
+opinion_supernatural_longreign_8 = {
+	potential = {
+		ruled_years = 160
+	}
+	trigger = {
+		ruled_years = 160
+	}
+	opinion = -50
+}
+
