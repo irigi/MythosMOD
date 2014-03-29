@@ -378,6 +378,23 @@ family_palace = {
 default_culture_modifier = {
 }
 
+giant_culture_modifier = {
+	levy_size = -0.2
+	heavy_infantry_offensive = 0.8
+ 	heavy_infantry_defensive = 0.8
+ 	light_infantry_offensive = 0.8
+ 	light_infantry_defensive = 0.8
+	archers_offensive = 0.3
+	archers_defensive = 0.3
+}
+
+djinni_culture_modifier = {
+	archers_offensive = 0.5
+}
+
+zombie_culture_modifier = {
+}
+
 ##########################################################################
 # Landed title modifiers
 ##########################################################################
@@ -1364,4 +1381,37 @@ d_black_sea_merchant_convoy_modifier = {
 d_eastern_merchant_convoy_modifier = {
 	levy_size = 1
 	galleys = 25
+}
+
+e_zombie_modifier = {
+	levy_size = 2
+	heavy_infantry_offensive = -0.5
+ 	heavy_infantry_defensive = -0.5
+ 	light_infantry_offensive = -0.5
+ 	light_infantry_defensive = -0.5
+	heavy_cavalry = 0
+ 	light_cavalry = 0
+	archers = 0
+	galleys = 0
+}
+
+d_helsing_modifier = {
+	levy_size = 6
+	heavy_infantry = 800
+	knights = 200
+	light_cavalry = 300
+}
+d_solomon_legion_modifier = {
+	levy_size = 6
+}
+e_vampire_modifier = {
+	light_infantry_offensive = 0.2
+	light_infantry_defensive = 0.2
+}
+e_werewolf_modifier = {
+	heavy_infantry_offensive = 0.3
+	heavy_infantry_defensive = 0.1
+}
+e_djinn_modifier = {
+	archers_offensive = 0.3
 }
