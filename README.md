@@ -8,6 +8,8 @@ CK2 mod Mythos (by Mayaka), my own customization
 - adds many new options for vampires, particularly creation and management of ghouls, their blood-bounded servants
 
 --------------------------------
+** Version info from original author **
+
 
 Installation: Put the Mythos folder and Mythos.mod file into your Crusader Kings 2/mod folder (in documents, not program files).
 
