@@ -3867,9 +3867,9 @@ character_event = {
 	picture = GFX_evt_plague_doctor
 
 	trigger = {         
-		NOT = { trait = vampire }
+		NOT = { OR = { trait = vampire trait = werewolf } }
 		any_vassal = {
-			trait = vampire
+			OR = { trait = vampire trait = werewolf }
 			NOT = {
 				has_opinion_modifier = {
 					modifier = knows_this_bloody_monster
@@ -3888,7 +3888,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = { 
-				trait = vampire
+				OR = { trait = vampire trait = werewolf }
 				NOT = {
 					has_opinion_modifier = {
 						modifier = knows_this_bloody_monster
@@ -4015,4 +4015,5 @@ character_event = {
 		piety = -50
 		add_trait = excommunicated
 	}
-} 
+}                  
+

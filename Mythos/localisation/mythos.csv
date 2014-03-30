@@ -487,7 +487,7 @@ EVTNAMEMYTH.84;Embraced among vampires;;;;;;;;;;;;;x
 EVTDESCMYTH.84;[From.GetTitledFirstName] captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
 EVTOPTAMYTH.84;Centuries await!;;;;;;;;;;;;;x
 EVTNAMEMYTH.85;Vassal is a vampire;;;;;;;;;;;;;x
-EVTDESCMYTH.85;Your vassal is apparently a vampire. We can revoke his titles without causing tyranny, or even execute him.;;;;;;;;;;;;;x
+EVTDESCMYTH.85;Your vassal is apparently a monster not entirely from this world. We can revoke his titles with valid reason, or even execute him.;;;;;;;;;;;;;x
 EVTOPTAMYTH.85;Great!;;;;;;;;;;;;;x
 EVTNAMEMYTH.86;Excommunicated;;;;;;;;;;;;;x
 EVTDESCMYTH.86;The Church does no longer tolerate the vile excesses of [Root.GetTitledFirstName]. We have been denied communion and have been excommunicated!;;;;;;;;;;;;;x
