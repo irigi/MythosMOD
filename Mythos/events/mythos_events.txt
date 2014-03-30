@@ -515,6 +515,7 @@ character_event = {
 			NOT = { has_character_flag = flag_ghoul_has_master }
 		} 
 		FROM = { character_event = { id = MYTH.78 } }
+		ai_chance = { factor = 10 }
 	}
 	option = {
 		name = "EVTOPTBMYTH.17"   
@@ -522,7 +523,18 @@ character_event = {
 			NOT { FROM = { trait = vampire } }
 			NOT { FROM = { trait = werewolf } }
 		}
-		piety = -50	   
+		piety = -50
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 200
+				NOT = {       # no heir
+					any_child = {
+						trait = vampire
+					}
+				}
+			}
+		}		  
 		FROM = {
 			character_event = { id = MYTH.84 }
 			prisoner = no
@@ -530,6 +542,7 @@ character_event = {
 	}      
 	option = {
 		name = "EVTOPTCMYTH.17"
+		ai_chance = { factor = 10 }		
 	}	
 }
 province_event = {
@@ -3390,6 +3403,17 @@ character_event = {
 	option = {
 		name = "EVTOPTAMYTH.79"
 		                       
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 4
+				trait = cruel
+			}
+			modifier = {
+				factor = 15
+				trait = impaler
+			}			 
+		}
 		custom_tooltip = { text = TYRANTTOOLTIP10 }                       
 		hidden_tooltip = {
 			if = {
@@ -3815,10 +3839,13 @@ character_event = {
 			set_father = FROM
 			set_mother = none
 		}
-		remove_opinion = {
-			modifier = opinion_former_ghoul
-			who = FROM
+		if = {
+			limit = { NOT = { has_opinion_modifier = { modifier = opinion_former_ghoul who = FROM } } }
+			opinion = { # is not ghoul, but Embrace creates residual blood bond that vanishes eventually
+				modifier = opinion_former_ghoul
+				who = FROM
 			}
+		}
 		remove_opinion = {
 			modifier = opinion_my_ghoul
 			who = FROM
@@ -3881,3 +3908,111 @@ character_event = {
 		
 	}
 }
+
+#Assassin is excommunicated
+character_event = {
+	id = MYTH.86
+	picture = GFX_evt_lunatic
+	is_triggered_only = yes
+
+	trigger = {
+		is_ruler = yes
+		OR = { higher_tier_than = baron is_patrician = yes }
+		OR = { trait = vampire trait = werewolf }
+		NOT = { trait = excommunicated }
+		OR = {
+			religion = catholic
+			religion = orthodox
+		}
+		rightful_religious_head_scope = { NOT = { opinion = { who = ROOT value = 25 } } }
+	}
+
+	desc = "EVTDESCMYTH.86"
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.25
+			rightful_religious_head_scope = { NOT = { opinion = { who = ROOT value = 0 } } }
+		}
+		modifier = {
+			factor = 1.25
+			rightful_religious_head_scope = { NOT = { opinion = { who = ROOT value = -25 } } }
+		}
+		modifier = {
+			factor = 1.25
+			rightful_religious_head_scope = { NOT = { opinion = { who = ROOT value = -50 } } }
+		}
+		modifier = {
+			factor = 1.25
+			rightful_religious_head_scope = { NOT = { opinion = { who = ROOT value = -75 } } }
+		}
+		modifier = {
+			factor = 1.25
+			rightful_religious_head_scope = { NOT = { opinion = { who = ROOT value = -100 } } }
+		}
+		modifier = {
+			factor = 0.75
+			piety = 200
+		}
+		modifier = {
+			factor = 0.75
+			piety = 100
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { piety = 0 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { piety = -100 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { piety = -200 }
+		}
+		modifier = {
+			factor = 1.1
+			trait = dishonorable2
+		}
+		modifier = {
+			factor = 1.25
+			trait = dishonorable3
+		}
+		modifier = {
+			factor = 1.5
+			trait = dishonorable4
+		}
+		modifier = {
+			factor = 1.75
+			trait = dishonorable5
+		}
+		modifier = {
+			factor = 2.0
+			trait = dishonorable6
+		}
+		modifier = {
+			factor = 2.5
+			trait = dishonorable7
+		}
+		modifier = {
+			factor = 3.0
+			trait = dishonorable8
+		}
+		modifier = {
+			factor = 5.0
+			trait = dishonorable9
+		}
+		modifier = {
+			factor = 10.0
+			trait = dishonorable10
+		}
+	}
+
+
+	option = {
+		name = "EVTOPTAMYTH.86"
+		piety = -50
+		add_trait = excommunicated
+	}
+} 

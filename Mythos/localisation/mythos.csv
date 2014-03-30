@@ -258,7 +258,7 @@ EVTOPTAMYTH.16;Oh, it's just a scratch.;;;;;;;;;;;;;x
 EVTNAMEMYTH.17;Ghoul candidate;;;;;;;;;;;;;x
 EVTDESCMYTH.17;[From.GetTitledFirstName] humbly offers you [From.GetHerHis] service for eternity for exchange for immortality. [From.GetSheHeCap] would like to be a vampire like me. Should I accept?;;;;;;;;;;;;;x
 EVTOPTAMYTH.17;New ghoul will do.;;;;;;;;;;;;;x
-EVTOPTBMYTH.17;Embrace him among vampires!;;;;;;;;;;;;;x
+EVTOPTBMYTH.17;Embrace [From.GetHerHim] among vampires!;;;;;;;;;;;;;x
 EVTOPTCMYTH.17;Never!;;;;;;;;;;;;;x
 EVTNAMEMYTH.18;Peasant Revolt;;;;;;;;;;;;;x
 EVTDESCMYTH.18;The filthy peasants are up in arms! They say they refuse to be ruled by a monster.;;;;;;;;;;;;;x
@@ -489,5 +489,7 @@ EVTOPTAMYTH.84;Centuries await!;;;;;;;;;;;;;x
 EVTNAMEMYTH.85;Vassal is a vampire;;;;;;;;;;;;;x
 EVTDESCMYTH.85;Your vassal is apparently a vampire. We can revoke his titles without causing tyranny, or even execute him.;;;;;;;;;;;;;x
 EVTOPTAMYTH.85;Great!;;;;;;;;;;;;;x
-
+EVTNAMEMYTH.86;Excommunicated;;;;;;;;;;;;;x
+EVTDESCMYTH.86;The Church does no longer tolerate the vile excesses of [Root.GetTitledFirstName]. We have been denied communion and have been excommunicated!;;;;;;;;;;;;;x
+EVTOPTAMYTH.86;Damn!;;;;;;;;;;;;;x
 

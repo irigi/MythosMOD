@@ -10,7 +10,7 @@ vampire = {
 
 	immortal = yes
 
-	same_opinion = 20
+	same_opinion = 30
 	opposite_opinion = -30
 	christian_opinion = -40
 	muslim_opinion = -40
@@ -37,7 +37,7 @@ ghoul = {
 
 	immortal = yes
 
-	same_opinion = 20
+	same_opinion = 10
 	opposite_opinion = -30
 	christian_opinion = -20
 	muslim_opinion = -20
