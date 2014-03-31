@@ -1,0 +1,173 @@
+obj_become_vampire = { # not tested
+	type = character
+
+	allow = {
+		prisoner = no
+		is_adult = yes
+		NOT = { 
+			OR = {
+				trait = vampire
+				trait = werewolf
+			}
+		}
+	}
+
+	chance = {
+		factor = 0 # only triggered by event MYTH.76
+
+#		modifier = {
+#			factor = 0.01
+#			trait = monster_hunter
+#		}
+#
+#		modifier = {
+#			factor = 0.01
+#			trait = zealous
+#			NOT = { religion = satanist }
+#		}
+#
+#		modifier = {
+#			factor = 4
+#			trait = zealous
+#			religion = satanist
+#		}
+#		
+#		modifier = {
+#			factor = 10
+#			trait = ghoul
+#		}
+
+	}
+
+	success = {
+		trait = vampire
+	}
+
+	abort = {
+		trait = werewolf
+	}
+
+	abort_effect = {
+	}
+
+	effect = {
+		change_diplomacy = 1
+	}
+}
+
+# this should be triggered by event 
+obj_become_ghoul = { # not tested
+	type = character
+
+	allow = {
+		prisoner = no
+		is_adult = yes
+		NOT = { 
+			OR = {
+				trait = vampire
+				trait = werewolf
+			}
+		}
+	}
+
+	chance = {
+		factor = 0 # only triggered by event MYTH.76
+
+#		modifier = {
+#			factor = 0.01
+#			trait = monster_hunter
+#		}
+#
+#		modifier = {
+#			factor = 0.01
+#			trait = zealous
+#			NOT = { religion = satanist }
+#		}
+#
+#		modifier = {
+#			factor = 4
+#			trait = zealous
+#			religion = satanist
+#		}
+#		
+#		modifier = {
+#			factor = 10
+#			trait = ghoul
+#		}
+
+	}
+
+	success = {
+		trait = vampire
+	}
+
+	abort = {
+		trait = werewolf
+	}
+
+	abort_effect = {
+	}
+
+	effect = {
+		change_diplomacy = 1
+	}
+}
+
+obj_ghoul_find_master = { # not tested
+	type = character
+
+	allow = {
+		trait = ghoul
+		NOT = { has_character_flag = flag_ghoul_has_master }
+		NOT = { 
+			OR = {
+				trait = vampire
+				trait = werewolf
+			}
+		}
+	}
+
+	can_cancel = no
+
+	chance = {
+		factor = 10000 
+
+		modifier = {
+			factor = 0.1
+			trait = monster_hunter
+		}
+
+		modifier = {
+			factor = 0.5
+			trait = zealous
+			NOT = { religion = satanist }
+		}
+
+	}
+
+	success = {
+		has_character_flag = flag_ghoul_has_master
+	}
+
+	abort = {
+		OR = {
+			trait = werewolf
+			trait = vampire
+			NOT = { trait = ghoul }
+		}
+	}
+
+	abort_effect = {
+	}
+
+	effect = {
+		if = {
+			limit = { trait = stressed }
+			remove_trait = stressed
+		}
+		if = {
+			limit = { trait = depressed }
+			remove_trait = depressed
+		}
+	}
+}

@@ -3299,24 +3299,28 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTAMYTH.76"	
+		random_list = {
+			50 = { add_ambition = obj_become_vampire }
+			50 = { add_ambition = obj_become_ghoul }
+		}
 		if = {
 			limit = { 
 				liege = { trait = vampire }        
 				NOT = { spouse = { trait = vampire } } 
 				NOT = { consort = { trait = vampire } } 
 			}
-			liege = { character_event = { id = MYTH.17 } }
+			liege = { character_event = { id = MYTH.17 days = 64 } }
 		}
 		if = {
 			limit = { spouse = { trait = vampire } }    
-			spouse = { character_event = { id = MYTH.17 } }
+			spouse = { character_event = { id = MYTH.17 days = 18 } }
 		}
 		if = {
 			limit = { 
 				consort = { trait = vampire } }   
 				NOT = { spouse = { trait = vampire } } 
 			}			
-			consort = { character_event = { id = MYTH.17 } }
+			consort = { character_event = { id = MYTH.17 days = 18 } }
 		}
 		
 	}
@@ -3664,23 +3668,7 @@ character_event = {
 		}
 		ai_chance = { factor = 1 }
 		FROM = {
-			IF = {
-				limit = { ROOT = { is_player = yes }    }
-				remove_opinion = {
-					modifier = opinion_my_ghoul
-					who = ROOT
- 				}
-				opinion = {
-					modifier = opinion_former_ghoul
-					who = ROOT
- 				} 			
-				clr_character_flag = flag_ghoul_has_master	
-				add_character_modifier = { name = ghoul_without_master 	duration = -1 }
-			}
-			IF = {
-				limit = { ROOT = { is_player = no } }
-				character_event = { id = MYTH.81 }
-			}
+			character_event = { id = MYTH.81 }
 		}
 	}
 	# embrace
@@ -3739,7 +3727,13 @@ character_event = {
 		add_character_modifier = {
 			name = ghoul_without_master
 			duration = -1
-		}		
+		}
+		cancel_ambition = yes
+		random_list = {
+			40 = { add_trait = stressed }
+			15 = { add_trait = depressed }
+			45 = { }
+		}
 	}
 }
 # unfed ghoul loses ghouldom
@@ -3765,6 +3759,10 @@ character_event = {
 		remove_trait = ghoul
 		remove_character_modifier = ghoul_without_master
 		health = -2
+		random_list = {
+			 5 = { add_trait = lunatic }
+			95 = { }
+		}		
 	}
 }
 # unfed ghoul seeks you as a new master     
@@ -3860,7 +3858,7 @@ character_event = {
 		add_trait = vampire
 	}
 }
-# liege realizes his vassal is a vampire
+# liege realizes his vassal is a vampire/werewolf and gets free revocation and execution
 character_event = {
 	id = MYTH.85
 	desc = "EVTDESCMYTH.85"
@@ -3909,7 +3907,7 @@ character_event = {
 	}
 }
 
-#Assassin is excommunicated
+#Vampire of werewolf is excommunicated
 character_event = {
 	id = MYTH.86
 	picture = GFX_evt_lunatic

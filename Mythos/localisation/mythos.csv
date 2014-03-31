@@ -129,6 +129,12 @@ close_vampire_ghoul_menu;Close ghoul management menu;;;;;;;;;;;;;x
 close_vampire_ghoul_menu_desc;Close ghoul management menu.;;;;;;;;;;;;;x
 open_vampire_ghoul_menu;Open ghoul management menu;;;;;;;;;;;;;x
 open_vampire_ghoul_menu_desc;Open ghoul management menu.;;;;;;;;;;;;;x
+obj_become_vampire_title;Become vampire!;;;;;;;;;;;;;x
+obj_become_vampire_desc;[This.GetTitledFirstName] wants to be embraced among vampires.;;;;;;;;;;;;;x
+obj_become_ghoul_title;Become ghoul;;;;;;;;;;;;;x
+obj_become_ghoul_desc;[This.GetTitledFirstName] wants to gain immortality by becoming vampire servant;;;;;;;;;;;;;x
+obj_ghoul_find_master_title;Find new master;;;;;;;;;;;;;x
+obj_ghoul_find_master_desc;[This.GetTitledFirstName] wants to find new vampire master not to lose ghouldom.;;;;;;;;;;;;;x
 welcome_satanists;Welcome Satanists;;;;;;;;;;;;;x
 welcome_satanists_desc;Welcome the respectible followers of Lucifer back into our realm.;;;;;;;;;;;;;x
 death_werewolf;from a werewolf attack.;;;;;;;;;;;;;x
