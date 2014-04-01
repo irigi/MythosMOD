@@ -3396,7 +3396,7 @@ character_event = {
 character_event = {
 	id = MYTH.79
 	desc = "EVTDESCMYTH.79"
-	picture = GFX_evt_plague_doctor
+	picture = GFX_evt_into_the_dungeon
 
 	is_triggered_only = yes
 
@@ -3703,7 +3703,7 @@ character_event = {
 character_event = {
 	id = MYTH.81
 	desc = "EVTDESCMYTH.81"
-	picture = GFX_evt_plague_doctor
+	picture = GFX_evt_bloody_man
 
 	is_triggered_only = yes
 
@@ -3826,7 +3826,7 @@ character_event = {
 	
 	immediate = {
 		add_trait = vampire
-		dynasty = FROM		
+		dynasty = FROM	
 		IF = {
 			limit = { FROM = { is_female = yes } }
 			set_mother = FROM
@@ -4015,3 +4015,134 @@ character_event = {
 	}
 }                  
 
+# old tomb with a vampire discovered
+character_event = {
+	id = MYTH.87
+	desc = "EVTDESCMYTH.87"
+	picture = GFX_evt_pagan
+
+	trigger = {         
+		#ai = no    # DEBUG
+		is_ruler = yes
+		NOT = { trait = vampire }
+		NOT = { trait = werewolf }
+	}
+	
+	mean_time_to_happen = {
+		months = 12000
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.87"	
+		character_event = { id = MYTH.88 }		
+	}
+	option = {
+		name = "EVTOPTBMYTH.87"	
+		
+		random = { chance = 20 add_trait = craven } 
+	}	
+}
+# inside the tomb...
+character_event = {
+	id = MYTH.88
+	desc = "EVTDESCMYTH.88"
+	picture = GFX_evt_melee_muslim
+
+  is_triggered_only = yes
+
+	trigger = {         
+	}
+	
+	immediate = {
+		random {
+			chance = 2
+			if = {
+				limit = { NOT = { has_global_flag = helen_of_troy }  NOT = { has_global_flag = character_chosen }  }
+			
+				create_character = {
+					random_traits = yes
+					dynasty = 1043007
+					father = 268291
+					religion = hellenic_pagan
+					culture = greek
+					female = yes
+					age = 21
+					attributes = {
+					}
+					trait = vampire
+					trait = fair 
+					trait = elusive_shadow
+					name = "Helen"
+				}
+				new_character = {
+					activate_title = { title = k_troy status = yes }	
+					k_troy = {
+						grant_title = PREV
+					}				
+					move_character = ROOT
+				}
+				
+				set_global_flag = helen_of_troy
+				set_global_flag = character_chosen
+			}	
+		}
+		
+		# last character, general
+		if = {
+			limit = { NOT = { has_global_flag = character_chosen } }
+			clr_global_flag = character_chosen
+			
+			create_character = {
+				random_traits = yes
+				dynasty = NONE
+				trait = vampire
+			}
+			new_character = {
+				move_character = ROOT
+			}			
+			
+		}
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.88"	
+		
+		random_list = { 
+			40 = { 			
+				death = {
+					death_reason = death_murder
+					killer = PREV
+				} 
+			} 
+			40 = { new_character = {	character_event = { id = MYTH.89 }	}   }
+		}
+	}	
+
+	option = {
+		name = "EVTOPTBMYTH.88"	
+		
+		new_character = {
+			character_event = { id = MYTH.89 }
+		}               	
+		
+	}
+
+}
+# vampire crowls out of his hole and turns the character. This is never received by player
+character_event = {
+	id = MYTH.89
+	desc = "EVTDESCMYTH.89"
+	picture = GFX_evt_pagan
+
+  is_triggered_only = yes
+
+	trigger = {         
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.89"	
+		
+		FROM = { character_event = { id = MYTH.84 } }
+	}	
+
+}

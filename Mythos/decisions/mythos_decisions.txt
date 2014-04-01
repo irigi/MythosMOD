@@ -610,7 +610,7 @@ vassal_decisions = {
 			trait = vampire
 			OR = {
 				has_character_flag = flag_vampire_ghoul_menu_open
-				is_player = false
+				ai = yes
 			}
 		}
 		potential = {
@@ -632,7 +632,7 @@ vassal_decisions = {
 		from_potential = {
 			trait = vampire
 			OR = {
-				is_player = false
+				ai = yes
 				has_character_flag = flag_vampire_dungeon_menu_open
 			}
 		}

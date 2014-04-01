@@ -4,6 +4,7 @@ obj_become_vampire = { # not tested
 	allow = {
 		prisoner = no
 		is_adult = yes
+		any_realm_lord = { trait = vampire }  # otherwise, this bizzare ambition would be too common
 		NOT = { 
 			OR = {
 				trait = vampire
@@ -62,6 +63,7 @@ obj_become_ghoul = { # not tested
 	allow = {
 		prisoner = no
 		is_adult = yes
+		any_realm_lord = { trait = vampire }  # otherwise, this bizzare ambition would be too common
 		NOT = { 
 			OR = {
 				trait = vampire

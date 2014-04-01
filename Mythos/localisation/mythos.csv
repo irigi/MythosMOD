@@ -155,6 +155,8 @@ d_hellenic_pagan_reformed;The High Priesthood;;;;;;;;;;;;;x
 d_hellenic_pagan_reformed_adj;Hellenic;;;;;;;;;;;;;x
 d_helsing;The Knights of Helsing;Ridderorde van Helsing;;;;;;;;;;;;;x
 d_helsing_adj;Helsing;Ridderorde van Helsing;;;;;;;;;;;;;x
+k_troy;Great City of Troy;;;;;;;;;;;;;;x
+k_troy_adj;Trojan;;;;;;;;;;;;;;x
 e_zombie;The Undead Horde;;;;;;;;;;;;;x
 e_zombie_adj;Zombie;;;;;;;;;;;;;x
 e_vampire;Nocturne Imperium;;;;;;;;;;;;;x
@@ -490,7 +492,7 @@ EVTDESCMYTH.83;Ghoul recently denounced by [Root.GetHerHis] former master asked 
 EVTOPTAMYTH.83;Indeed.;;;;;;;;;;;;;x
 EVTOPTBMYTH.83;Get out of my sight!;;;;;;;;;;;;;x
 EVTNAMEMYTH.84;Embraced among vampires;;;;;;;;;;;;;x
-EVTDESCMYTH.84;[From.GetTitledFirstName] captor have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
+EVTDESCMYTH.84;[From.GetTitledFirstName] have given you a dark gift of vampirism. Your mortal days have ended with last beat of your hearth. Even though you still do not comprehend the consequences you will enjoy immortality for sure.;;;;;;;;;;;;;x
 EVTOPTAMYTH.84;Centuries await!;;;;;;;;;;;;;x
 EVTNAMEMYTH.85;Vassal is a vampire;;;;;;;;;;;;;x
 EVTDESCMYTH.85;Your vassal is apparently a monster not entirely from this world. We can revoke his titles with valid reason, or even execute him.;;;;;;;;;;;;;x
@@ -498,4 +500,15 @@ EVTOPTAMYTH.85;Great!;;;;;;;;;;;;;x
 EVTNAMEMYTH.86;Excommunicated;;;;;;;;;;;;;x
 EVTDESCMYTH.86;The Church does no longer tolerate the vile excesses of [Root.GetTitledFirstName]. We have been denied communion and have been excommunicated!;;;;;;;;;;;;;x
 EVTOPTAMYTH.86;Damn!;;;;;;;;;;;;;x
-
+EVTNAMEMYTH.87;Tomb found;;;;;;;;;;;;;x
+EVTDESCMYTH.87;People are talking about the ancient tomb hidden in depths of one of your forrests. One day, you venture to the place and, indeed, you find the stone entrance covered by ivy plants.;;;;;;;;;;;;;x
+EVTOPTAMYTH.87;Open the tomb;;;;;;;;;;;;;x
+EVTOPTBMYTH.87;Some things are better left untouched;;;;;;;;;;;;;x
+EVTNAMEMYTH.88;Vampire inside;;;;;;;;;;;;;x
+EVTDESCMYTH.88;You explore the tomb and find a stone sarcofagus with old pagan engravings. You fearlesly open it and find there is a preserved body inside it! Before you can do anything, the body opens eyes and you only stare horrified.;;;;;;;;;;;;;x
+EVTOPTAMYTH.88;Fight it!;;;;;;;;;;;;;x
+EVTOPTBMYTH.88;Make a grim deal..;;;;;;;;;;;;;x
+EVTNAMEMYTH.89;DUMMY;;;;;;;;;;;;;x
+EVTDESCMYTH.89;DUMMY;;;;;;;;;;;;;x
+EVTOPTAMYTH.89;DUMMY;;;;;;;;;;;;;x
+OF_TROY;Troy;;;;;;;;;;;;;x

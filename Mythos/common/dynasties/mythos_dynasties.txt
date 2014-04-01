@@ -68,3 +68,12 @@
 		religion="norse_pagan"
 	}
 }
+1043007 = {
+	name="of Troy"
+	culture = greek
+	used_for_random = no
+	coat_of_arms= {
+		data= { 0 4 0 42 9 1 6 }
+		religion="hellenic_pagan"
+	}
+}

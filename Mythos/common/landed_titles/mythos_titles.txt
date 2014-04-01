@@ -1,4 +1,4 @@
-﻿b_alexandria = {
+b_alexandria = {
 	holy_site = hellenic_pagan_reformed
 	holy_site = kemetic_pagan
 	holy_site = kemetic_pagan_reformed
@@ -344,4 +344,32 @@ d_helsing = {
 	modifier = d_helsing_modifier
 	
 	monthly_income = 10
+}
+k_troy = {
+	color={ 55 15 50 }
+	color2={ 0 0 0 }
+	
+	#capital = 744 
+	
+	#creation_requires_capital = no
+	
+	short_name = yes
+	
+	landless = yes
+	
+	title = "KING"
+	title_female = "QUEEN"
+	#foa = "CAPTAIN_FOA"
+	
+	culture = greek
+	religion = hellenic_pagan
+	
+  allow = {
+    always = no
+  }
+	#location_ruler_title = no
+	
+	#modifier = d_helsing_modifier
+	
+	#monthly_income = 10
 }

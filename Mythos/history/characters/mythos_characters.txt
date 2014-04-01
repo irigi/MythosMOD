@@ -167,6 +167,7 @@
 	trait="quick"
 	trait="god"
 	trait="grey_eminence"
+	immortal=22
 	100.3.1 = {
 		birth="100.3.1"
 	}
