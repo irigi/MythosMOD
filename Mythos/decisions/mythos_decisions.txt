@@ -1,22 +1,22 @@
 decisions = {
 
-	close_vampire_dungeon_menu = {
-		is_high_prio = yes
-		potential = {
-			ai = no
-			trait = vampire
-			has_character_flag = flag_vampire_dungeon_menu_open
-		}
-		effect = { clr_character_flag = flag_vampire_dungeon_menu_open }
-	}
-	open_vampire_dungeon_menu = {
-		potential = {
-			ai = no
-			trait = vampire
-			NOT = { has_character_flag = flag_vampire_dungeon_menu_open }
-		}
-		effect = { set_character_flag = flag_vampire_dungeon_menu_open }
-	}	
+#	close_vampire_dungeon_menu = {
+#		is_high_prio = yes
+#		potential = {
+#			ai = no
+#			trait = vampire
+#			has_character_flag = flag_vampire_dungeon_menu_open
+#		}
+#		effect = { clr_character_flag = flag_vampire_dungeon_menu_open }
+#	}
+#	open_vampire_dungeon_menu = {
+#		potential = {
+#			ai = no
+#			trait = vampire
+#			NOT = { has_character_flag = flag_vampire_dungeon_menu_open }
+#		}
+#		effect = { set_character_flag = flag_vampire_dungeon_menu_open }
+#	}	
 	
 	close_vampire_ghoul_menu = {
 		is_high_prio = yes
@@ -628,13 +628,13 @@ vassal_decisions = {
 
 	}
 	vampire_visits_dungeon = {
-		is_high_prio = yes
+		#is_high_prio = yes
 		from_potential = {
 			trait = vampire
-			OR = {
-				ai = yes
-				has_character_flag = flag_vampire_dungeon_menu_open
-			}
+			#OR = {
+			#	ai = yes
+			#	has_character_flag = flag_vampire_dungeon_menu_open
+			#}
 		}
 	
 		potential = {

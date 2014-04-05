@@ -1,0 +1,27 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_open_vampire_ghoul_menu"
+		texturefile = "gfx/additional_objectivesGFX/decision_ghoul.dds"
+	}
+	spriteType = {
+		name = "GFX_close_vampire_ghoul_menu"
+		texturefile = "gfx/additional_objectivesGFX/decision_ghoul.dds"
+	}
+	spriteType = {
+		name = "GFX_vampire_interact_ghouls"
+		texturefile = "gfx/additional_objectivesGFX/decision_ghoul.dds"
+	}
+	spriteType = {
+		name = "GFX_vampire_visits_dungeon"
+		texturefile = "gfx\\interface\\decision_icon_vassal_blinding_decision.dds"
+	}	
+	spriteType = {
+		name = "GFX_open_vampire_dungeon_menu"
+		texturefile = "gfx\\interface\\decision_icon_vassal_blinding_decision.dds"
+	}	
+	spriteType = {
+		name = "GFX_close_vampire_dungeon_menu"
+		texturefile = "gfx\\interface\\decision_icon_vassal_blinding_decision.dds"
+	}		
+}

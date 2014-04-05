@@ -554,7 +554,7 @@ province_event = {
 	trigger = {
 		ROOT = {
 			owner = {
-				top_liege = {
+				any_liege = {
 					OR = {
 						trait = werewolf
 						trait = vampire
@@ -4128,7 +4128,7 @@ character_event = {
 	}
 
 }
-# vampire crowls out of his hole and turns the character. This is never received by player
+# vampire crawls out of his hole and turns the character. This is never received by player
 character_event = {
 	id = MYTH.89
 	desc = "EVTDESCMYTH.89"
@@ -4143,6 +4143,78 @@ character_event = {
 		name = "EVTOPTAMYTH.89"	
 		
 		FROM = { character_event = { id = MYTH.84 } }
+	}	
+
+}
+# vampire crawls out of his hole and turns the character. This is never received by player
+character_event = {
+	id = MYTH.90
+	desc = "EVTDESCMYTH.90"
+	picture = GFX_evt_bloody_man
+
+	
+
+	trigger = {  
+		trait = vampire    
+		is_ruler = yes   
+	}
+
+  mean_time_to_happen = {
+		months = 5
+		modifier = {
+			NOT = { trait = cruel }
+			factor = 4
+		}
+		modifier = {
+			trait = kind
+			factor = 4
+		}		
+		modifier = {
+			NOT = { trait = wroth }
+			factor = 10
+		}
+		modifier = {
+			NOT = { trait = impaler }
+			factor = 4
+		}				
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.90"	
+		
+		random_list = {
+			15 = { character_event = { id = MYTH.18 } }   # revolt
+			 1 = { add_trait = lunatic } 
+ 			 3 = { add_trait = impaler }
+			 3 = { add_trait = cruel }
+			 3 = { add_trait = wroth }			  
+			84 = { }
+		}
+		
+		remove_trait = kind
+		
+		random_list = {
+ 			 3 = { remove_trait = impaler }
+			 3 = { remove_trait = cruel }
+			 3 = { remove_trait = wroth }			  
+			84 = { }
+		}		
+			      
+	}	
+	
+	option = {
+		name = "EVTOPTBMYTH.90"	
+		
+		random_list = {
+			15 = { character_event = { id = MYTH.18 } }   # revolt
+			 1 = { add_trait = lunatic } 
+ 			 3 = { add_trait = impaler }
+			 3 = { add_trait = cruel }
+			 3 = { add_trait = wroth }			  
+			84 = { }
+		}
+		
+		remove_trait = kind
 	}	
 
 }
