@@ -123,6 +123,8 @@ ghoul_without_master;No master;;;;;;;;;;;;;x
 ghoul_without_master_desc;Has no vampire master;;;;;;;;;;;;;x 
 open_vampire_dungeon_menu;Visit the dungeon...;;;;;;;;;;;;;x
 open_vampire_dungeon_menu_desc;Vampire visits the dungeon.;;;;;;;;;;;;;x
+restart_laws;pokus;;;;;;;;;;;;;x
+restart_laws_desc;pokus;;;;;;;;;;;;;x
 close_vampire_dungeon_menu;Close dungeon menu;;;;;;;;;;;;;x
 close_vampire_dungeon_menu_desc;Close the dungeon management menu.;;;;;;;;;;;;;x
 close_vampire_ghoul_menu;Close ghoul management menu;;;;;;;;;;;;;x
@@ -514,5 +516,8 @@ EVTOPTAMYTH.89;DUMMY;;;;;;;;;;;;;x
 EVTNAMEMYTH.90;Vampire ravages countryside;;;;;;;;;;;;;x
 EVTDESCMYTH.90;Today, I couldn't resist my bloodlust and killed a man with his whole family. That great taste of fear!;;;;;;;;;;;;;x
 EVTOPTAMYTH.90;I must control myself!;;;;;;;;;;;;;x
-EVTOPTAMYTH.90;Men are animals.;;;;;;;;;;;;;x
+EVTOPTBMYTH.90;Men are animals.;;;;;;;;;;;;;x
+EVTNAMEMYTH.91;Gain CK2+ immortal trait;;;;;;;;;;;;;x
+EVTDESCMYTH.91;It is good to be immortal!;;;;;;;;;;;;;x
+EVTOPTAMYTH.91;Indeed!;;;;;;;;;;;;;x
 OF_TROY;Troy;;;;;;;;;;;;;x

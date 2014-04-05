@@ -16,7 +16,7 @@ decisions = {
 #			NOT = { has_character_flag = flag_vampire_dungeon_menu_open }
 #		}
 #		effect = { set_character_flag = flag_vampire_dungeon_menu_open }
-#	}	
+#	}
 	
 	close_vampire_ghoul_menu = {
 		is_high_prio = yes
@@ -400,6 +400,53 @@ decisions = {
 			}
 		}
 	}
+	restart_laws = {
+		potential = {
+			#OR = {
+			#	trait = vampire
+			#	trait = werewolf
+			#}
+			primary_title = { higher_tier_than = DUKE }
+		}
+		allow = {
+		}
+		effect = {
+			if {
+				limit = { primary_title = { crownlaw_title = { has_law = centralization_0 } } }
+				primary_title = { crownlaw_title = { grant_title = 268291 revoke_law = centralization_5 add_law = centralization_0 grant_title = ROOT } }
+			} if {				
+				limit = { primary_title = { crownlaw_title = { has_law = centralization_1 } } }
+				primary_title = { crownlaw_title = { grant_title = 268291 revoke_law = centralization_5 add_law = centralization_1 grant_title = ROOT } }
+} if {								
+				limit = { primary_title = { crownlaw_title = { has_law = centralization_2 } } }
+				primary_title = { crownlaw_title = { grant_title = 268291 revoke_law = centralization_5 add_law = centralization_2 grant_title = ROOT } }				
+} if {
+				limit = { primary_title = { crownlaw_title = { has_law = centralization_3 } } }
+				primary_title = { crownlaw_title = { grant_title = 268291 revoke_law = centralization_5 add_law = centralization_3 grant_title = ROOT } }				
+} if {
+				limit = { primary_title = { crownlaw_title = { has_law = centralization_4 } } }
+				primary_title = { crownlaw_title = { grant_title = 268291 revoke_law = centralization_5 add_law = centralization_4 grant_title = ROOT } }		
+} if {
+				limit = { primary_title = { crownlaw_title = { has_law = centralization_5 } } }
+				primary_title = { crownlaw_title = { grant_title = 268291 revoke_law = centralization_1 add_law = centralization_5 grant_title = ROOT } }								
+			} 
+			#remove_character_modifier = expelled_satanists
+			#custom_tooltip = {
+			#	text = satanists_are_welcome
+			#}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.1 # Less likely to do it
+			}
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}	
 	welcome_satanists = {
 		potential = {
 			NOT = { 

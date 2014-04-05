@@ -4146,7 +4146,7 @@ character_event = {
 	}	
 
 }
-# vampire crawls out of his hole and turns the character. This is never received by player
+# vampire ravages countriside
 character_event = {
 	id = MYTH.90
 	desc = "EVTDESCMYTH.90"
@@ -4217,4 +4217,60 @@ character_event = {
 		remove_trait = kind
 	}	
 
+}
+
+# vampire crawls out of his hole and turns the character. This is never received by player
+character_event = {
+	id = MYTH.91
+	desc = "EVTDESCMYTH.91"
+	picture = GFX_evt_plague_doctor
+
+	trigger = {  
+		NOT = { trait = immortal }
+		OR = {
+			trait = vampire
+			trait = warewolf
+			trait = ghoul
+			trait = mummy
+			trait = god
+			trait = philosopher_stone
+			trait = djinn
+		}
+	}
+
+	weight_multiplier  = { 
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.91"	
+		add_trait = immortal			      
+	}	
+}
+character_event = {
+	id = MYTH.92
+	desc = "EVTDESCMYTH.92"
+	picture = GFX_evt_plague_doctor
+
+	trigger = {  
+		trait = immortal 
+		NOT = { OR = {
+			trait = vampire
+			trait = warewolf
+			trait = ghoul
+			trait = mummy
+			trait = god
+			trait = philosopher_stone
+			trait = djinn
+		} }
+	}
+
+	weight_multiplier  = { 
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTAMYTH.92"	
+		remove_trait = immortal			      
+	}	
 }
