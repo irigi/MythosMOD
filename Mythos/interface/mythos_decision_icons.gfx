@@ -24,4 +24,12 @@ spriteTypes = {
 		name = "GFX_close_vampire_dungeon_menu"
 		texturefile = "gfx\\interface\\decision_icon_vassal_blinding_decision.dds"
 	}		
+	spriteType = {
+		name = "GFX_expel_satanists"
+		texturefile = "gfx\\interface\\decision_icon_expel_jews.dds"
+	}
+	spriteType = {
+		name = "GFX_welcome_satanists"
+		texturefile = "gfx\\interface\\decision_icon_welcome_jews.dds"
+	}	
 }
