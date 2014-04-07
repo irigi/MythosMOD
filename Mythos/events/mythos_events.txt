@@ -513,6 +513,7 @@ character_event = {
 			NOT = { FROM = { trait = vampire } }
 			NOT = { FROM = { trait = werewolf } }
 			NOT = { has_character_flag = flag_ghoul_has_master }
+			FROM = { NOT = { check_variable = { which ="ghouls_count" value = 5 } } } 
 		} 
 		FROM = { character_event = { id = MYTH.78 } }
 		ai_chance = { factor = 10 }
@@ -3365,7 +3366,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		FROM = { trait = vampire }
+		FROM = { trait = vampire } 
 		NOT = { trait = vampire }
 		NOT = { trait = werewolf }
 		NOT = { has_opinion_modifier = { who = FROM modifier = opinion_my_ghoul } }
@@ -3385,11 +3386,13 @@ character_event = {
 		}	
 		set_character_flag = flag_ghoul_has_master
 		remove_character_modifier = ghoul_without_master	
+		FROM = {
+			change_variable = { which = "ghouls_count" value = 1 }
+		}
 	}
 
 	option = {
 		name = "EVTOPTAMYTH.78"
-		add_trait = ghoul
 	}
 }
 # vampire visits dungeon
@@ -3607,6 +3610,7 @@ character_event = {
 			FROM = { NOT = { has_character_flag = flag_ghoul_has_master } } 
 			FROM = { NOT = { trait = vampire } }
 			FROM = { NOT = { trait = werewolf } } 
+			NOT = { check_variable = { which ="ghouls_count" value = 5 } } 
 		}
 		ai_chance = { factor = 10 }
 		FROM = {
@@ -3728,6 +3732,9 @@ character_event = {
 			name = ghoul_without_master
 			duration = -1
 		}
+		FROM = {
+			change_variable = { which = "ghouls_count" value = -1 }
+		}		
 		cancel_ambition = yes
 		random_list = {
 			40 = { add_trait = stressed }
@@ -3793,6 +3800,7 @@ character_event = {
 				trait = ghoul
 				NOT = { has_character_flag = flag_ghoul_has_master }
 				NOT = { has_opinion_modifier = { modifier = opinion_former_ghoul who = ROOT } }
+				ROOT = { NOT = { check_variable = { which ="ghouls_count" value = 5 } } }
 			}
 			remove_opinion = {
 				modifier = opinion_former_ghoul
@@ -3848,6 +3856,10 @@ character_event = {
 			modifier = opinion_my_ghoul
 			who = FROM
 		}	
+		if {
+			limit = { trait = ghoul }
+			change_variable = { which = "ghouls_count" value = -1 }
+		}		
 		remove_trait = ghoul				
 		clr_character_flag = flag_ghoul_has_master		
 		remove_character_modifier = ghoul_without_master		
@@ -4187,18 +4199,14 @@ character_event = {
 			 1 = { add_trait = lunatic } 
  			 3 = { add_trait = impaler }
 			 3 = { add_trait = cruel }
-			 3 = { add_trait = wroth }			  
-			84 = { }
+			 3 = { add_trait = wroth }
+ 			 3 = { remove_trait = impaler }
+			 3 = { remove_trait = cruel }
+			 3 = { remove_trait = wroth }				 			  
+			66 = { }
 		}
 		
 		remove_trait = kind
-		
-		random_list = {
- 			 3 = { remove_trait = impaler }
-			 3 = { remove_trait = cruel }
-			 3 = { remove_trait = wroth }			  
-			84 = { }
-		}		
 			      
 	}	
 	
@@ -4211,7 +4219,7 @@ character_event = {
  			 3 = { add_trait = impaler }
 			 3 = { add_trait = cruel }
 			 3 = { add_trait = wroth }			  
-			84 = { }
+			75 = { }
 		}
 		
 		remove_trait = kind
@@ -4219,7 +4227,7 @@ character_event = {
 
 }
 
-# vampire crawls out of his hole and turns the character. This is never received by player
+# gain/lose immortal trait where appropriate
 character_event = {
 	id = MYTH.91
 	desc = "EVTDESCMYTH.91"
